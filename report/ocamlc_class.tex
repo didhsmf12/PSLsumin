@@ -175,7 +175,7 @@ We also classify those OCaml/c programs into 4 categories : applicaition written
 \centering
 
 %\begin{tabular}{|{2cm}| c|c|r|r| c| c|c|}
-\begin{tabular}{|>{\centering}m{3cm}| m{3cm}|c|r|r| c| c|c|}
+\begin{tabular}{|>{\centering}m{3cm}| m{3cm}|c|r|m{1cm}| c| c|c|}
  \hline
 % name & files & files & source & source & 12 & 14 & 16\\
  category  &package name & language & files & source lines  & 12.04 & 14.04&16.04\\ 
@@ -226,7 +226,7 @@ We also classify those OCaml/c programs into 4 categories : applicaition written
  \cline{2-8}
 
 
- &\multirow{3}{3cm}{ocaml-extunix | libextunix-ocaml} & c/c++ & 1 & 19 & \multirow{3}{*}{x} & \multirow{3}{*}{o} & \multirow{3}{*}{x}\\
+ &\multirow{3}{3cm}{ocaml-extunix | libextunix-ocaml} & C/C++ & 1 & 19 & \multirow{3}{*}{X} & \multirow{3}{*}{O} & \multirow{3}{*}{X}\\
  \cline{3-5}
  &  &                           c/c++ headers & 0 & 0 & & & \\
  \cline{3-5}
@@ -735,10 +735,29 @@ We also classify those OCaml/c programs into 4 categories : applicaition written
  &  &                           C/C++ headers & 11 & 295 & & & \\
  \cline{3-5}
  & &                           Ocaml & 63 & 13954 & & & \\
- \cline{2-8}
+ \hline
 
 
- &\multirow{3}{3cm}{ocamlbricks | libbricks-ocaml-dev} & C/C++ &  &  & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
+
+
+
+
+\end{tabular}
+\end{table}
+
+
+%%%%%%%%%%%%%%% page 7 %%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \begin{table}[h,t] 
+\begin{tabular}{|>{\centering}m{3cm}| c|c|r|r| c| c|c|}
+
+
+
+\hline 
+
+
+
+ \multirow{3}{3cm}{packages written in OCaml} &\multirow{3}{3cm}{ocamlbricks | libbricks-ocaml-dev} & C/C++ &  &  & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
  \cline{3-5}
  & &                           C/C++ headers &  &  & & & \\
  \cline{3-5}
@@ -773,62 +792,6 @@ We also classify those OCaml/c programs into 4 categories : applicaition written
 
 
 
- \multirow{18}{3cm}{bindings with C libraries}&\multirow{3}{3cm}{ocaml-mad | libmad-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
-\cline{3-5}
-& &                           C/C++ headers & 1 & 13 & & & \\
-\cline{3-5}
-& &                          Ocaml & 6 & 94 & & & \\
-\cline{2-8}
-
-
-
- &\multirow{3}{3cm}{ocaml-shout | libshout-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{X}\\
-\cline{3-5}
-& &                           C/C++ headers & 1 & 13 & & & \\
-\cline{3-5}
-& &                          Ocaml & 6 & 94 & & & \\
-\cline{2-8}
-
- &\multirow{3}{3cm}{mlgmp | libgmp-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{X}\\
-\cline{3-5}
-& &                           C/C++ headers & 1 & 13 & & & \\
-\cline{3-5}
-& &                          Ocaml & 6 & 94 & & & \\
-\cline{2-8}
-
-
- &\multirow{3}{3cm}{xen-api | libxenapi-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{X}\\
-\cline{3-5}
-& &                           C/C++ headers & 1 & 13 & & & \\
-\cline{3-5}
-& &                          Ocaml & 6 & 94 & & & \\
-\cline{2-8}
-
- 
- &\multirow{3}{3cm}{ocaml-inotify | libinotify-ocaml-dev } & C/C++ & 1 & 129 & \multirow{3}{*}{X} & \multirow{3}{*}{X} & \multirow{3}{*}{O}\\
-
-\cline{3-5}
-& &                           C/C++ headers & 1 & 13 & & & \\
-\cline{3-5}
-& &                          Ocaml & 6 & 94 & & & \\
-\hline
-
-
-
-
-\end{tabular}
-\end{table}
-
-
-%%%%%%%%%%%%%%% page 7 %%%%%%%%%%%%%%%%%%%%%%%%%
-
- \begin{table}[h,t] 
-\begin{tabular}{|>{\centering}m{3cm}| c|c|r|r| c| c|c|}
-
-
-
-\hline
-
  \multirow{18}{3cm}{bindings with C libraries}& \multirow{3}{*}{quantlib-swig} & C/C++ &  &  & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
  \cline{3-5}
  & &                           C/C++ headers &  &  & & & \\
@@ -843,36 +806,6 @@ We also classify those OCaml/c programs into 4 categories : applicaition written
 \cline{3-5}
 & &                          Ocaml & 6 & 94 & & & \\
 \cline{2-8}
-  & \multirow{3}{3cm}{ocaml-bitstring | libbitstring-ocaml-dev } & C/C++ & 3 & 89 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
- \cline{3-5}
- & &                           C/C++ headers & 2 & 25 & & & \\
- \cline{3-5}
- & &                          Ocaml & 44& 3835 & & & \\
- \cline{2-8}
-
-
- &\multirow{3}{3cm}{labltk | liblabltk-ocaml} & C/C++ & 15 & 989 & \multirow{3}{*}{X} & \multirow{3}{*}{X} & \multirow{3}{*}{O}\\
- \cline{3-5}
- & &                           C/C++ headers & 1 & 25 & & & \\
- \cline{3-5}
- & &                          Ocaml & 196 & 12467 & & & \\
- \cline{2-8}
-
- &\multirow{3}{3cm}{llvm-toolchain-3.8 | libllvm-3.8-ocaml-dev} & C/C++ & 15 & 2370 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
- \cline{3-5}
- & &                           C/C++ headers & 0 & 0 & & & \\
- \cline{3-5}
- & &                          Ocaml & 28 & 2657 & & & \\
- \cline{2-8}
-
- &\multirow{3}{3cm}{ocaml-samplerate | libsamplerate-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
-\cline{3-5}
-& &                           C/C++ headers & 1 & 13 & & & \\
-\cline{3-5}
-& &                          Ocaml & 6 & 94 & & & \\
-\cline{2-8}
-
-
 
 
 
@@ -1361,6 +1294,84 @@ We also classify those OCaml/c programs into 4 categories : applicaition written
 
 
 
+ \begin{table}[h,t] 
+\begin{tabular}{|>{\centering}m{3cm}| c|c|r|r| c| c|c|}
+\hline
+
+
+ \multirow{18}{3cm}{bindings with C libraries}&\multirow{3}{3cm}{ocaml-mad | libmad-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
+\cline{3-5}
+& &                           C/C++ headers & 1 & 13 & & & \\
+\cline{3-5}
+& &                          Ocaml & 6 & 94 & & & \\
+\cline{2-8}
+
+
+
+ &\multirow{3}{3cm}{ocaml-shout | libshout-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{X}\\
+\cline{3-5}
+& &                           C/C++ headers & 1 & 13 & & & \\
+\cline{3-5}
+& &                          Ocaml & 6 & 94 & & & \\
+\cline{2-8}
+
+ &\multirow{3}{3cm}{mlgmp | libgmp-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{X}\\
+\cline{3-5}
+& &                           C/C++ headers & 1 & 13 & & & \\
+\cline{3-5}
+& &                          Ocaml & 6 & 94 & & & \\
+\cline{2-8}
+
+
+ &\multirow{3}{3cm}{xen-api | libxenapi-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{X}\\
+\cline{3-5}
+& &                           C/C++ headers & 1 & 13 & & & \\
+\cline{3-5}
+& &                          Ocaml & 6 & 94 & & & \\
+\cline{2-8}
+  & \multirow{3}{3cm}{ocaml-bitstring | libbitstring-ocaml-dev } & C/C++ & 3 & 89 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
+ \cline{3-5}
+ & &                           C/C++ headers & 2 & 25 & & & \\
+ \cline{3-5}
+ & &                          Ocaml & 44& 3835 & & & \\
+ \cline{2-8}
+
+
+ &\multirow{3}{3cm}{labltk | liblabltk-ocaml} & C/C++ & 15 & 989 & \multirow{3}{*}{X} & \multirow{3}{*}{X} & \multirow{3}{*}{O}\\
+ \cline{3-5}
+ & &                           C/C++ headers & 1 & 25 & & & \\
+ \cline{3-5}
+ & &                          Ocaml & 196 & 12467 & & & \\
+ \cline{2-8}
+
+ &\multirow{3}{3cm}{llvm-toolchain-3.8 | libllvm-3.8-ocaml-dev} & C/C++ & 15 & 2370 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
+ \cline{3-5}
+ & &                           C/C++ headers & 0 & 0 & & & \\
+ \cline{3-5}
+ & &                          Ocaml & 28 & 2657 & & & \\
+ \cline{2-8}
+
+ &\multirow{3}{3cm}{ocaml-samplerate | libsamplerate-ocaml-dev} & C/C++ & 1 & 129 & \multirow{3}{*}{O} & \multirow{3}{*}{O} & \multirow{3}{*}{O}\\
+\cline{3-5}
+& &                           C/C++ headers & 1 & 13 & & & \\
+\cline{3-5}
+& &                          Ocaml & 6 & 94 & & & \\
+\cline{2-8}
+
+
+
+ 
+ &\multirow{3}{3cm}{ocaml-inotify | libinotify-ocaml-dev } & C/C++ & 1 & 129 & \multirow{3}{*}{X} & \multirow{3}{*}{X} & \multirow{3}{*}{O}\\
+
+\cline{3-5}
+& &                           C/C++ headers & 1 & 13 & & & \\
+\cline{3-5}
+& &                          Ocaml & 6 & 94 & & & \\
+\hline
+
+
+\end{tabular}
+\end{table}
 
 
 
