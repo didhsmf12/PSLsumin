@@ -1,0 +1,588 @@
+compiz - OpenGL window and compositing manager
+compiz-core - OpenGL window and compositing manager
+compiz-dev - OpenGL window and compositing manager - development files
+compiz-gnome - OpenGL window and compositing manager - GNOME window decorator
+compiz-plugins-default - OpenGL window and compositing manager - default plugins
+freeglut3 - OpenGL Utility Toolkit
+freeglut3-dbg - OpenGL Utility Toolkit debugging information
+freeglut3-dev - OpenGL Utility Toolkit development files
+libcogl-common - Object oriented GL/GLES Abstraction/Utility Layer (common files)
+libcogl-dev - Object oriented GL/GLES Abstraction/Utility Layer (development files)
+libcogl-doc - Object oriented GL/GLES Abstraction/Utility Layer (documentation)
+libcogl-gles2-15 - Object oriented GL/GLES Abstraction/Utility Layer
+libcogl-gles2-dev - Object oriented GL/GLES Abstraction/Utility Layer (development files)
+libcogl-pango-dev - Object oriented GL/GLES Abstraction/Utility Layer (development files)
+libcogl-pango15 - Object oriented GL/GLES Abstraction/Utility Layer
+libcogl-pango15-dbg - Object oriented GL/GLES Abstraction/Utility Layer (debug files)
+libcogl15 - Object oriented GL/GLES Abstraction/Utility Layer
+libcogl15-dbg - Object oriented GL/GLES Abstraction/Utility Layer (debug files)
+libdrm-dev - Userspace interface to kernel DRM services -- development files
+libdrm2 - Userspace interface to kernel DRM services -- runtime
+libdrm2-dbg - Userspace interface to kernel DRM services -- debugging symbols
+libegl1-mesa - free implementation of the EGL API -- runtime
+libegl1-mesa-dbg - free implementation of the EGL API -- debugging symbols
+libegl1-mesa-dev - free implementation of the EGL API -- development files
+libegl1-mesa-drivers - free implementation of the EGL API -- hardware drivers
+libegl1-mesa-drivers-dbg - free implementation of the EGL API -- driver debugging symbols
+libgl1-mesa-dev - free implementation of the OpenGL API -- GLX development files
+libgl1-mesa-dri - free implementation of the OpenGL API -- DRI modules
+libgl1-mesa-dri-dbg - Debugging symbols for the Mesa DRI modules
+libgl1-mesa-glx - free implementation of the OpenGL API -- GLX runtime
+libglamor-dev - shared graphics acceleration library based on OpenGL -- development files
+libglamor0 - shared graphics acceleration library based on OpenGL
+libgles1-mesa - free implementation of the OpenGL|ES 1.x API -- runtime
+libgles1-mesa-dbg - free implementation of the OpenGL|ES 1.x API -- debugging symbols
+libgles1-mesa-dev - free implementation of the OpenGL|ES 1.x API -- development files
+libgles2-mesa - free implementation of the OpenGL|ES 2.x API -- runtime
+libgles2-mesa-dbg - free implementation of the OpenGL|ES 2.x API -- debugging symbols
+libgles2-mesa-dev - free implementation of the OpenGL|ES 2.x API -- development files
+libglew-dbg - OpenGL Extension Wrangler (debugging symbols)
+libglew-dev - OpenGL Extension Wrangler - development environment
+libglew1.10 - OpenGL Extension Wrangler - runtime environment
+libglewmx-dbg - OpenGL Extension Wrangler MX (debugging symbols)
+libglewmx-dev - OpenGL Extension Wrangler MX - development environment
+libglewmx1.10 - OpenGL Extension Wrangler (Multiple Rendering Contexts)
+libglm-dev - C++ library for OpenGL GLSL type-based mathematics
+libglm-doc - documentation for the OpenGL Mathematics (GLM) library
+libglu1-mesa - Mesa OpenGL utility library (GLU)
+libglu1-mesa-dev - Mesa OpenGL utility library -- development files
+libnux-4.0-0 - Visual rendering toolkit for real-time applications - shared lib
+libnux-4.0-common - Visual rendering toolkit for real-time applications - common files
+libnux-4.0-dev - Visual rendering toolkit for real-time applications - dev files
+libosmesa6 - Mesa Off-screen rendering extension
+libqt4-opengl - Qt 4 OpenGL module
+libqt4-opengl-dev - Qt 4 OpenGL library development files
+libqt5opengl5 - Qt 5 OpenGL module
+libqt5opengl5-dev - Qt 5 OpenGL library development files
+libqt5qml-graphicaleffects - Qt 5 Graphical Effects module
+libqtopengl4-perl - perl bindings for the Qt OpenGL library
+libreoffice-ogltrans - LibreOffice Impress extension for transitions using OpenGL
+libsmokeqtopengl4-3 - Qt OpenGL SMOKE library
+libtiff-tools - TIFF manipulation and conversion tools
+libtxc-dxtn-s2tc0 - Texture compression library for Mesa
+mesa-common-dev - Developer documentation for Mesa
+nux-tools - Visual rendering toolkit for real-time applications - tools
+nvidia-settings - Tool for configuring the NVIDIA graphics driver
+python-qt4 - Python bindings for Qt4
+python3-pyqt4 - Python3 bindings for Qt4
+python3-pyqt4.qtopengl - Python 3 bindings for Qt4's OpenGL module
+python3-pyqt4.qtopengl-dbg - Python 3 bindings for Qt4's OpenGL module (debug extension)
+python3-pyqt5.qtopengl - Python 3 bindings for Qt5's OpenGL module
+python3-pyqt5.qtopengl-dbg - Python 3 bindings for Qt5's OpenGL module (debug extension)
+x11proto-dri3-dev - X11 DRI3 extension wire protocol
+x11proto-gl-dev - X11 OpenGL extension wire protocol
+xserver-xorg-video-glamoregl - X.Org X server -- graphics acceleration module based on OpenGL
+amoeba - fast-paced, polished OpenGL demonstration by Excess
+amoeba-data - Fast-paced, polished OpenGL demonstration by Excess (data)
+celestia-common-nonfree - Non-free datafiles for Celestia, a real-time visual space simulation
+cytadela - old-school first person shooter game
+d1x-rebirth - port of the 1995 classic game Descent 1: First Strike
+d2x-rebirth - port of the 1996 classic game Descent 2: Counterstrike
+libcggl - Nvidia Cg Opengl runtime library
+mgltools-dejavu - visualization of 3D geometry using the OpenGL with Python
+mgltools-opengltk - Opengltk Python extension
+mgltools-pyglf - GLF library Python extension to write text in OpenGL
+mplayer-skins - Skins for the Mplayer package
+nvidia-cg-dev - Cg Toolkit - GPU Shader Authoring Language (headers)
+nvidia-cg-doc - Cg Toolkit - GPU Shader Authoring Language (documentation)
+nvidia-cg-toolkit - Cg Toolkit - GPU Shader Authoring Language
+residualvm - interpreter to play LucasArts' Lua-based 3D adventures
+residualvm-data - interpreter to play LucasArts' Lua-based 3D adventures (data files)
+nvidia-173 - NVIDIA legacy binary driver - version 173.14.39
+achilles - An artificial life and evolution simulator
+adanaxisgpl - Action game in four spatial dimensions
+adanaxisgpl-data - Action game in four spatial dimensions
+apitrace-gl-frontend - tools for debugging OpenGL applications and drivers - tracing frontends
+apitrace-gl-tracers - tools for debugging OpenGL applications and drivers - application tracer
+autoconf-gl-macros - Autoconf OpenGL Macro Archive -- transitional dummy package
+avogadro-data - Molecular Graphics and Modelling System (Data Files)
+blender - Very fast and versatile 3D modeller/renderer
+blender-data - Very fast and versatile 3D modeller/renderer - data package
+blender-ogrexml-1.8 - Blender Exporter for OGRE
+blender-ogrexml-1.9 - Blender Exporter for OGRE
+boswars - futuristic real-time strategy game
+briquolo - fast paced 3d Breakout game
+browser-plugin-lightspark - High-performance SWF player - Mozilla Plugin (experimental)
+bumblebee-nvidia - NVIDIA Optimus support using the proprietary NVIDIA driver
+castle-game-engine-doc - Castle Game Engine - Developer's Documentation
+castle-game-engine-src - Castle Game Engine - Source code for Lazarus integration
+celestia - real-time visual space simulation
+celestia-common - datafiles for Celestia, a real-time visual space simulation
+celestia-glut - real-time visual space simulation (GLUT frontend)
+celestia-gnome - real-time visual space simulation (GNOME frontend)
+clanlib-doc - Reference documentation and tutorials for ClanLib
+compiz-plugins - OpenGL window and compositing manager - plugins
+crack-attack - multiplayer OpenGL puzzle game like "Tetris Attack"
+criticalmass - Shoot-em-up a la galaxian
+csmash - CannonSmash, a table tennis simulation game
+darkplaces-dbg - debug symbols for the DarkPlaces game engine
+dmtcp - Checkpoint/Restart functionality for Linux processes
+dmtcp-dbg - Debug package for dmtcp
+drawxtl - crystal structure viewer
+dreamchess - 3D chess game
+driconf - DRI configuration applet
+extremetuxracer - 3D racing game featuring Tux, the Linux penguin
+extremetuxracer-data - data files for the game Extreme Tux Racer
+extremetuxracer-dbg - 3D racing game featuring Tux, the Linux penguin (debugging symbols)
+foobillardplus - 3D OpenGL Billiard Game
+foobillardplus-data - 3D OpenGL Billiard Game -- data files
+fp-units-castle-game-engine - Castle Game Engine - 3D game engine for FreePascal / Lazarus
+fp-units-gfx - Free Pascal - graphics-library units dependency package
+fp-units-gfx-2.6.2 - Free Pascal - graphics-library units
+fraqtive - draws Mandelbrot and Julia fractals
+fraqtive-dbg - draws Mandelbrot and Julia fractals (debugging symbols)
+fs-uae - Cross-platform Amiga emulator based on UAE/WinUAE
+fs-uae-launcher - Launcher and configuration program for FS-UAE
+fs-uae-netplay-server - Netplay server for FS-UAE online play
+g3dviewer - 3D model viewer for GTK+
+g3dviewer-dbg - g3dviewer debug symbols package
+gambas3-gb-opengl - OpenGL component for Gambas
+gambas3-gb-opengl-glsl - OpenGL component for Gambas: GL Shading Language subcomponent
+gambas3-gb-opengl-glu - Gambas opengl-glu component
+gambas3-gb-qt4-opengl - OpenGL with QT toolkit Gambas component
+gambas3-gb-sdl - Gambas SDL component
+gauche-gl - Gauche bindings for OpenGL
+gcrystal - lightweight crystal structures visualizer
+gem - Graphics Environment for Multimedia - Pure Data library
+gem-dev - Graphics Environment for Multimedia (development files)
+gem-doc - Graphics Environment for Multimedia (documentation)
+gem-extra - Graphics Environment for Multimedia - extra objects
+gem-plugin-dc1394 - Graphics Environment for Multimedia - DC1394 support
+gem-plugin-dv4l - Graphics Environment for Multimedia - DV support
+gem-plugin-gmerlin - Graphics Environment for Multimedia - GMERLIN support
+gem-plugin-jpeg - Graphics Environment for Multimedia - JPEG support
+gem-plugin-lqt - Graphics Environment for Multimedia - LQT support
+gem-plugin-magick - Graphics Environment for Multimedia - ImageMagick support
+gem-plugin-mpeg3 - Graphics Environment for Multimedia - MPEG support
+gem-plugin-sgi - Graphics Environment for Multimedia - SGI support
+gem-plugin-tiff - Graphics Environment for Multimedia - TIFF support
+gem-plugin-unicap - Graphics Environment for Multimedia - unicap support
+gem-plugin-v4l2 - Graphics Environment for Multimedia - V4L2 output support
+ghemical - GNOME molecular modelling environment
+glbsp - nodes builder for Doom-style games; has support for OpenGL
+gle-doc - OpenGL tubing and extrusion library documentation
+glee-dev - extension loading library for OpenGL - development
+glew-utils - OpenGL Extension Wrangler - utilities
+glhack - Fullscreen SDL/OpenGL version of NetHack
+gliv - image viewer using gdk-pixbuf and OpenGL
+glmark2 - OpenGL (ES) 2.0 benchmark
+glmark2-data - data files for the glmark2 OpenGL (ES) 2.0 benchmark
+glmark2-es2 - OpenGL (ES) 2.0 benchmark
+glmemperf - benchmark for measuring OpenGL ES 2.0 rendering performance
+globs - GL Open Benchmark Suite
+gnash-common-opengl - dummy package for gnash-common-opengl removal
+gnash-opengl - dummy package for gnash-opengl removal
+gngb - a Color Gameboy emulator
+gnubik - 3D Rubik's cube game
+gnujump - platform game where you have to jump up to survive
+gnujump-data - platform game where you have to jump up to survive - data files
+gource - graphical source control visualisation
+impressive - PDF presentation tool with eye candies
+jigzo - Photo puzzle game for children
+jigzo-data - data of Photo puzzle game for children
+junior-games-gl - Debian Jr. 3D Games (hardware acceleration required)
+kcometen4 - OpenGL KDE screensaver with lightning and comets
+kde-config-qt-graphicssystem - configuration module for the Qt graphics system backend
+kde-window-manager-active - K window manager (KWinActive)
+kde-window-manager-common - K window manager (KWin) Common Files
+kipi-plugins - image manipulation/handling plugins for KIPI aware programs
+klash-opengl - dummy package for klash-opengl removal
+kubrick - game based on Rubik's Cube
+liballeggl4-dev - development files for the allegrogl library
+liballeggl4.4 - library to mix OpenGL graphics with Allegro routines
+libalut-dev - OpenAL Utility Toolkit development files
+libalut0 - OpenAL Utility Toolkit
+libcegui-mk2-0.7.6 - Crazy Eddie's GUI (libraries)
+libcegui-mk2-0.7.6-dbg - Crazy Eddie's GUI (debugging libraries)
+libcegui-mk2-dev - Crazy Eddie's GUI (development files)
+libcitygml0 - Open source C++ library for parsing CityGML files
+libcitygml0-bin - Utils of libcitygml - citygml2vrml and citygmltest
+libcitygml0-dev - Static and header files of libcitygml
+libclanapp-1.0 - ClanLib game SDK runtime
+libclanlib-dev - ClanLib game SDK development files
+libclansdl-1.0 - SDL module for ClanLib game SDK
+libclutter-cil - Open GL based interactive canvas library -- CLI Bindings
+libcoin80 - high-level 3D graphics kit implementing the Open Inventor API
+libcoin80-dev - high-level 3D graphics devkit with Open Inventor and VRML97 support
+libcsfml-audio2 - Libraries for the C Binding of SFML - Audio Part
+libcsfml-dev - Libraries for the C Binding of SFML - Development Files
+libcsfml-doc - Libraries for the C Binding of SFML - Documentation
+libcsfml-graphics2 - Libraries for the C Binding of SFML - Graphics Part
+libcsfml-network2 - Libraries for the C Binding of SFML - Network Part
+libcsfml-system2 - Libraries for the C Binding of SFML - System Part
+libcsfml-window2 - Libraries for the C Binding of SFML - Window Part
+libcsfml2-dbg - Libraries for the C Binding of SFML - Debug Files
+libdeps-renderer-tulip-perl - DEPS renderer plugin using Tulip
+libdevil-dev - Cross-platform image loading and manipulation toolkit
+libdevil1c2 - Cross-platform image loading and manipulation toolkit
+libdmtcpaware-dev - DMTCP programming interface -- developer package
+libdmtcpaware1 - DMTCP programming interface
+libdrawtk-dev - Library to simple and efficient 2D drawings (development files)
+libdrawtk0 - Library to simple and efficient 2D drawings
+libdrawtk0-dbg - Library to simple and efficient 2D drawings (debugging symbols)
+libeigen2-dev - lightweight C++ template library for linear algebra
+libeigen3-dev - lightweight C++ template library for linear algebra
+libepoxy-dev - OpenGL function pointer management library- development
+libepoxy0 - OpenGL function pointer management library
+libevas-dbg - enlightenment advanced canvas library
+libevas-dev - Enlightenment DR17 advanced canvas library development files
+libevas-doc - Evas API Documentation
+libevas1 - Enlightenment DR17 advanced canvas library
+libevas1-engine-fb - Evas module providing the Framebuffer engine
+libevas1-engines-core - Evas module providing the framebuffer render engine
+libevas1-engines-x - Evas module providing the X11 engines
+libfltk-gl1.3 - Fast Light Toolkit - OpenGL rendering support
+libformsgl-dev - Header files and static libraries for the OpenGL XForms library
+libformsgl2 - The OpenGL XForms graphical interface widget library
+libfox-1.6-0 - FOX C++ GUI Toolkit - runtime library
+libftgl-dev - development files for libftgl
+libftgl2 - library to render text in OpenGL using FreeType
+libghc-glfw-dev - Haskell GLFW binding for GHC
+libghc-glfw-doc - Haskell GLFW binding for GHC; documentation
+libghc-glfw-prof - Haskell GLFW binding for GHC; profiling libraries
+libghc-gloss-dev - Painless 2D vector graphics, animations and simulations.
+libghc-gloss-doc - Painless 2D vector graphics, animations and simulations.; documentation
+libghc-gloss-prof - Painless 2D vector graphics, animations and simulations.; profiling libraries
+libghc-gluraw-dev - Raw binding for the OpenGL graphics system
+libghc-gluraw-doc - Raw binding for the OpenGL graphics system; documentation
+libghc-gluraw-prof - Raw binding for the OpenGL graphics system; profiling libraries
+libghc-glut-dev - Haskell GLUT binding for GHC
+libghc-glut-doc - Haskell GLUT binding for GHC; documentation
+libghc-glut-prof - Haskell GLUT binding for GHC; profiling libraries
+libghc-gtkglext-dev - Binding to the GTK+ OpenGL Extension
+libghc-gtkglext-doc - Binding to the GTK+ OpenGL Extension; documentation
+libghc-gtkglext-prof - Binding to the GTK+ OpenGL Extension; profiling libraries
+libghc-objectname-dev - Explicitly handled object names
+libghc-objectname-doc - Explicitly handled object names; documentation
+libghc-objectname-prof - Explicitly handled object names; profiling libraries
+libghc-opengl-dev - Haskell OpenGL binding for GHC
+libghc-opengl-doc - Haskell OpenGL binding for GHC; documentation
+libghc-opengl-prof - Haskell OpenGL binding for GHC; profiling libraries
+libghc-openglraw-dev - Raw binding for the OpenGL graphics system
+libghc-openglraw-doc - Raw binding for the OpenGL graphics system; documentation
+libghc-openglraw-prof - Raw binding for the OpenGL graphics system; profiling libraries
+libghc-statevar-dev - state variables in Haskell
+libghc-statevar-doc - state variables in Haskell; documentation
+libghc-statevar-prof - state variables in Haskell; profiling libraries
+libgl-gst - OpenGL bindings for GNU Smalltalk
+libgl2ps-dev - Lib providing high quality vector output for OpenGL application
+libgl2ps0 - Lib providing high quality vector output for OpenGL application
+libgl2ps0-dbg - Lib providing high quality vector output for OpenGL application
+libglbsp-dev - node builder library for OpenGL-based Doom-style games (headers)
+libglbsp3 - node builder library for OpenGL-based Doom-style games
+libglc-dev - An implementation of SGI's OpenGL Character Renderer (GLC)
+libglc0 - QuesoGLC GLC implementation
+libgle3 - OpenGL tubing and extrusion library
+libgle3-dev - OpenGL tubing and extrusion library development files
+libglee0d1 - extension loading library for OpenGL
+libglee0d1-dbg - extension loading library for OpenGL - debugging
+libglfw-dev - header files and static libraries portable framework for OpenGL application development
+libglfw2 - Shared libraries portable framework for OpenGL application development
+libglw1-mesa - GL widget library for Athena and Motif -- runtime
+libglw1-mesa-dev - GL widget library for Athena and Motif -- development files
+libgrits-dev - Development files for grits
+libgrits-doc - HTML documentation for grits
+libgrits5 - Grits is a Virtual Globe library
+libgtkgl2.0-1 - OpenGL context support for GTK+ (shared libraries)
+libgtkgl2.0-dev - OpenGL context support for GTK+ (development files)
+libgtkglada-dbg - Ada binding for GTK+ OpenGL extensions (debugging symbols)
+libgtkglada2.24.1 - Ada binding for GTK+ OpenGL extensions (dynamic library)
+libgtkglada2.24.1-dev - Ada binding for GTK+ OpenGL extensions (development files)
+libgtkglarea-cil-dev - CLI bindings for the GTK OpenGL area widget
+libgtkglarea-cil-examples - gtkglarea-sharp examples
+libgtkglarea0.0-cil - CLI bindings for the GTK OpenGL area widget
+libgtkglext1 - OpenGL Extension to GTK+ (shared libraries)
+libgtkglext1-dbg - OpenGL Extension to GTK+ (debugging symbols)
+libgtkglext1-dev - OpenGL Extension to GTK+ (development files)
+libgtkglext1-doc - OpenGL Extension to GTK+ (documentation)
+libgtkglextmm-x11-1.2-0 - C++ bindings for GtkGLExt (Shared libraries)
+libgtkglextmm-x11-1.2-dev - C++ bindings for GtkGLExt (Development files)
+libgtkglextmm-x11-1.2-doc - C++ bindings for GtkGLExt (Documentation)
+libguichan-0.8.1-1 - small, efficient C++ GUI library
+libguichan-0.8.1-1-dbg - small, efficient C++ GUI library (debugging symbols)
+libguichan-allegro-0.8.1-1 - small, efficient C++ GUI library (allegro integration)
+libguichan-dev - small, efficient C++ GUI library (development headers)
+libguichan-opengl-0.8.1-1 - small, efficient C++ GUI library (OpenGL integration)
+libguichan-sdl-0.8.1-1 - small, efficient C++ GUI library (SDL integration)
+libhugs-glut-bundled - A binding for the OpenGL Utility Toolkit
+libhugs-opengl-bundled - A binding for the OpenGL graphics system
+libirrlicht-dev - High performance realtime 3D engine development library
+libirrlicht-doc - High performance realtime 3D engine (API documentation)
+libirrlicht1.8 - High performance realtime 3D engine
+libjogl-java - Java bindings for OpenGL API (java library)
+libjogl-java-doc - Documentation for the Java bindings for OpenGL
+libjogl-jni - Java bindings for OpenGL API (java jni library)
+libjogl2-java - Java bindings for OpenGL API
+libjogl2-java-doc - Documentation for the Java bindings for OpenGL
+libjogl2-jni - Java bindings for OpenGL API (JNI lib)
+libjogl2-toolkits - Toolkits to play with JOGL2
+libkaya-gl-dev - OpenGL binding for kaya
+libkwinactiveglesutils1 - library used by accelleration for the KDE window manager Active
+libkwinactiveglutils1abi3 - library used by accellaration for the KDE window manager Active
+libkwinglesutils1 - library used by accellaration for the KDE window manager
+libkwinglutils1abi3 - library with OpenGL utilities for the KDE window manager
+liblablgl-ocaml - Runtime libraries for lablgl
+liblablgl-ocaml-dev - OpenGL interface for Objective Caml
+liblwjgl-java - Lightweight Java Game Library
+liblwjgl-java-doc - Lightweight Java Game Library (javadoc)
+liblwjgl-java-jni - Lightweight Java Game Library (jni)
+libmonogame-cil - Free implementation of XNA - Assemblies
+libmonogame-cil-dev - Free implementation of XNA - Development files
+libmrpt-opengl1.0 - Mobile Robot Programming Toolkit - opengl library
+libmtcp-dev - Developer package for libmtcp
+libmtcp1 - DMTCP library needed for checkpointing a standalone process
+libmygui.openglplatform0debian0 - Fast, simple and flexible GUI - OpenGL interface
+libmygui.openglplatform0debian0-dbg - Fast, simple and flexible GUI OpenGL - debugging symbols
+liboce-visualization8 - OpenCASCADE Community Edition CAE platform shared library
+liboglappth-dev - Oglappth Library (development files)
+liboglappth2 - Oglappth Library
+libogre-1.8-dev - 3D Object-Oriented Graphics Rendering Engine (development files)
+libogre-1.8.0 - 3D Object-Oriented Graphics Rendering Engine (libraries)
+libogre-1.8.0-dbg - 3D Object-Oriented Graphics Rendering Engine (debugging libs)
+libogre-1.9-dev - 3D Object-Oriented Graphics Rendering Engine (development files)
+libogre-1.9.0 - 3D Object-Oriented Graphics Rendering Engine (libraries)
+libogre-1.9.0-dbg - 3D Object-Oriented Graphics Rendering Engine (debugging libs)
+libopenal-data - Software implementation of the OpenAL API (data files)
+libopenal-dev - Software implementation of the OpenAL API (development files)
+libopenal1 - Software implementation of the OpenAL API (shared library)
+libopencsg-dev - image-based CSG library using OpenGL (development files)
+libopencsg-example - image-based CSG library using OpenGL (example program)
+libopencsg1 - image-based CSG (Constructive Solid Geometry) library using OpenGL
+libopencsg1-dbg - debugging symbols for libopencsg
+libopengl-perl - Perl interface providing graphics display using OpenGL
+libopengl-xscreensaver-perl - Perl module for writing OpenGL-based XScreenSaver hacks
+libopenlayer-dev - hardware accelerated 2D Graphics library : development files
+libopenlayer2 - hardware accelerated 2D Graphics library
+libopenscenegraph-dev - 3D scene graph, development files
+libopenscenegraph99 - 3D scene graph, shared libs
+libopentk-cil-dev - Open Toolkit wrapper for OpenGL, OpenAL and OpenCL - Dev files
+libopentk1.0-cil - Open Toolkit wrapper for OpenGL, OpenAL and OpenCL - Assemblies
+libplib-dev - Portability Libraries: Development package
+libplib-doc - Portability Libraries: documentation and examples
+libplib1 - Portability Libraries: Run-time package
+libprojectm-dev - Advanced Milkdrop-compatible music visualization library - dev
+libprojectm-qt-dev - projectM Qt4 (development files)
+libprojectm-qt1 - projectM Qt4 bindings
+libprojectm2 - Advanced Milkdrop-compatible music visualization library
+libpugl-0-0 - portable API for OpenGL graphical interfaces
+libpugl-dbg - portable API for OpenGL graphical interfaces (debugging symbols)
+libpugl-dev - portable API for OpenGL graphical interfaces (headers)
+libqglviewer-dev - OpenGL 3D viewer library based on Qt4 - development files
+libqglviewer-doc - OpenGL 3D viewer library - header files and documentation
+libqglviewer2 - OpenGL 3D viewer library based on Qt - runtime library
+libqtscript4-opengl - QtScript bindings for the Qt 4 OpenGL library
+libqwtplot3d-doc - 3D plotting library based on Qt/OpenGL (documentation)
+libqwtplot3d-qt4-0 - 3D plotting library based on Qt4/OpenGL (runtime)
+libqwtplot3d-qt4-dev - 3D plotting library based on Qt4/OpenGL (development)
+libreoffice - office productivity suite (metapackage)
+libsage-dev - Supports OpenGL in SDL applications
+libsage2 - Supports OpenGL in SDL applications
+libsfml-audio2 - Simple and Fast Multimedia Library - Audio part
+libsfml-dev - Simple and Fast Multimedia Library - Development Files
+libsfml-doc - Simple and Fast Multimedia Library - Documentation
+libsfml-graphics2 - Simple and Fast Multimedia Library - Graphics part
+libsfml-network2 - Simple and Fast Multimedia Library - Network part
+libsfml-system2 - Simple and Fast Multimedia Library - System part
+libsfml-window2 - Simple and Fast Multimedia Library - Window part
+libsfml2-dbg - Simple and Fast Multimedia Library - Debug Symbols
+libsoil-dev - Simple OpenGL Image Library - development files
+libsoil1 - Simple OpenGL Image Library
+libsoil1-dbg - Simple OpenGL Image Library - debug files
+libtaoframework-freeglut-cil-dev - Tao CLI binding for freeglut - development files
+libtaoframework-freeglut2.4-cil - Tao CLI binding for freeglut
+libtaoframework-ftgl-cil-dev - Tao CLI binding for FTGL - development files
+libtaoframework-ftgl2.1-cil - Tao CLI binding for FTGL
+libtaoframework-openal-cil-dev - Tao CLI binding for OpenAL - development files
+libtaoframework-openal1.1-cil - Tao CLI binding for OpenAL
+libtaoframework-opengl-cil-dev - Tao CLI binding for OpenGL and GLU - development files
+libtaoframework-opengl3.0-cil - Tao CLI binding for OpenGL and GLU
+libtaoframework-sdl-cil-dev - Tao CLI binding for SDL - development files
+libtaoframework-sdl1.2-cil - Tao CLI binding for SDL
+libtiff-opengl - TIFF manipulation and conversion tools
+libtogl-dev - a Tk OpenGL widget - development files
+libtogl1 - a Tk OpenGL widget
+libtulip-core-4.4 - Tulip graph library - core runtime
+libtulip-gui-4.4 - Tulip graph library - Qt/OpenGL GUI runtime
+libtulip-ogl-4.4 - Tulip graph library - OpenGL runtime
+libtulip-python-4.4 - Tulip graph library - Qt/OpenGL GUI runtime
+libvdpau-va-gl1 - VDPAU driver with OpenGL/VAAPI backend
+libvisual-projectm - libvisual module for projectM
+libvtk5.8 - Visualization Toolkit - A high level 3D visualization library - runtime
+libvtk6 - Visualization Toolkit - A high level 3D visualization library - runtime
+libwxgtk2.8-0 - wxWidgets Cross-platform C++ GUI toolkit (GTK+ runtime)
+libwxgtk2.8-dev - wxWidgets Cross-platform C++ GUI toolkit (GTK+ development)
+libwxgtk3.0-0 - wxWidgets Cross-platform C++ GUI toolkit (GTK+ runtime)
+libwxgtk3.0-dev - wxWidgets Cross-platform C++ GUI toolkit (GTK+ development)
+libygl4 - A library that emulates SGI's GL routines under X11
+libygl4-dev - A library that emulates SGI's GL routines under X11
+lightspark - High-performance SWF player (experimental)
+lightspark-common - High-performance SWF player - common data
+lightspark-dbg - High-performance SWF player (experimental) - Debug symbols
+lightspeed - Shows how objects moving at relativistic speeds look like
+love - 2D game development framework based on Lua and OpenGL
+mednafen - multi-platform emulator, including NES, GB/A, Lynx, PC Engine
+mesa-utils-extra - Miscellaneous Mesa utilies (opengles, egl)
+mm3d - OpenGL based 3D model editor
+mmpong-gl - massively multiplayer pong game client (OpenGL version)
+mmpong-gl-data - massively multiplayer pong game client data (OpenGL version)
+monodevelop-monogame - Free implementation of XNA - IDE integration
+monodoc-monogame-manual - Free implementation of XNA - Documentation
+monodoc-opentk-manual - Open Toolkit wrapper for OpenGL, OpenAL and OpenCL - Docs
+mplayer - movie player for Unix-like systems
+mplayer-gui - movie player for Unix-like systems
+mplayer2 - next generation movie player for Unix-like systems
+mpv - video player based on MPlayer/mplayer2
+mupen64plus-video-arachnoid - Arachnoid high-level graphics emulation for mupen64plus
+mupen64plus-video-arachnoid-dbg - Arachnoid graphics hle for mupen64plus debug symbols package
+mupen64plus-video-glide64 - Glide64 high-level graphics emulation for mupen64plus
+mupen64plus-video-glide64-dbg - Glide64 graphics hle for mupen64plus debug symbols package
+mupen64plus-video-glide64mk2 - Glide64Mk2 high-level graphics emulation for mupen64plus
+mupen64plus-video-glide64mk2-dbg - Glide64Mk2 graphics hle for mupen64plus debug symbols package
+mupen64plus-video-rice - Rice's high-level graphics emulation for mupen64plus
+mupen64plus-video-rice-dbg - Rice's graphics hle for mupen64plus debug symbols package
+octave-psychtoolbox-3 - toolbox for vision research -- Octave bindings
+ogre-1.8-doc - 3D Object-Oriented Graphics Rendering Engine (documentation)
+ogre-1.8-tools - 3D Object-Oriented Graphics Rendering Engine (tools)
+ogre-1.9-doc - 3D Object-Oriented Graphics Rendering Engine (documentation)
+ogre-1.9-tools - 3D Object-Oriented Graphics Rendering Engine (tools)
+oolite - space sim game, inspired by Elite
+oolite-data - space sim game, inspired by Elite (data files)
+oolite-data-sounds - space sim game, inspired by Elite (sounds)
+oolite-doc - space sim game, inspired by Elite (documentation)
+openbve - realistic 3D train/railway simulator (main program)
+opencl-1.2-html-doc - OpenCL 1.2 documentation - html pages
+opencl-1.2-man-doc - OpenCL 1.2 documentation - man pages (experimental)
+opengl-4-html-doc - OpenGL 4 documentation - html pages
+opengl-4-man-doc - OpenGL 4 documentation - man pages (experimental)
+openscenegraph - 3D scene graph, utilities and examples (binaries)
+openscenegraph-doc - 3D scene graph, documentation
+openscenegraph-examples - 3D scene graph, examples (sources)
+openscenegraph-plugin-citygml-shared - libcitygml OpenSceneGraph plugin (shared version)
+openscenegraph-plugin-citygml-static - libcitygml OpenSceneGraph plugin (static version)
+openuniverse - 3D Universe Simulator
+openuniverse-common - 3D Universe Simulator data files
+pd-3dp - openGL extensions for PDP
+pdfcube - PDF document viewer with 3D effects
+pfsglview - command line HDR manipulation programs (OpenGL/GLUT viewer)
+pink-pony - 3D racing game with ponies
+pong2 - Remake of old arcade classic in OpenGL
+prboom-plus - enhanced clone of the classic first-person shooter Doom
+prboom-plus-game-server - enhanced clone of the classic first-person shooter Doom (server)
+primus - client-side GPU offloading for NVIDIA Optimus
+projectm-data - Advanced Milkdrop-compatible music visualization library - data
+projectm-dbg - Debugging symbols for projectM
+projectm-jack - projectM JackAudio module
+projectm-pulseaudio - projectM PulseAudio module
+psychopy - environment for creating psychology stimuli in Python
+psychtoolbox-3-common - toolbox for vision research -- arch/interpreter independent part
+psychtoolbox-3-dbg - toolbox for vision research -- debug symbols for binaries
+psychtoolbox-3-lib - toolbox for vision research -- arch-specific parts
+python-glitch - Python library for OpenGL graphics programming
+python-gtkglext1 - GtkGLext python bindings
+python-kivy - Kivy - Multimedia / Multitouch framework in Python
+python-opengl - Python bindings to OpenGL (Python 2)
+python-pymt - Python multi-touch library
+python-pyside.qtopengl - Qt 4 OpenGL module - Python bindings
+python-qt4-gl - Python bindings for Qt4's OpenGL module
+python-qt4-gl-dbg - Python bindings for Qt4's OpenGL module (debug extension)
+python-sfml - Simple and Fast Multimedia Library - Python 2 Bindings
+python-sfml-dbg - Simple and Fast Multimedia Library - Python 2 Debug Bindings
+python-sfml-doc - Simple and Fast Multimedia Library - Documentation
+python-soya - high level 3D engine for Python
+python-soya-dbg - high level 3D engine for Python - debug extension
+python-soya-doc - high level 3D engine for Python
+python3-opengl - Python bindings to OpenGL (Python 3)
+python3-pyside.qtopengl - Qt 4 OpenGL module - Python3 bindings
+python3-sfml - Simple and Fast Multimedia Library - Python 3 Bindings
+python3-sfml-dbg - Simple and Fast Multimedia Library - Python 3 Debug Bindings
+qantenna - Qt based program for viewing antennas as described by NEC files
+qtiplot - data analysis and scientific plotting
+qutemol - interactive visualization of macromolecules
+r-cran-rgl - GNU R package for three-dimensional visualisation using OpenGL
+rss-glx - Really Slick Screensavers GLX Port
+ruby-opengl - OpenGL Interface for Ruby
+smc - Jump and Run game like Super Mario World
+stalin - An extremely aggressive Scheme compiler
+stella - Atari 2600 Emulator for SDL & the X Window System
+structure-synth - application for creating 3D structures
+structure-synth-dbg - application for creating 3D structures
+survex-aven - sophisticated cave survey viewer for Survex
+togl-demos - a Tk OpenGL widget - demos files
+torcs - 3D racing cars simulator game using OpenGL
+trackballs - An OpenGL-based game of marbles through a labyrinth
+trigger-rally - free 3D rally racing car game
+trigger-rally-data - free 3D rally racing car game - data files
+view3dscene - VRML / X3D browser, and a viewer for other 3D model formats
+xmakemol-gl - program for visualizing atomic and molecular systems (OpenGL)
+xracer - Futuristic racing game
+xracer-tools - Futuristic racing game - developer tools
+xscreensaver-gl - GL(Mesa) screen hacks for xscreensaver
+xscreensaver-gl-extra - GL(Mesa) screen hacks for xscreensaver
+yorick-gl - OpenGL 3D graphics support for the Yorick language
+libdrm-amdgpu1 - Userspace interface to amdgpu-specific kernel DRM services -- runtime
+libdrm-amdgpu1-dbg - Userspace interface to amdgpu-specific kernel DRM services -- debugging symbols
+libdrm-intel1 - Userspace interface to intel-specific kernel DRM services -- runtime
+libdrm-intel1-dbg - Userspace interface to intel-specific kernel DRM services -- debugging symbols
+libdrm-nouveau2 - Userspace interface to nouveau-specific kernel DRM services -- runtime
+libdrm-nouveau2-dbg - Userspace interface to nouveau-specific kernel DRM -- debugging symbols
+libdrm-radeon1 - Userspace interface to radeon-specific kernel DRM services -- runtime
+libdrm-radeon1-dbg - Userspace interface to radeon-specific kernel DRM services -- debugging symbols
+libegl1-mesa-dev-lts-utopic - free implementation of the EGL API -- development files
+libegl1-mesa-dev-lts-vivid - free implementation of the EGL API -- development files
+libegl1-mesa-dev-lts-wily - free implementation of the EGL API -- development files
+libegl1-mesa-dev-lts-xenial - free implementation of the EGL API -- development files
+libegl1-mesa-drivers-lts-utopic - free implementation of the EGL API -- hardware drivers
+libegl1-mesa-drivers-lts-utopic-dbg - free implementation of the EGL API -- driver debugging symbols
+libegl1-mesa-lts-utopic - free implementation of the EGL API -- runtime
+libegl1-mesa-lts-utopic-dbg - free implementation of the EGL API -- debugging symbols
+libegl1-mesa-lts-vivid - free implementation of the EGL API -- runtime
+libegl1-mesa-lts-vivid-dbg - free implementation of the EGL API -- debugging symbols
+libegl1-mesa-lts-wily - free implementation of the EGL API -- runtime
+libegl1-mesa-lts-wily-dbg - free implementation of the EGL API -- debugging symbols
+libegl1-mesa-lts-xenial - free implementation of the EGL API -- runtime
+libgl1-mesa-dev-lts-utopic - free implementation of the OpenGL API -- GLX development files
+libgl1-mesa-dev-lts-vivid - free implementation of the OpenGL API -- GLX development files
+libgl1-mesa-dev-lts-wily - free implementation of the OpenGL API -- GLX development files
+libgl1-mesa-dev-lts-xenial - free implementation of the OpenGL API -- GLX development files
+libgl1-mesa-dri-lts-utopic - free implementation of the OpenGL API -- DRI modules
+libgl1-mesa-dri-lts-utopic-dbg - Debugging symbols for the Mesa DRI modules
+libgl1-mesa-dri-lts-vivid - free implementation of the OpenGL API -- DRI modules
+libgl1-mesa-dri-lts-vivid-dbg - Debugging symbols for the Mesa DRI modules
+libgl1-mesa-dri-lts-wily - free implementation of the OpenGL API -- DRI modules
+libgl1-mesa-dri-lts-wily-dbg - Debugging symbols for the Mesa DRI modules
+libgl1-mesa-dri-lts-xenial - free implementation of the OpenGL API -- DRI modules
+libgl1-mesa-glx-lts-utopic - free implementation of the OpenGL API -- GLX runtime
+libgl1-mesa-glx-lts-vivid - free implementation of the OpenGL API -- GLX runtime
+libgl1-mesa-glx-lts-wily - free implementation of the OpenGL API -- GLX runtime
+libgl1-mesa-glx-lts-xenial - free implementation of the OpenGL API -- GLX runtime
+libgles1-mesa-dev-lts-utopic - free implementation of the OpenGL|ES 1.x API -- development files
+libgles1-mesa-dev-lts-vivid - free implementation of the OpenGL|ES 1.x API -- development files
+libgles1-mesa-dev-lts-wily - free implementation of the OpenGL|ES 1.x API -- development files
+libgles1-mesa-dev-lts-xenial - free implementation of the OpenGL|ES 1.x API -- development files
+libgles1-mesa-lts-utopic - free implementation of the OpenGL|ES 1.x API -- runtime
+libgles1-mesa-lts-utopic-dbg - free implementation of the OpenGL|ES 1.x API -- debugging symbols
+libgles1-mesa-lts-vivid - free implementation of the OpenGL|ES 1.x API -- runtime
+libgles1-mesa-lts-vivid-dbg - free implementation of the OpenGL|ES 1.x API -- debugging symbols
+libgles1-mesa-lts-wily - free implementation of the OpenGL|ES 1.x API -- runtime
+libgles1-mesa-lts-wily-dbg - free implementation of the OpenGL|ES 1.x API -- debugging symbols
+libgles1-mesa-lts-xenial - free implementation of the OpenGL|ES 1.x API -- runtime
+libgles2-mesa-dev-lts-utopic - free implementation of the OpenGL|ES 2.x API -- development files
+libgles2-mesa-dev-lts-vivid - free implementation of the OpenGL|ES 2.x API -- development files
+libgles2-mesa-dev-lts-wily - free implementation of the OpenGL|ES 2.x API -- development files
+libgles2-mesa-dev-lts-xenial - free implementation of the OpenGL|ES 2.x API -- development files
+libgles2-mesa-lts-utopic - free implementation of the OpenGL|ES 2.x API -- runtime
+libgles2-mesa-lts-utopic-dbg - free implementation of the OpenGL|ES 2.x API -- debugging symbols
+libgles2-mesa-lts-vivid - free implementation of the OpenGL|ES 2.x API -- runtime
+libgles2-mesa-lts-vivid-dbg - free implementation of the OpenGL|ES 2.x API -- debugging symbols
+libgles2-mesa-lts-wily - free implementation of the OpenGL|ES 2.x API -- runtime
+libgles2-mesa-lts-wily-dbg - free implementation of the OpenGL|ES 2.x API -- debugging symbols
+libgles2-mesa-lts-xenial - free implementation of the OpenGL|ES 2.x API -- runtime
+mesa-common-dev-lts-utopic - Developer documentation for Mesa
+mesa-common-dev-lts-vivid - Developer documentation for Mesa
+mesa-common-dev-lts-wily - Developer documentation for Mesa
+mesa-common-dev-lts-xenial - Developer documentation for Mesa
+fglrx - Video driver for the AMD graphics accelerators
+fglrx-updates - Video driver for the AMD graphics accelerators
+nvidia-304 - NVIDIA legacy binary driver - version 304.134
+nvidia-340 - NVIDIA binary driver - version 340.101
+nvidia-367 - NVIDIA binary driver - version 367.57

@@ -1,0 +1,2473 @@
+This is from Mainthread: Multithread
+Multithread
+Dumping stack for Thread #13
+-- Stack --
+(0x5feaae90 22843)   at [0x5feaae90, 0x5b962d46] LMultithread; main([Ljava/lang/String;)V at line 144 at bytecode index 14 at machine code offset 0x00000078
+(0x5feaaea8 -1)   at [0x5feaaea8, 0x5b9ec326] <invisible method>
+(0x5feaaf2c 18089)   at [0x5feaaf2c, 0x5b86e3ee] Lorg/jikesrvm/runtime/Reflection; outOfLineInvoke(Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;Z)Ljava/lang/Object; at line 222 at bytecode index 433 at machine code offset 0x0000066e
+(0x5feaaf90 19399)   at [0x5feaaf90, 0x5baee953] Lorg/jikesrvm/runtime/Reflection; invoke(Lorg/jikesrvm/classloader/RVMMethod;Lorg/jikesrvm/runtime/ReflectionBase;Ljava/lang/Object;[Ljava/lang/Object;Z)Ljava/lang/Object; at line 93 at bytecode index 50 at machine code offset 0x0000067e
+   at [0x5feaaf90, 0x5baee953] Lorg/jikesrvm/scheduler/MainThread; run()V at line 205 at bytecode index 208 at machine code offset 0x0000067e
+(0x5feaafc0 21903)   at [0x5feaafc0, 0x5be2ac14] Lorg/jikesrvm/scheduler/RVMThread; run()V at line 2730 at bytecode index 43 at machine code offset 0x0000026f
+(0x5feaaff8 21992)   at [0x5feaaff8, 0xb776955a] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2789 at bytecode index 78 at machine code offset 0x000001b0
+Dumping stack for Thread #13
+-- Stack --
+(0x5feaae90 22843)   at [0x5feaae90, 0x5b962d46] LMultithread; main([Ljava/lang/String;)V at line 158 at bytecode index 27 at machine code offset 0x0000009f
+(0x5feaaea8 -1)   at [0x5feaaea8, 0x5b9ec326] <invisible method>
+(0x5feaaf2c 18089)   at [0x5feaaf2c, 0x5b86e3ee] Lorg/jikesrvm/runtime/Reflection; outOfLineInvoke(Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;Z)Ljava/lang/Object; at line 222 at bytecode index 433 at machine code offset 0x0000066e
+(0x5feaaf90 19399)   at [0x5feaaf90, 0x5baee953] Lorg/jikesrvm/runtime/Reflection; invoke(Lorg/jikesrvm/classloader/RVMMethod;Lorg/jikesrvm/runtime/ReflectionBase;Ljava/lang/Object;[Ljava/lang/Object;Z)Ljava/lang/Object; at line 93 at bytecode index 50 at machine code offset 0x0000067e
+   at [0x5feaaf90, 0x5baee953] Lorg/jikesrvm/scheduler/MainThread; run()V at line 205 at bytecode index 208 at machine code offset 0x0000067e
+(0x5feaafc0 21903)   at [0x5feaafc0, 0x5be2ac14] Lorg/jikesrvm/scheduler/RVMThread; run()V at line 2730 at bytecode index 43 at machine code offset 0x0000026f
+(0x5feaaff8 21992)   at [0x5feaaff8, 0xb776955a] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2789 at bytecode index 78 at machine code offset 0x000001b0
+Termination!!!!
+Hello! Im From JNI, PID : 15015, TID : 15039
+ args[0] : Benchmark
+Dumping stack for Thread #1
+-- Stack --
+(0x5fef1f90 22845)   at [0x5fef1f90, 0x5baee953] LMultithread; run()V at line 64 at bytecode index 131 at machine code offset 0x00000300
+(0x5fef1fc0 21903)   at [0x5fef1fc0, 0x5be2ac14] Lorg/jikesrvm/scheduler/RVMThread; run()V at line 2730 at bytecode index 43 at machine code offset 0x0000026f
+(0x5fef1ff8 21992)   at [0x5fef1ff8, 0xb776955a] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2789 at bytecode index 78 at machine code offset 0x000001b0
+Dumping stack for Thread #1
+-- Stack --
+(0x5fef1e20 22849)   at [0x5fef1e20, 0x5f8400d3] LBenchmark; main([Ljava/lang/String;)V at line 28 at bytecode index 14 at machine code offset 0x00000069
+(0x5fef1e44 22848)   at [0x5fef1e44, 0x5f81a2ed] Lorg/jikesrvm/classloader/ReflectionBase$$Reflect39339; invokeInternal(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; at bytecode index 8 at machine code offset 0x00000067
+(0x5fef1e7c 22813)   at [0x5fef1e7c, 0x5b91e8b7] Lorg/jikesrvm/runtime/ReflectionBase; invoke(Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; at line 164 at bytecode index 28 at machine code offset 0x000000e1
+(0x5fef1ec0 22686)   at [0x5fef1ec0, 0x5b91eb34] Lorg/jikesrvm/runtime/Reflection; invoke(Lorg/jikesrvm/classloader/RVMMethod;Lorg/jikesrvm/runtime/ReflectionBase;Ljava/lang/Object;[Ljava/lang/Object;Z)Ljava/lang/Object; at line 91 at bytecode index 41 at machine code offset 0x00000137
+   at [0x5fef1ec0, 0x5b91eb34] Ljava/lang/reflect/VMCommonLibrarySupport; invokeStatic(Ljava/lang/Object;[Ljava/lang/Object;Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/reflect/Method;Lorg/jikesrvm/classloader/RVMClass;Lorg/jikesrvm/runtime/ReflectionBase;)Ljava/lang/Object; at line 204 at bytecode index 45 at machine code offset 0x00000137
+(0x5fef1f08 22685)   at [0x5fef1f08, 0x5baeea65] Ljava/lang/reflect/VMCommonLibrarySupport; invoke(Ljava/lang/Object;[Ljava/lang/Object;Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/reflect/Method;Lorg/jikesrvm/classloader/RVMClass;Lorg/jikesrvm/runtime/ReflectionBase;)Ljava/lang/Object; at line 173 at bytecode index 31 at machine code offset 0x000000c4
+(0x5fef1f4c 10899)   at [0x5fef1f4c, 0x5f83a39e] Ljava/lang/reflect/VMMethod; invoke(Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/reflect/Method;)Ljava/lang/Object; at line 89 at bytecode index 15 at machine code offset 0x00000075
+   at [0x5fef1f4c, 0x5f83a39e] Ljava/lang/reflect/Method; invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; at line 326 at bytecode index 7 at machine code offset 0x00000075
+(0x5fef1f90 22845)   at [0x5fef1f90, 0x5baee953] LMultithread; run()V at line 81 at bytecode index 169 at machine code offset 0x00000392
+(0x5fef1fc0 21903)   at [0x5fef1fc0, 0x5be2ac14] Lorg/jikesrvm/scheduler/RVMThread; run()V at line 2730 at bytecode index 43 at machine code offset 0x0000026f
+(0x5fef1ff8 21992)   at [0x5fef1ff8, 0xb776955a] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2789 at bytecode index 78 at machine code offset 0x000001b0
+Benchmark Stack length : 274432
+0x5fef1e20
+Next Inst : 0x5fef1e24 , Return Location : 0x5fef1e24
+ID : 22849 Length : 3116
+num of Instruction : 3116
+Compiler : baseline compiler
+	at Benchmark.main(Benchmark.java:28)
+Instruction Addr : [Lorg.jikesrvm.compilers.common.Code;@17e10403
+Instruction length : 3116
+Name : main
+0x5f8400d3
+
+
+Current bytecode index : 535
+current name : main
+000000|          CMP                  ESP         232[ESI] | 3BA6E8000000
+000006|          JLE                 2584                  | 0F8E00000000
+00000C|          PUSH             236[ESI]                 | FFB6EC000000
+000012|          MOV              236[ESI]            ESP  | 89A6EC000000
+000018|          PUSH               22851                  | 6843590000
+00001D|          MOV              -88[ESP]            EBX  | 895C24A8
+000021|          MOV              -84[ESP]            EDI  | 897C24AC
+000025|          MOV              -80[ESP]            EBP  | 896C24B0
+000029|          ADD                  ESP             -88  | 83C4A8
+00002C|          CMP              312[ESI]              0  | 83BE3801000000
+000033|          JNE                 2588                  | 0F8500000000
+000039|          MOV                  EBX       [570823F8] | 8B1DF8230857
+00003F|          MOV               80[ESP]            EBP  | 896C2450
+000043|          MOV               76[ESP]            EDI  | 897C244C
+000047|          MOV               72[ESP]            EBX  | 895C2448
+00004B|          MOV               68[ESP]            ESI  | 89742444
+00004F|          CALL             308[EBX]                 | FF9334010000
+000055|          MOV                  ESI          68[ESP] | 8B742444
+000059|          MOV                  EBX          72[ESP] | 8B5C2448
+00005D|          MOV                  EDI          76[ESP] | 8B7C244C
+000061|          MOV                  EBP          80[ESP] | 8B6C2450
+000065|          XOR                  EBX             EBX  | 31DB
+000067|          MOV                  EDI             ESI  | 89F7
+000069|          CALL           [57081C2C]                 | FF152C1C0857
+00006F|          MOV                  EAX       [57092AF8] | 8B05F82A0957
+000075|          MOV               56[ESP]            EAX  | 89442438
+000079|          MOV                  EAX          24[ESI] | 8B4618
+00007C|          MOV                  EDX            [EAX] | 8B10
+00007E|          LEA                  ECX          16[EDX] | 8D4A10
+000081|          CMP                  ECX           4[EAX] | 3B4804
+000084|          JLLE                 197                  | 0F8600000000
+00008A|          JMP                  187                  | E900000000
+00008F|          CMP              312[ESI]              0  | 83BE3801000000
+000096|          JGT                 2592                  | 0F8F00000000
+00009C|          MOV                  EAX          48[ESP] | 8B442430
+0000A0|          CMP                  EAX          -4[EBP] | 3B45FC
+0000A3|          JGE                 1213                  | 0F8D00000000
+0000A9|          MOV                  EDX          52[ESP] | 8B542434
+0000AD|          MOV                  EAX            [EDX] | 8B02
+0000AF|          MOV                  EAX            [EAX] | 8B00
+0000B1|          CMP                  EAX               0  | 83F800
+0000B4|          JEQ                 2596                  | 0F8400000000
+0000BA|          MOV                  ECX          48[ESP] | 8B4C2430
+0000BE|          MOVSX                EDX   [0+EBP+ECX<<0] | 0FBE540D00
+0000C3|          MOV                  ECX       [57082840] | 8B0D40280857
+0000C9|          MOV               40[ESP]            ECX  | 894C2428
+0000CD|          ADD                  ESP              -8  | 83C4F8
+0000D0|          MOV               28[ESP]            EBX  | 895C241C
+0000D4|          MOV                  EBX          48[ESP] | 8B5C2430
+0000D8|          CALL             132[EBX]                 | FF9384000000
+0000DE|          ADD               48[ESP]              1  | 8344243001
+0000E3|          MOV                  EBX          20[ESP] | 8B5C2414
+0000E7|          JMP                  143                  | EBA6
+0000E9|          CMP              312[ESI]              0  | 83BE3801000000
+0000F0|          JGT                 2599                  | 0F8F00000000
+0000F6|          CMP                  EBP          -4[EDI] | 3B6FFC
+0000F9|          JGE                 1290                  | 0F8D00000000
+0000FF|          MOV                  EDX          52[ESP] | 8B542434
+000103|          MOV                  EAX            [EDX] | 8B02
+000105|          MOV                  EAX            [EAX] | 8B00
+000107|          CMP                  EAX               0  | 83F800
+00010A|          JEQ                 2603                  | 0F8400000000
+000110|          MOVSX                EDX   [0+EDI+EBP<<0] | 0FBE142F
+000114|          MOV                  ECX       [57082840] | 8B0D40280857
+00011A|          MOV               48[ESP]            ECX  | 894C2430
+00011E|          ADD                  ESP              -8  | 83C4F8
+000121|          MOV               28[ESP]            EBX  | 895C241C
+000125|          MOV                  EBX          56[ESP] | 8B5C2438
+000129|          CALL             132[EBX]                 | FF9384000000
+00012F|          ADD                  EBP               1  | 83C501
+000132|          MOV                  EBX          20[ESP] | 8B5C2414
+000136|          JMP                  233                  | EBB1
+000138|          CMP              312[ESI]              0  | 83BE3801000000
+00013F|          JGT                 2606                  | 0F8F00000000
+000145|          CMP                  EBP       100000000  | 81FD00E1F505
+00014B|          JGE                 2556                  | 0F8D00000000
+000151|          MOV                  EAX             EBP  | 89E8
+000153|          CDQ                                       | 99
+000154|          MOV                  EDI               3  | BF03000000
+000159|          IDIV                 EAX             EDI  | F7FF
+00015B|          TEST                 EDX             EDX  | 85D2
+00015D|          JNE                  131                  | 0F8500000000
+000163|          LEA                  EAX       [0+EBX<<2] | 8D049D00000000
+00016A|          LEA                  EAX   [0+EAX+EBX<<1] | 8D0458
+00016D|          MOV                  EAX       [5707B084] | 890584B00757
+000173|          ADD                  EAX               3  | 83C003
+000176|          MOV                  EAX       [5707B084] | 890584B00757
+00017C|          ADD                  EBX               2  | 83C302
+00017F|          MOV                  EAX       [5707B084] | 8B0584B00757
+000185|          MOV                  EDX             EAX  | 89C2
+000187|          SAR                  EDX              31  | C1FA1F
+00018A|          AND                  EDX               1  | 83E201
+00018D|          ADD                  EAX             EDX  | 01D0
+00018F|          SAR                  EAX               1  | D1F8
+000191|          MOV                  EAX       [5707B084] | 890584B00757
+000197|          NOP                                       | 90
+000198| <<< 00015D
+000198|          MOV                  EAX             EBP  | 89E8
+00019A|          CDQ                                       | 99
+00019B|          MOV                  EDI               3  | BF03000000
+0001A0|          IDIV                 EAX             EDI  | F7FF
+0001A2|          CMP                  EDX               1  | 83FA01
+0001A5|          JNE                  156                  | 0F8500000000
+0001AB|          LEA                  EAX       [0+EBX<<2] | 8D049D00000000
+0001B2|          LEA                  EAX   [0+EAX+EBX<<1] | 8D0458
+0001B5|          MOV                  EAX       [5707B084] | 890584B00757
+0001BB|          ADD                  EAX               3  | 83C003
+0001BE|          MOV                  EAX       [5707B084] | 890584B00757
+0001C4|          LEA                  EAX           2[EBX] | 8D4302
+0001C7|          NEG                  EBX                  | F7DB
+0001C9|          ADD                  EBX             EAX  | 01C3
+0001CB|          MOV                  EAX       [5707B084] | 8B0584B00757
+0001D1|          MOV                  EDX             EAX  | 89C2
+0001D3|          SAR                  EDX              31  | C1FA1F
+0001D6|          AND                  EDX               1  | 83E201
+0001D9|          ADD                  EAX             EDX  | 01D0
+0001DB|          SAR                  EAX               1  | D1F8
+0001DD|          MOV                  EAX       [5707B084] | 890584B00757
+0001E3|          NOP                                       | 90
+0001E4| <<< 0001A5
+0001E4|          MOV                  EAX             EBP  | 89E8
+0001E6|          CDQ                                       | 99
+0001E7|          MOV                  EDI               3  | BF03000000
+0001EC|          IDIV                 EAX             EDI  | F7FF
+0001EE|          CMP                  EDX               2  | 83FA02
+0001F1|          JNE                  179                  | 0F8500000000
+0001F7|          LEA                  EAX       [0+EBX<<2] | 8D049D00000000
+0001FE|          LEA                  EAX   [0+EAX+EBX<<1] | 8D0458
+000201|          MOV                  EAX       [5707B084] | 890584B00757
+000207|          ADD                  EAX               3  | 83C003
+00020A|          MOV                  EAX       [5707B084] | 890584B00757
+000210|          LEA                  EBX   [2+EBX+EBX<<0] | 8D5C1B02
+000214|          MOV                  EAX       [5707B084] | 8B0584B00757
+00021A|          MOV                  EDX             EAX  | 89C2
+00021C|          SAR                  EDX              31  | C1FA1F
+00021F|          AND                  EDX               1  | 83E201
+000222|          ADD                  EAX             EDX  | 01D0
+000224|          SAR                  EAX               1  | D1F8
+000226|          MOV                  EAX       [5707B084] | 890584B00757
+00022C|          NOP                                       | 
+00022C| <<< 0001F1
+00022C|          CMP                  ECX               1  | 83F901
+00022F|          JEQ                 2552                  | 0F8400000000
+000235|          ADD                  EBP               1  | 83C501
+000238|          JMP                  312                  | E9FBFEFFFF
+00023D|          NOP                                       | 0F1F00
+000240| <<< 00008A
+000240|          MOV                  EBP       [570894C8] | 8B2DC8940857
+000246|          ADD                  ESP              -8  | 83C4F8
+000249|          PUSH                 ECX                  | 51
+00024A|          PUSH                   4                  | 6A04
+00024C|          PUSH                   8                  | 6A08
+00024E|          CALL             100[EBP]                 | FF5564
+000251|          MOV               60[ESP]            EBP  | 896C243C
+000255|          JMP                  217                  | E900000000
+00025A|          NOP                                       | 6690
+00025C| <<< 000084
+00025C|          MOV                  EBP            [EAX] | 8B28
+00025E|          MOV               60[ESP]            EBP  | 896C243C
+000262|          MOV                  EBP          60[ESP] | 8B6C243C
+000266|          CMP                  EBP             EDX  | 39D5
+000268|          JLGE                   0                  | 7300
+00026A|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+000271|          ADD                  EBP               4  | 83C504
+000274|          JMP                  614                  | EBF0
+000276|          NOP                                       | 6690
+000278| <<< 000268
+000278|          MOV                 [EAX]            ECX  | 8908
+00027A|          LEA                  EAX         128[ECX] | 8D8180000000
+000280|          PREFETCHN            EAX                  | 0F1800
+000283|          MOV                  EAX             EDX  | 89D0
+000285|          NOP                                       | 0F1F00
+000288| <<< 000255
+000288|          LEA                  EBP          12[EAX] | 8D680C
+00028B|          MOV              -12[EBP]     1491398276  | C745F484EEE458
+000292|          MOV                  EAX          24[ESI] | 8B4618
+000295|          MOV                  EDX            [EAX] | 8B10
+000297|          LEA                  ECX          44[EDX] | 8D4A2C
+00029A|          CMP                  ECX           4[EAX] | 3B4804
+00029D|          MOV               52[ESP]            ECX  | 894C2434
+0002A1|          JLLE                 242                  | 0F8600000000
+0002A7|          MOV                  ECX       [570894C8] | 8B0DC8940857
+0002AD|          ADD                  ESP              -8  | 83C4F8
+0002B0|          PUSH              60[ESP]                 | FF74243C
+0002B4|          PUSH                   4                  | 6A04
+0002B6|          PUSH                  12                  | 6A0C
+0002B8|          MOV               80[ESP]            ECX  | 894C2450
+0002BC|          MOV               40[ESP]            EBX  | 895C2428
+0002C0|          MOV                  EBX          80[ESP] | 8B5C2450
+0002C4|          CALL             100[EBX]                 | FF5364
+0002C7|          MOV                  EBX          20[ESP] | 8B5C2414
+0002CB|          JMP                  263                  | E900000000
+0002D0|          NOP                                       | 
+0002D0| <<< 0002A1
+0002D0|          MOV                  ECX            [EAX] | 8B08
+0002D2|          MOV               60[ESP]            ECX  | 894C243C
+0002D6|          MOV                  ECX          60[ESP] | 8B4C243C
+0002DA|          CMP                  ECX             EDX  | 39D1
+0002DC|          JLGE                   0                  | 7300
+0002DE|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+0002E4|          ADD                  ECX               4  | 83C104
+0002E7|          JMP                  730                  | EBF1
+0002E9|          NOP                                       | 0F1F00
+0002EC| <<< 0002DC
+0002EC|          MOV                  ECX          52[ESP] | 8B4C2434
+0002F0|          MOV                 [EAX]            ECX  | 8908
+0002F2|          LEA                  EAX         128[ECX] | 8D8180000000
+0002F8|          PREFETCHN            EAX                  | 0F1800
+0002FB|          MOV                  EAX             EDX  | 89D0
+0002FD|          NOP                                       | 0F1F00
+000300| <<< 0002CB
+000300|          LEA                  EDX          12[EAX] | 8D500C
+000303|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+00030A|          MOV               -4[EDX]             16  | C742FC10000000
+000311|          MOV                  EAX             EBP  | 89E8
+000313|          ADD                  ESP              -8  | 83C4F8
+000316|          PUSH                  -4                  | 6AFC
+000318|          PUSH               31445                  | 68D57A0000
+00031D|          CALL           [57082124]                 | FF1524210857
+000323|          MOV                  EDX       [570974C8] | 8B15C8740957
+000329|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+00032F|          MOV               52[ESP]            EAX  | 89442434
+000333|          MOV                  EAX             EBP  | 89E8
+000335|          ADD                  ESP              -8  | 83C4F8
+000338|          MOV               28[ESP]            EBX  | 895C241C
+00033C|          MOV                  EBX          60[ESP] | 8B5C243C
+000340|          CALL             104[EBX]                 | FF5368
+000343|          MOV                  EAX          80[EDI] | 8B4750
+000346|          MOV                  EAX          -4[EAX] | 8B40FC
+000349|          MOV                  EDX              10  | BA0A000000
+00034E|          ADD                  ESP              -8  | 83C4F8
+000351|          CALL           [57090FB4]                 | FF15B40F0957
+000357|          MOV                  EDX             EAX  | 89C2
+000359|          MOV                  EBX       [57089DDC] | 8B1DDC9D0857
+00035F|          MOV                  EAX             EBP  | 89E8
+000361|          ADD                  ESP              -8  | 83C4F8
+000364|          CALL             104[EBX]                 | FF5368
+000367|          MOV                  EAX          24[ESI] | 8B4618
+00036A|          MOV                  EDX            [EAX] | 8B10
+00036C|          LEA                  ECX          24[EDX] | 8D4A18
+00036F|          CMP                  ECX           4[EAX] | 3B4804
+000372|          MOV               52[ESP]            EBX  | 895C2434
+000376|          MOV                  EBX          20[ESP] | 8B5C2414
+00037A|          MOV               60[ESP]            ECX  | 894C243C
+00037E|          JLLE                 316                  | 0F8600000000
+000384|          MOV                  ECX       [570894C8] | 8B0DC8940857
+00038A|          ADD                  ESP              -8  | 83C4F8
+00038D|          PUSH              68[ESP]                 | FF742444
+000391|          PUSH                   4                  | 6A04
+000393|          PUSH                   8                  | 6A08
+000395|          MOV               72[ESP]            ECX  | 894C2448
+000399|          MOV               40[ESP]            EBX  | 895C2428
+00039D|          MOV                  EBX          72[ESP] | 8B5C2448
+0003A1|          CALL             100[EBX]                 | FF5364
+0003A4|          MOV                  EBX          20[ESP] | 8B5C2414
+0003A8|          JMP                  337                  | E900000000
+0003AD|          NOP                                       | 0F1F00
+0003B0| <<< 00037E
+0003B0|          MOV                  ECX            [EAX] | 8B08
+0003B2|          MOV               52[ESP]            ECX  | 894C2434
+0003B6|          MOV                  ECX          52[ESP] | 8B4C2434
+0003BA|          CMP                  ECX             EDX  | 39D1
+0003BC|          JLGE                   0                  | 7300
+0003BE|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+0003C4|          ADD                  ECX               4  | 83C104
+0003C7|          JMP                  954                  | EBF1
+0003C9|          NOP                                       | 0F1F00
+0003CC| <<< 0003BC
+0003CC|          MOV                  ECX          60[ESP] | 8B4C243C
+0003D0|          MOV                 [EAX]            ECX  | 8908
+0003D2|          LEA                  EAX         128[ECX] | 8D8180000000
+0003D8|          PREFETCHN            EAX                  | 0F1800
+0003DB|          MOV                  EAX             EDX  | 89D0
+0003DD|          NOP                                       | 0F1F00
+0003E0| <<< 0003A8
+0003E0|          LEA                  EDX          12[EAX] | 8D500C
+0003E3|          MOV              -12[EDX]     1460753476  | C742F444541157
+0003EA|          MOV               52[ESP]            EDX  | 89542434
+0003EE|          MOV                  EDX          -4[EBP] | 8B55FC
+0003F1|          MOV                  ECX            [EBP] | 8B4D00
+0003F4|          MOV                  EAX          52[ESP] | 8B442434
+0003F8|          ADD                  ESP              -8  | 83C4F8
+0003FB|          PUSH                   0                  | 6A00
+0003FD|          PUSH                 ECX                  | 51
+0003FE|          PUSH                   0                  | 6A00
+000400|          CALL           [5708DE74]                 | FF1574DE0857
+000406|          MOV                  EAX          56[ESP] | 8B442438
+00040A|          MOV                  EBP         -12[EAX] | 8B68F4
+00040D|          MOV                  EAX          56[ESP] | 8B442438
+000411|          MOV                  EDX          52[ESP] | 8B542434
+000415|          ADD                  ESP              -8  | 83C4F8
+000418|          CALL             180[EBP]                 | FF95B4000000
+00041E|          MOV                  EDI          80[EDI] | 8B7F50
+000421|          MOV                  EAX          24[ESI] | 8B4618
+000424|          MOV                  EDX            [EAX] | 8B10
+000426|          LEA                  ECX          16[EDX] | 8D4A10
+000429|          CMP                  ECX           4[EAX] | 3B4804
+00042C|          JLLE                 377                  | 0F8600000000
+000432|          MOV                  EBP       [570894C8] | 8B2DC8940857
+000438|          ADD                  ESP              -8  | 83C4F8
+00043B|          PUSH                 ECX                  | 51
+00043C|          PUSH                   4                  | 6A04
+00043E|          PUSH                   8                  | 6A08
+000440|          CALL             100[EBP]                 | FF5564
+000443|          JMP                  395                  | E900000000
+000448|          NOP                                       | 
+000448| <<< 00042C
+000448|          MOV                  EBP            [EAX] | 8B28
+00044A|          CMP                  EBP             EDX  | 39D5
+00044C|          JLGE                   0                  | 7300
+00044E|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+000455|          ADD                  EBP               4  | 83C504
+000458|          JMP                 1098                  | EBF0
+00045A|          NOP                                       | 6690
+00045C| <<< 00044C
+00045C|          MOV                 [EAX]            ECX  | 8908
+00045E|          LEA                  EAX         128[ECX] | 8D8180000000
+000464|          PREFETCHN            EAX                  | 0F1800
+000467|          MOV                  EAX             EDX  | 89D0
+000469|          NOP                                       | 0F1F00
+00046C| <<< 000443
+00046C|          LEA                  EBP          12[EAX] | 8D680C
+00046F|          MOV              -12[EBP]     1485916764  | C745F45C4A9158
+000476|          MOV                  EAX       [57088198] | 8B0598810857
+00047C|          MOV               52[ESP]            EAX  | 89442434
+000480|          MOV                  EAX      1486197776  | B810949558
+000485|          MOV                  EDX             EBP  | 89EA
+000487|          ADD                  ESP              -8  | 83C4F8
+00048A|          MOV               28[ESP]            EBX  | 895C241C
+00048E|          MOV                  EBX          60[ESP] | 8B5C243C
+000492|          CALL              84[EBX]                 | FF5354
+000495|          MOV                  EDX       [570974CC] | 8B15CC740957
+00049B|          MOV                  EAX             EBP  | 89E8
+00049D|          ADD                  ESP              -8  | 83C4F8
+0004A0|          PUSH                   0                  | 6A00
+0004A2|          CALL           [5709400C]                 | FF150C400957
+0004A8|          MOV                  ECX          -4[EDI] | 8B4FFC
+0004AB|          MOV                  EAX       [5708BDDC] | 8B05DCBD0857
+0004B1|          MOV                  EBX             EAX  | 89C3
+0004B3|          MOV                  EAX             EBP  | 89E8
+0004B5|          MOV                  EDX             EDI  | 89FA
+0004B7|          ADD                  ESP              -8  | 83C4F8
+0004BA|          PUSH                   0                  | 6A00
+0004BC|          PUSH                 ECX                  | 51
+0004BD|          CALL              80[EBX]                 | FF5350
+0004C0|          MOV                  EAX            [EBP] | 8B4500
+0004C3|          CMP               -4[EAX]              0  | 8078FC00
+0004C7|          MOV               52[ESP]            EBX  | 895C2434
+0004CB|          MOV                  EBX          20[ESP] | 8B5C2414
+0004CF|          JNE                  443                  | 0F8500000000
+0004D5|          MOV               -4[EAX]              1  | C640FC01
+0004D9|          MOV                  EAX            [EAX] | 8B00
+0004DB|          MOV                  EAX          -4[EAX] | 8B40FC
+0004DE|          CMP                  EAX               0  | 83F800
+0004E1|          JEQ                 2610                  | 0F8400000000
+0004E7|          MOV                  EDX       [570827E4] | 8B15E4270857
+0004ED|          MOV                  EDI             EDX  | 89D7
+0004EF|          ADD                  ESP              -4  | 83C4FC
+0004F2|          CALL              88[EDI]                 | FF5758
+0004F5|          NOP                                       | 0F1F00
+0004F8| <<< 0004CF
+0004F8|          MOV                  EAX         236[ESI] | 8B86EC000000
+0004FE|          MOV                  EDX             ESI  | 89F2
+000500|          MOV               48[ESP]            EAX  | 89442430
+000504|          MOV                  EAX          48[ESP] | 8B442430
+000508|          ADD                  ESP              -8  | 83C4F8
+00050B|          CALL           [57081118]                 | FF1518110857
+000511|          MOV               56[ESP]            EAX  | 89442438
+000515|          MOV                  EAX          48[ESP] | 8B442430
+000519|          ADD                  ESP              -4  | 83C4FC
+00051C|          CALL           [57080C3C]                 | FF153C0C0857
+000522|          MOV                  EDX          48[ESP] | 8B542430
+000526|          MOV                  EAX          -4[EDX] | 8B42FC
+000529|          MOV               52[ESP]            EAX  | 89442434
+00052D|          MOV                  EAX          52[ESP] | 8B442434
+000531|          SAR                  EAX              10  | C1F80A
+000534|          MOV                  EDX          52[ESP] | 8B542434
+000538|          AND                  EDX            1023  | 81E2FF030000
+00053E|          MOV                  ECX       [5708CB90] | 8B0D90CB0857
+000544|          CMP               -4[ECX]            EAX  | 3941FC
+000547|          JLLE                2613                  | 0F8600000000
+00054D|          MOV                  EAX   [0+ECX+EAX<<2] | 8B0481
+000550|          CMP               -4[EAX]            EDX  | 3950FC
+000553|          JLLE                2617                  | 0F8600000000
+000559|          MOV                  ECX   [0+EAX+EDX<<2] | 8B0C90
+00055C|          MOV                  EAX       [570974D0] | 8B05D0740957
+000562|          ADD                  ESP              -4  | 83C4FC
+000565|          MOV               40[ESP]            ECX  | 894C2428
+000569|          CALL           [57080C30]                 | FF15300C0857
+00056F|          MOV                  EDX          48[ESP] | 8B542430
+000573|          LEA                  EAX           4[EDX] | 8D4204
+000576|          MOV               60[ESP]            EAX  | 8944243C
+00057A|          MOV                  EAX          60[ESP] | 8B44243C
+00057E|          ADD                  ESP              -4  | 83C4FC
+000581|          CALL           [57080C38]                 | FF15380C0857
+000587|          MOV                  EAX       [570974D4] | 8B05D4740957
+00058D|          ADD                  ESP              -4  | 83C4FC
+000590|          CALL           [57080C30]                 | FF15300C0857
+000596|          MOV                  EAX          60[ESP] | 8B44243C
+00059A|          ADD                  ESP              -4  | 83C4FC
+00059D|          CALL           [57080C3C]                 | FF153C0C0857
+0005A3|          MOV                  EAX          36[ESP] | 8B442424
+0005A7|          MOV                  EDI            [EAX] | 8B38
+0005A9|          MOV                  EAX          24[ESI] | 8B4618
+0005AC|          MOV                  EDX            [EAX] | 8B10
+0005AE|          LEA                  ECX          16[EDX] | 8D4A10
+0005B1|          CMP                  ECX           4[EAX] | 3B4804
+0005B4|          MOV               44[ESP]            ECX  | 894C242C
+0005B8|          JLLE                 515                  | 0F8600000000
+0005BE|          MOV                  ECX       [570894C8] | 8B0DC8940857
+0005C4|          ADD                  ESP              -8  | 83C4F8
+0005C7|          PUSH              52[ESP]                 | FF742434
+0005CB|          PUSH                   4                  | 6A04
+0005CD|          PUSH                   8                  | 6A08
+0005CF|          MOV               80[ESP]            ECX  | 894C2450
+0005D3|          MOV                  EBP          80[ESP] | 8B6C2450
+0005D7|          CALL             100[EBP]                 | FF5564
+0005DA|          JMP                  536                  | E900000000
+0005DF|          NOP                                       | 90
+0005E0| <<< 0005B8
+0005E0|          MOV                  ECX            [EAX] | 8B08
+0005E2|          MOV               60[ESP]            ECX  | 894C243C
+0005E6|          MOV                  ECX          60[ESP] | 8B4C243C
+0005EA|          CMP                  ECX             EDX  | 39D1
+0005EC|          JLGE                   0                  | 7300
+0005EE|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+0005F4|          ADD                  ECX               4  | 83C104
+0005F7|          JMP                 1514                  | EBF1
+0005F9|          NOP                                       | 0F1F00
+0005FC| <<< 0005EC
+0005FC|          MOV                  ECX          44[ESP] | 8B4C242C
+000600|          MOV                 [EAX]            ECX  | 8908
+000602|          LEA                  EAX         128[ECX] | 8D8180000000
+000608|          PREFETCHN            EAX                  | 0F1800
+00060B|          MOV                  EAX             EDX  | 89D0
+00060D|          NOP                                       | 0F1F00
+000610| <<< 0005DA
+000610|          LEA                  EDX          12[EAX] | 8D500C
+000613|          MOV              -12[EDX]     1491398276  | C742F484EEE458
+00061A|          MOV                  EAX          24[ESI] | 8B4618
+00061D|          MOV               44[ESP]            EDX  | 8954242C
+000621|          MOV                  EDX            [EAX] | 8B10
+000623|          LEA                  ECX          44[EDX] | 8D4A2C
+000626|          CMP                  ECX           4[EAX] | 3B4804
+000629|          MOV               40[ESP]            ECX  | 894C2428
+00062D|          JLLE                 560                  | 0F8600000000
+000633|          MOV                  ECX       [570894C8] | 8B0DC8940857
+000639|          ADD                  ESP              -8  | 83C4F8
+00063C|          PUSH              48[ESP]                 | FF742430
+000640|          PUSH                   4                  | 6A04
+000642|          PUSH                  12                  | 6A0C
+000644|          MOV               80[ESP]            ECX  | 894C2450
+000648|          MOV                  EBP          80[ESP] | 8B6C2450
+00064C|          CALL             100[EBP]                 | FF5564
+00064F|          JMP                  581                  | E900000000
+000654|          NOP                                       | 
+000654| <<< 00062D
+000654|          MOV                  ECX            [EAX] | 8B08
+000656|          MOV               60[ESP]            ECX  | 894C243C
+00065A|          MOV                  ECX          60[ESP] | 8B4C243C
+00065E|          CMP                  ECX             EDX  | 39D1
+000660|          JLGE                   0                  | 7300
+000662|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000668|          ADD                  ECX               4  | 83C104
+00066B|          JMP                 1630                  | EBF1
+00066D|          NOP                                       | 0F1F00
+000670| <<< 000660
+000670|          MOV                  ECX          40[ESP] | 8B4C2428
+000674|          MOV                 [EAX]            ECX  | 8908
+000676|          LEA                  EAX         128[ECX] | 8D8180000000
+00067C|          PREFETCHN            EAX                  | 0F1800
+00067F|          MOV                  EAX             EDX  | 89D0
+000681|          NOP                                       | 0F1F00
+000684| <<< 00064F
+000684|          LEA                  EDX          12[EAX] | 8D500C
+000687|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+00068E|          MOV               -4[EDX]             16  | C742FC10000000
+000695|          MOV                  EAX          44[ESP] | 8B44242C
+000699|          ADD                  ESP              -8  | 83C4F8
+00069C|          PUSH                  -4                  | 6AFC
+00069E|          PUSH               31445                  | 68D57A0000
+0006A3|          CALL           [57082124]                 | FF1524210857
+0006A9|          MOV                  EDX       [570974D8] | 8B15D8740957
+0006AF|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+0006B5|          MOV               40[ESP]            EAX  | 89442428
+0006B9|          MOV                  EAX          44[ESP] | 8B44242C
+0006BD|          ADD                  ESP              -8  | 83C4F8
+0006C0|          MOV                  EBP          48[ESP] | 8B6C2430
+0006C4|          CALL             104[EBP]                 | FF5568
+0006C7|          MOV                  EAX          52[ESP] | 8B442434
+0006CB|          MOV                  EDX              10  | BA0A000000
+0006D0|          ADD                  ESP              -8  | 83C4F8
+0006D3|          CALL           [57090FB4]                 | FF15B40F0957
+0006D9|          MOV                  EDX             EAX  | 89C2
+0006DB|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+0006E1|          MOV               52[ESP]            EAX  | 89442434
+0006E5|          MOV                  EAX          44[ESP] | 8B44242C
+0006E9|          ADD                  ESP              -8  | 83C4F8
+0006EC|          MOV                  EBP          60[ESP] | 8B6C243C
+0006F0|          CALL             104[EBP]                 | FF5568
+0006F3|          MOV                  EDX       [570974DC] | 8B15DC740957
+0006F9|          MOV                  EBP       [57089DDC] | 8B2DDC9D0857
+0006FF|          MOV                  EAX          44[ESP] | 8B44242C
+000703|          ADD                  ESP              -8  | 83C4F8
+000706|          CALL             104[EBP]                 | FF5568
+000709|          MOV                  EAX          -4[EDI] | 8B47FC
+00070C|          MOV                  EDX              10  | BA0A000000
+000711|          ADD                  ESP              -8  | 83C4F8
+000714|          CALL           [57090FB4]                 | FF15B40F0957
+00071A|          MOV                  EDX             EAX  | 89C2
+00071C|          MOV                  EBP       [57089DDC] | 8B2DDC9D0857
+000722|          MOV                  EAX          44[ESP] | 8B44242C
+000726|          ADD                  ESP              -8  | 83C4F8
+000729|          CALL             104[EBP]                 | FF5568
+00072C|          MOV                  EAX          24[ESI] | 8B4618
+00072F|          MOV                  EDX            [EAX] | 8B10
+000731|          LEA                  ECX          24[EDX] | 8D4A18
+000734|          CMP                  ECX           4[EAX] | 3B4804
+000737|          MOV               52[ESP]            EBP  | 896C2434
+00073B|          MOV               40[ESP]            ECX  | 894C2428
+00073F|          JLLE                 643                  | 0F8600000000
+000745|          MOV                  ECX       [570894C8] | 8B0DC8940857
+00074B|          ADD                  ESP              -8  | 83C4F8
+00074E|          PUSH              48[ESP]                 | FF742430
+000752|          PUSH                   4                  | 6A04
+000754|          PUSH                   8                  | 6A08
+000756|          MOV               72[ESP]            ECX  | 894C2448
+00075A|          MOV                  EBP          72[ESP] | 8B6C2448
+00075E|          CALL             100[EBP]                 | FF5564
+000761|          JMP                  664                  | E900000000
+000766|          NOP                                       | 6690
+000768| <<< 00073F
+000768|          MOV                  ECX            [EAX] | 8B08
+00076A|          MOV               52[ESP]            ECX  | 894C2434
+00076E|          MOV                  ECX          52[ESP] | 8B4C2434
+000772|          CMP                  ECX             EDX  | 39D1
+000774|          JLGE                   0                  | 7300
+000776|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+00077C|          ADD                  ECX               4  | 83C104
+00077F|          JMP                 1906                  | EBF1
+000781|          NOP                                       | 0F1F00
+000784| <<< 000774
+000784|          MOV                  ECX          40[ESP] | 8B4C2428
+000788|          MOV                 [EAX]            ECX  | 8908
+00078A|          LEA                  EAX         128[ECX] | 8D8180000000
+000790|          PREFETCHN            EAX                  | 0F1800
+000793|          MOV                  EAX             EDX  | 89D0
+000795|          NOP                                       | 0F1F00
+000798| <<< 000761
+000798|          LEA                  EDX          12[EAX] | 8D500C
+00079B|          MOV              -12[EDX]     1460753476  | C742F444541157
+0007A2|          MOV               52[ESP]            EDX  | 89542434
+0007A6|          MOV                  EAX          44[ESP] | 8B44242C
+0007AA|          MOV                  EDX          -4[EAX] | 8B50FC
+0007AD|          MOV                  ECX            [EAX] | 8B08
+0007AF|          MOV                  EAX          52[ESP] | 8B442434
+0007B3|          ADD                  ESP              -8  | 83C4F8
+0007B6|          PUSH                   0                  | 6A00
+0007B8|          PUSH                 ECX                  | 51
+0007B9|          PUSH                   0                  | 6A00
+0007BB|          CALL           [5708DE74]                 | FF1574DE0857
+0007C1|          MOV                  EAX          52[ESP] | 8B442434
+0007C5|          ADD                  ESP              -4  | 83C4FC
+0007C8|          CALL           [57080C78]                 | FF15780C0857
+0007CE|          MOV                  EAX          24[ESI] | 8B4618
+0007D1|          MOV                  EDX            [EAX] | 8B10
+0007D3|          LEA                  ECX          16[EDX] | 8D4A10
+0007D6|          CMP                  ECX           4[EAX] | 3B4804
+0007D9|          MOV               40[ESP]            ECX  | 894C2428
+0007DD|          JLLE                 702                  | 0F8600000000
+0007E3|          MOV                  ECX       [570894C8] | 8B0DC8940857
+0007E9|          ADD                  ESP              -8  | 83C4F8
+0007EC|          PUSH              48[ESP]                 | FF742430
+0007F0|          PUSH                   4                  | 6A04
+0007F2|          PUSH                   8                  | 6A08
+0007F4|          MOV               72[ESP]            ECX  | 894C2448
+0007F8|          MOV                  EBP          72[ESP] | 8B6C2448
+0007FC|          CALL             100[EBP]                 | FF5564
+0007FF|          JMP                  723                  | E900000000
+000804|          NOP                                       | 
+000804| <<< 0007DD
+000804|          MOV                  ECX            [EAX] | 8B08
+000806|          MOV               52[ESP]            ECX  | 894C2434
+00080A|          MOV                  ECX          52[ESP] | 8B4C2434
+00080E|          CMP                  ECX             EDX  | 39D1
+000810|          JLGE                   0                  | 7300
+000812|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000818|          ADD                  ECX               4  | 83C104
+00081B|          JMP                 2062                  | EBF1
+00081D|          NOP                                       | 0F1F00
+000820| <<< 000810
+000820|          MOV                  ECX          40[ESP] | 8B4C2428
+000824|          MOV                 [EAX]            ECX  | 8908
+000826|          LEA                  EAX         128[ECX] | 8D8180000000
+00082C|          PREFETCHN            EAX                  | 0F1800
+00082F|          MOV                  EAX             EDX  | 89D0
+000831|          NOP                                       | 0F1F00
+000834| <<< 0007FF
+000834|          LEA                  EDX          12[EAX] | 8D500C
+000837|          MOV              -12[EDX]     1491398276  | C742F484EEE458
+00083E|          MOV                  EAX          24[ESI] | 8B4618
+000841|          MOV               52[ESP]            EDX  | 89542434
+000845|          MOV                  EDX            [EAX] | 8B10
+000847|          LEA                  ECX          44[EDX] | 8D4A2C
+00084A|          CMP                  ECX           4[EAX] | 3B4804
+00084D|          MOV               44[ESP]            ECX  | 894C242C
+000851|          JLLE                 747                  | 0F8600000000
+000857|          MOV                  ECX       [570894C8] | 8B0DC8940857
+00085D|          ADD                  ESP              -8  | 83C4F8
+000860|          PUSH              52[ESP]                 | FF742434
+000864|          PUSH                   4                  | 6A04
+000866|          PUSH                  12                  | 6A0C
+000868|          MOV               60[ESP]            ECX  | 894C243C
+00086C|          MOV                  EBP          60[ESP] | 8B6C243C
+000870|          CALL             100[EBP]                 | FF5564
+000873|          JMP                  768                  | E900000000
+000878|          NOP                                       | 
+000878| <<< 000851
+000878|          MOV                  ECX            [EAX] | 8B08
+00087A|          MOV               40[ESP]            ECX  | 894C2428
+00087E|          MOV                  ECX          40[ESP] | 8B4C2428
+000882|          CMP                  ECX             EDX  | 39D1
+000884|          JLGE                   0                  | 7300
+000886|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+00088C|          ADD                  ECX               4  | 83C104
+00088F|          JMP                 2178                  | EBF1
+000891|          NOP                                       | 0F1F00
+000894| <<< 000884
+000894|          MOV                  ECX          44[ESP] | 8B4C242C
+000898|          MOV                 [EAX]            ECX  | 8908
+00089A|          LEA                  EAX         128[ECX] | 8D8180000000
+0008A0|          PREFETCHN            EAX                  | 0F1800
+0008A3|          MOV                  EAX             EDX  | 89D0
+0008A5|          NOP                                       | 0F1F00
+0008A8| <<< 000873
+0008A8|          LEA                  EDX          12[EAX] | 8D500C
+0008AB|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+0008B2|          MOV               -4[EDX]             16  | C742FC10000000
+0008B9|          MOV                  EAX          52[ESP] | 8B442434
+0008BD|          ADD                  ESP              -8  | 83C4F8
+0008C0|          PUSH                  -4                  | 6AFC
+0008C2|          PUSH               31445                  | 68D57A0000
+0008C7|          CALL           [57082124]                 | FF1524210857
+0008CD|          MOV                  EDX       [570974E0] | 8B15E0740957
+0008D3|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+0008D9|          MOV               40[ESP]            EAX  | 89442428
+0008DD|          MOV                  EAX          52[ESP] | 8B442434
+0008E1|          ADD                  ESP              -8  | 83C4F8
+0008E4|          MOV                  EBP          48[ESP] | 8B6C2430
+0008E8|          CALL             104[EBP]                 | FF5568
+0008EB|          MOV                  EDX          36[ESP] | 8B542424
+0008EF|          MOV                  EAX            [EDX] | 8B02
+0008F1|          MOV                  EAX          -4[EAX] | 8B40FC
+0008F4|          MOV                  EDX              10  | BA0A000000
+0008F9|          ADD                  ESP              -8  | 83C4F8
+0008FC|          CALL           [57090FB4]                 | FF15B40F0957
+000902|          MOV                  EDX             EAX  | 89C2
+000904|          MOV                  EBP       [57089DDC] | 8B2DDC9D0857
+00090A|          MOV                  EAX          52[ESP] | 8B442434
+00090E|          ADD                  ESP              -8  | 83C4F8
+000911|          CALL             104[EBP]                 | FF5568
+000914|          MOV                  EAX          24[ESI] | 8B4618
+000917|          MOV                  EDX            [EAX] | 8B10
+000919|          LEA                  ECX          24[EDX] | 8D4A18
+00091C|          CMP                  ECX           4[EAX] | 3B4804
+00091F|          MOV               40[ESP]            EBP  | 896C2428
+000923|          MOV               44[ESP]            ECX  | 894C242C
+000927|          JLLE                 818                  | 0F8600000000
+00092D|          MOV                  ECX       [570894C8] | 8B0DC8940857
+000933|          ADD                  ESP              -8  | 83C4F8
+000936|          PUSH              52[ESP]                 | FF742434
+00093A|          PUSH                   4                  | 6A04
+00093C|          PUSH                   8                  | 6A08
+00093E|          MOV               60[ESP]            ECX  | 894C243C
+000942|          MOV                  EBP          60[ESP] | 8B6C243C
+000946|          CALL             100[EBP]                 | FF5564
+000949|          JMP                  839                  | E900000000
+00094E|          NOP                                       | 6690
+000950| <<< 000927
+000950|          MOV                  ECX            [EAX] | 8B08
+000952|          MOV               40[ESP]            ECX  | 894C2428
+000956|          MOV                  ECX          40[ESP] | 8B4C2428
+00095A|          CMP                  ECX             EDX  | 39D1
+00095C|          JLGE                   0                  | 7300
+00095E|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000964|          ADD                  ECX               4  | 83C104
+000967|          JMP                 2394                  | EBF1
+000969|          NOP                                       | 0F1F00
+00096C| <<< 00095C
+00096C|          MOV                  ECX          44[ESP] | 8B4C242C
+000970|          MOV                 [EAX]            ECX  | 8908
+000972|          LEA                  EAX         128[ECX] | 8D8180000000
+000978|          PREFETCHN            EAX                  | 0F1800
+00097B|          MOV                  EAX             EDX  | 89D0
+00097D|          NOP                                       | 0F1F00
+000980| <<< 000949
+000980|          LEA                  EDX          12[EAX] | 8D500C
+000983|          MOV              -12[EDX]     1460753476  | C742F444541157
+00098A|          MOV               40[ESP]            EDX  | 89542428
+00098E|          MOV                  EAX          52[ESP] | 8B442434
+000992|          MOV                  EDX          -4[EAX] | 8B50FC
+000995|          MOV                  ECX            [EAX] | 8B08
+000997|          MOV                  EAX          40[ESP] | 8B442428
+00099B|          ADD                  ESP              -8  | 83C4F8
+00099E|          PUSH                   0                  | 6A00
+0009A0|          PUSH                 ECX                  | 51
+0009A1|          PUSH                   0                  | 6A00
+0009A3|          CALL           [5708DE74]                 | FF1574DE0857
+0009A9|          MOV                  EAX          40[ESP] | 8B442428
+0009AD|          ADD                  ESP              -4  | 83C4FC
+0009B0|          CALL           [57080C78]                 | FF15780C0857
+0009B6|          MOV                  EDX          36[ESP] | 8B542424
+0009BA|          MOV                  EAX         -12[EDX] | 8B42F4
+0009BD|          MOV               52[ESP]            EAX  | 89442434
+0009C1|          MOV                  EAX             EDX  | 89D0
+0009C3|          ADD                  ESP              -4  | 83C4FC
+0009C6|          MOV                  EBP          56[ESP] | 8B6C2438
+0009CA|          CALL             188[EBP]                 | FF95BC000000
+0009D0|          MOV                  EBP             EAX  | 89C5
+0009D2|          MOV                  EAX          24[ESI] | 8B4618
+0009D5|          MOV                  EDX            [EAX] | 8B10
+0009D7|          LEA                  ECX          16[EDX] | 8D4A10
+0009DA|          CMP                  ECX           4[EAX] | 3B4804
+0009DD|          MOV               52[ESP]            EBP  | 896C2434
+0009E1|          MOV               44[ESP]            ECX  | 894C242C
+0009E5|          JLLE                 886                  | 0F8600000000
+0009EB|          MOV                  ECX       [570894C8] | 8B0DC8940857
+0009F1|          ADD                  ESP              -8  | 83C4F8
+0009F4|          PUSH              52[ESP]                 | FF742434
+0009F8|          PUSH                   4                  | 6A04
+0009FA|          PUSH                   8                  | 6A08
+0009FC|          MOV               60[ESP]            ECX  | 894C243C
+000A00|          MOV                  EBP          60[ESP] | 8B6C243C
+000A04|          CALL             100[EBP]                 | FF5564
+000A07|          JMP                  907                  | E900000000
+000A0C|          NOP                                       | 
+000A0C| <<< 0009E5
+000A0C|          MOV                  ECX            [EAX] | 8B08
+000A0E|          MOV               40[ESP]            ECX  | 894C2428
+000A12|          MOV                  ECX          40[ESP] | 8B4C2428
+000A16|          CMP                  ECX             EDX  | 39D1
+000A18|          JLGE                   0                  | 7300
+000A1A|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000A20|          ADD                  ECX               4  | 83C104
+000A23|          JMP                 2582                  | EBF1
+000A25|          NOP                                       | 0F1F00
+000A28| <<< 000A18
+000A28|          MOV                  ECX          44[ESP] | 8B4C242C
+000A2C|          MOV                 [EAX]            ECX  | 8908
+000A2E|          LEA                  EAX         128[ECX] | 8D8180000000
+000A34|          PREFETCHN            EAX                  | 0F1800
+000A37|          MOV                  EAX             EDX  | 89D0
+000A39|          NOP                                       | 0F1F00
+000A3C| <<< 000A07
+000A3C|          LEA                  EDX          12[EAX] | 8D500C
+000A3F|          MOV              -12[EDX]     1491398276  | C742F484EEE458
+000A46|          MOV                  EAX          24[ESI] | 8B4618
+000A49|          MOV               40[ESP]            EDX  | 89542428
+000A4D|          MOV                  EDX            [EAX] | 8B10
+000A4F|          LEA                  ECX          44[EDX] | 8D4A2C
+000A52|          CMP                  ECX           4[EAX] | 3B4804
+000A55|          MOV               60[ESP]            ECX  | 894C243C
+000A59|          JLLE                 931                  | 0F8600000000
+000A5F|          MOV                  ECX       [570894C8] | 8B0DC8940857
+000A65|          ADD                  ESP              -8  | 83C4F8
+000A68|          PUSH              68[ESP]                 | FF742444
+000A6C|          PUSH                   4                  | 6A04
+000A6E|          PUSH                  12                  | 6A0C
+000A70|          MOV               64[ESP]            ECX  | 894C2440
+000A74|          MOV                  EBP          64[ESP] | 8B6C2440
+000A78|          CALL             100[EBP]                 | FF5564
+000A7B|          JMP                  952                  | E900000000
+000A80|          NOP                                       | 
+000A80| <<< 000A59
+000A80|          MOV                  ECX            [EAX] | 8B08
+000A82|          MOV               44[ESP]            ECX  | 894C242C
+000A86|          MOV                  ECX          44[ESP] | 8B4C242C
+000A8A|          CMP                  ECX             EDX  | 39D1
+000A8C|          JLGE                   0                  | 7300
+000A8E|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000A94|          ADD                  ECX               4  | 83C104
+000A97|          JMP                 2698                  | EBF1
+000A99|          NOP                                       | 0F1F00
+000A9C| <<< 000A8C
+000A9C|          MOV                  ECX          60[ESP] | 8B4C243C
+000AA0|          MOV                 [EAX]            ECX  | 8908
+000AA2|          LEA                  EAX         128[ECX] | 8D8180000000
+000AA8|          PREFETCHN            EAX                  | 0F1800
+000AAB|          MOV                  EAX             EDX  | 89D0
+000AAD|          NOP                                       | 0F1F00
+000AB0| <<< 000A7B
+000AB0|          LEA                  EDX          12[EAX] | 8D500C
+000AB3|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+000ABA|          MOV               -4[EDX]             16  | C742FC10000000
+000AC1|          MOV                  EAX          40[ESP] | 8B442428
+000AC5|          ADD                  ESP              -8  | 83C4F8
+000AC8|          PUSH                  -4                  | 6AFC
+000ACA|          PUSH               31445                  | 68D57A0000
+000ACF|          CALL           [57082124]                 | FF1524210857
+000AD5|          MOV                  EDX       [570974E4] | 8B15E4740957
+000ADB|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+000AE1|          MOV               60[ESP]            EAX  | 8944243C
+000AE5|          MOV                  EAX          40[ESP] | 8B442428
+000AE9|          ADD                  ESP              -8  | 83C4F8
+000AEC|          MOV                  EBP          68[ESP] | 8B6C2444
+000AF0|          CALL             104[EBP]                 | FF5568
+000AF3|          MOV                  EBP       [57089DDC] | 8B2DDC9D0857
+000AF9|          MOV                  EAX          40[ESP] | 8B442428
+000AFD|          MOV                  EDX          52[ESP] | 8B542434
+000B01|          ADD                  ESP              -8  | 83C4F8
+000B04|          CALL             104[EBP]                 | FF5568
+000B07|          MOV                  EAX          24[ESI] | 8B4618
+000B0A|          MOV                  EDX            [EAX] | 8B10
+000B0C|          LEA                  EBP          24[EDX] | 8D6A18
+000B0F|          CMP                  EBP           4[EAX] | 3B6804
+000B12|          MOV               60[ESP]            EBP  | 896C243C
+000B16|          JLLE                 993                  | 0F8600000000
+000B1C|          MOV                  ECX       [570894C8] | 8B0DC8940857
+000B22|          ADD                  ESP              -8  | 83C4F8
+000B25|          PUSH              68[ESP]                 | FF742444
+000B29|          PUSH                   4                  | 6A04
+000B2B|          PUSH                   8                  | 6A08
+000B2D|          MOV               72[ESP]            ECX  | 894C2448
+000B31|          MOV                  EBP          72[ESP] | 8B6C2448
+000B35|          CALL             100[EBP]                 | FF5564
+000B38|          JMP                 1014                  | E900000000
+000B3D|          NOP                                       | 0F1F00
+000B40| <<< 000B16
+000B40|          MOV                  ECX            [EAX] | 8B08
+000B42|          MOV               52[ESP]            ECX  | 894C2434
+000B46|          MOV                  ECX          52[ESP] | 8B4C2434
+000B4A|          CMP                  ECX             EDX  | 39D1
+000B4C|          JLGE                   0                  | 7300
+000B4E|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000B54|          ADD                  ECX               4  | 83C104
+000B57|          JMP                 2890                  | EBF1
+000B59|          NOP                                       | 0F1F00
+000B5C| <<< 000B4C
+000B5C|          MOV                  ECX          60[ESP] | 8B4C243C
+000B60|          MOV                 [EAX]            ECX  | 8908
+000B62|          LEA                  EAX         128[ECX] | 8D8180000000
+000B68|          PREFETCHN            EAX                  | 0F1800
+000B6B|          MOV                  EAX             EDX  | 89D0
+000B6D|          NOP                                       | 0F1F00
+000B70| <<< 000B38
+000B70|          LEA                  EDX          12[EAX] | 8D500C
+000B73|          MOV              -12[EDX]     1460753476  | C742F444541157
+000B7A|          MOV               52[ESP]            EDX  | 89542434
+000B7E|          MOV                  EAX          40[ESP] | 8B442428
+000B82|          MOV                  EDX          -4[EAX] | 8B50FC
+000B85|          MOV                  ECX            [EAX] | 8B08
+000B87|          MOV                  EAX          52[ESP] | 8B442434
+000B8B|          ADD                  ESP              -8  | 83C4F8
+000B8E|          PUSH                   0                  | 6A00
+000B90|          PUSH                 ECX                  | 51
+000B91|          PUSH                   0                  | 6A00
+000B93|          CALL           [5708DE74]                 | FF1574DE0857
+000B99|          MOV                  EAX          52[ESP] | 8B442434
+000B9D|          ADD                  ESP              -4  | 83C4FC
+000BA0|          CALL           [57080C78]                 | FF15780C0857
+000BA6|          MOV                  EAX          48[ESP] | 8B442430
+000BAA|          MOV                  EAX            [EAX] | 8B00
+000BAC|          MOV               48[ESP]            EAX  | 89442430
+000BB0|          MOV                  EDX          48[ESP] | 8B542430
+000BB4|          MOV                  EAX          -4[EDX] | 8B42FC
+000BB7|          MOV                  EDX             EAX  | 89C2
+000BB9|          SAR                  EDX              10  | C1FA0A
+000BBC|          AND                  EAX            1023  | 25FF030000
+000BC1|          MOV                  ECX       [5708CB90] | 8B0D90CB0857
+000BC7|          CMP               -4[ECX]            EDX  | 3951FC
+000BCA|          JLLE                2621                  | 0F8600000000
+000BD0|          MOV                  EDX   [0+ECX+EDX<<2] | 8B1491
+000BD3|          CMP               -4[EDX]            EAX  | 3942FC
+000BD6|          JLLE                2625                  | 0F8600000000
+000BDC|          MOV                  ECX   [0+EDX+EAX<<2] | 8B0C82
+000BDF|          MOV                  EAX         -12[ECX] | 8B41F4
+000BE2|          MOV               52[ESP]            EAX  | 89442434
+000BE6|          MOV                  EAX             ECX  | 89C8
+000BE8|          MOV                  EDX          56[ESP] | 8B542438
+000BEC|          ADD                  ESP              -8  | 83C4F8
+000BEF|          PUSH                   1                  | 6A01
+000BF1|          MOV               60[ESP]            ECX  | 894C243C
+000BF5|          MOV                  EBP          64[ESP] | 8B6C2440
+000BF9|          CALL             116[EBP]                 | FF5574
+000BFC|          MOV                  EAX          36[ESP] | 8B442424
+000C00|          MOV                  EBP            [EAX] | 8B28
+000C02|          MOV                  EAX          24[ESI] | 8B4618
+000C05|          MOV                  EDX            [EAX] | 8B10
+000C07|          LEA                  ECX          16[EDX] | 8D4A10
+000C0A|          CMP                  ECX           4[EAX] | 3B4804
+000C0D|          MOV               40[ESP]            ECX  | 894C2428
+000C11|          JLLE                1090                  | 0F8600000000
+000C17|          MOV                  ECX       [570894C8] | 8B0DC8940857
+000C1D|          ADD                  ESP              -8  | 83C4F8
+000C20|          PUSH              48[ESP]                 | FF742430
+000C24|          PUSH                   4                  | 6A04
+000C26|          PUSH                   8                  | 6A08
+000C28|          MOV               72[ESP]            ECX  | 894C2448
+000C2C|          MOV               40[ESP]            EBX  | 895C2428
+000C30|          MOV                  EBX          72[ESP] | 8B5C2448
+000C34|          CALL             100[EBX]                 | FF5364
+000C37|          MOV                  EBX          20[ESP] | 8B5C2414
+000C3B|          JMP                 1111                  | E900000000
+000C40|          NOP                                       | 
+000C40| <<< 000C11
+000C40|          MOV                  ECX            [EAX] | 8B08
+000C42|          MOV               52[ESP]            ECX  | 894C2434
+000C46|          MOV                  ECX          52[ESP] | 8B4C2434
+000C4A|          CMP                  ECX             EDX  | 39D1
+000C4C|          JLGE                   0                  | 7300
+000C4E|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000C54|          ADD                  ECX               4  | 83C104
+000C57|          JMP                 3146                  | EBF1
+000C59|          NOP                                       | 0F1F00
+000C5C| <<< 000C4C
+000C5C|          MOV                  ECX          40[ESP] | 8B4C2428
+000C60|          MOV                 [EAX]            ECX  | 8908
+000C62|          LEA                  EAX         128[ECX] | 8D8180000000
+000C68|          PREFETCHN            EAX                  | 0F1800
+000C6B|          MOV                  EAX             EDX  | 89D0
+000C6D|          NOP                                       | 0F1F00
+000C70| <<< 000C3B
+000C70|          LEA                  EDX          12[EAX] | 8D500C
+000C73|          MOV              -12[EDX]     1485916764  | C742F45C4A9158
+000C7A|          MOV                  EAX       [57088198] | 8B0598810857
+000C80|          MOV               40[ESP]            EAX  | 89442428
+000C84|          MOV                  EAX      1486197776  | B810949558
+000C89|          MOV               52[ESP]            EDX  | 89542434
+000C8D|          MOV                  EDX          52[ESP] | 8B542434
+000C91|          ADD                  ESP              -8  | 83C4F8
+000C94|          MOV               28[ESP]            EBX  | 895C241C
+000C98|          MOV                  EBX          48[ESP] | 8B5C2430
+000C9C|          CALL              84[EBX]                 | FF5354
+000C9F|          MOV                  EDX       [570974E8] | 8B15E8740957
+000CA5|          MOV                  EAX          52[ESP] | 8B442434
+000CA9|          ADD                  ESP              -8  | 83C4F8
+000CAC|          PUSH                   0                  | 6A00
+000CAE|          CALL           [5709400C]                 | FF150C400957
+000CB4|          MOV                  EAX          48[ESP] | 8B442430
+000CB8|          MOV                  EBX         -12[EAX] | 8B58F4
+000CBB|          MOV                  EAX          48[ESP] | 8B442430
+000CBF|          MOV                  EDX          56[ESP] | 8B542438
+000CC3|          ADD                  ESP              -8  | 83C4F8
+000CC6|          PUSH                   1                  | 6A01
+000CC8|          CALL             116[EBX]                 | FF5374
+000CCB|          MOV               48[ESP]            EAX  | 89442430
+000CCF|          MOV                  EBX       [57092AF8] | 8B1DF82A0957
+000CD5|          MOV                  EAX          24[ESI] | 8B4618
+000CD8|          MOV                  EDX            [EAX] | 8B10
+000CDA|          LEA                  ECX          12[EDX] | 8D4A0C
+000CDD|          CMP                  ECX           4[EAX] | 3B4804
+000CE0|          MOV               40[ESP]            EBX  | 895C2428
+000CE4|          MOV                  EBX          20[ESP] | 8B5C2414
+000CE8|          MOV               44[ESP]            ECX  | 894C242C
+000CEC|          JLLE                1166                  | 0F8600000000
+000CF2|          MOV                  ECX       [570894C8] | 8B0DC8940857
+000CF8|          ADD                  ESP              -8  | 83C4F8
+000CFB|          PUSH              52[ESP]                 | FF742434
+000CFF|          PUSH                   4                  | 6A04
+000D01|          PUSH                   8                  | 6A08
+000D03|          MOV               80[ESP]            ECX  | 894C2450
+000D07|          MOV               40[ESP]            EBX  | 895C2428
+000D0B|          MOV                  EBX          80[ESP] | 8B5C2450
+000D0F|          CALL             100[EBX]                 | FF5364
+000D12|          MOV                  EBX          20[ESP] | 8B5C2414
+000D16|          JMP                 1187                  | E900000000
+000D1B|          NOP                                       | 90
+000D1C| <<< 000CEC
+000D1C|          MOV                  ECX            [EAX] | 8B08
+000D1E|          MOV               60[ESP]            ECX  | 894C243C
+000D22|          MOV                  ECX          60[ESP] | 8B4C243C
+000D26|          CMP                  ECX             EDX  | 39D1
+000D28|          JLGE                   0                  | 7300
+000D2A|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000D30|          ADD                  ECX               4  | 83C104
+000D33|          JMP                 3366                  | EBF1
+000D35|          NOP                                       | 0F1F00
+000D38| <<< 000D28
+000D38|          MOV                  ECX          44[ESP] | 8B4C242C
+000D3C|          MOV                 [EAX]            ECX  | 8908
+000D3E|          LEA                  EAX         128[ECX] | 8D8180000000
+000D44|          PREFETCHN            EAX                  | 0F1800
+000D47|          MOV                  EAX             EDX  | 89D0
+000D49|          NOP                                       | 0F1F00
+000D4C| <<< 000D16
+000D4C|          LEA                  EDX          12[EAX] | 8D500C
+000D4F|          MOV              -12[EDX]     1491659044  | C742F424E9E858
+000D56|          MOV                  EAX             EDX  | 89D0
+000D58|          MOV               44[ESP]            EDX  | 8954242C
+000D5C|          MOV                  EDX          40[ESP] | 8B542428
+000D60|          ADD                  ESP              -8  | 83C4F8
+000D63|          PUSH                  -4                  | 6AFC
+000D65|          PUSH               29044                  | 6874710000
+000D6A|          CALL           [57082124]                 | FF1524210857
+000D70|          MOV                  EDX          36[ESP] | 8B542424
+000D74|          MOV                  EAX         -12[EDX] | 8B42F4
+000D77|          MOV               40[ESP]            EAX  | 89442428
+000D7B|          MOV                  EAX             EDX  | 89D0
+000D7D|          MOV                  EDX          48[ESP] | 8B542430
+000D81|          ADD                  ESP              -8  | 83C4F8
+000D84|          PUSH              52[ESP]                 | FF742434
+000D88|          MOV               32[ESP]            EBX  | 895C2420
+000D8C|          MOV                  EBX          52[ESP] | 8B5C2434
+000D90|          CALL             212[EBX]                 | FF93D4000000
+000D96|          MOV               48[ESP]              0  | C744243000000000
+000D9E|          MOV                  EBX          20[ESP] | 8B5C2414
+000DA2|          JMP                  143                  | E9E8F2FFFF
+000DA7|          NOP                                       | 90
+000DA8| <<< 0000A3
+000DA8|          MOV                  EDX          52[ESP] | 8B542434
+000DAC|          MOV                  EAX            [EDX] | 8B02
+000DAE|          CMP               -4[EAX]              0  | 8078FC00
+000DB2|          JNE                 1232                  | 0F8500000000
+000DB8|          MOV               -4[EAX]              1  | C640FC01
+000DBC|          MOV                  EAX            [EAX] | 8B00
+000DBE|          MOV                  EAX          -4[EAX] | 8B40FC
+000DC1|          CMP                  EAX               0  | 83F800
+000DC4|          JEQ                 2629                  | 0F8400000000
+000DCA|          MOV                  EDX       [570827E4] | 8B15E4270857
+000DD0|          MOV                  EBP             EDX  | 89D5
+000DD2|          ADD                  ESP              -4  | 83C4FC
+000DD5|          CALL              88[EBP]                 | FF5558
+000DD8|          NOP                                       | 
+000DD8| <<< 000DB2
+000DD8|          MOV                  EAX          24[ESI] | 8B4618
+000DDB|          MOV                  EDX            [EAX] | 8B10
+000DDD|          LEA                  ECX          16[EDX] | 8D4A10
+000DE0|          CMP                  ECX           4[EAX] | 3B4804
+000DE3|          JLLE                1249                  | 0F8600000000
+000DE9|          MOV                  EBP       [570894C8] | 8B2DC8940857
+000DEF|          ADD                  ESP              -8  | 83C4F8
+000DF2|          PUSH                 ECX                  | 51
+000DF3|          PUSH                   4                  | 6A04
+000DF5|          PUSH                   8                  | 6A08
+000DF7|          CALL             100[EBP]                 | FF5564
+000DFA|          JMP                 1267                  | E900000000
+000DFF|          NOP                                       | 90
+000E00| <<< 000DE3
+000E00|          MOV                  EBP            [EAX] | 8B28
+000E02|          CMP                  EBP             EDX  | 39D5
+000E04|          JLGE                   0                  | 7300
+000E06|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+000E0D|          ADD                  EBP               4  | 83C504
+000E10|          JMP                 3586                  | EBF0
+000E12|          NOP                                       | 6690
+000E14| <<< 000E04
+000E14|          MOV                 [EAX]            ECX  | 8908
+000E16|          LEA                  EAX         128[ECX] | 8D8180000000
+000E1C|          PREFETCHN            EAX                  | 0F1800
+000E1F|          MOV                  EAX             EDX  | 89D0
+000E21|          NOP                                       | 0F1F00
+000E24| <<< 000DFA
+000E24|          LEA                  EDX          12[EAX] | 8D500C
+000E27|          MOV              -12[EDX]     1485916764  | C742F45C4A9158
+000E2E|          MOV                  EAX       [57088198] | 8B0598810857
+000E34|          MOV               48[ESP]            EAX  | 89442430
+000E38|          MOV                  EAX      1486197776  | B810949558
+000E3D|          MOV               52[ESP]            EDX  | 89542434
+000E41|          MOV                  EDX          52[ESP] | 8B542434
+000E45|          ADD                  ESP              -8  | 83C4F8
+000E48|          MOV                  EBP          56[ESP] | 8B6C2438
+000E4C|          CALL              84[EBP]                 | FF5554
+000E4F|          MOV                  EDX       [570974CC] | 8B15CC740957
+000E55|          MOV                  EAX          52[ESP] | 8B442434
+000E59|          ADD                  ESP              -8  | 83C4F8
+000E5C|          PUSH                   0                  | 6A00
+000E5E|          CALL           [5709400C]                 | FF150C400957
+000E64|          XOR                  EBP             EBP  | 31ED
+000E66|          JMP                  233                  | E97EF2FFFF
+000E6B|          NOP                                       | 90
+000E6C| <<< 0000F9
+000E6C|          MOV                  EDX          52[ESP] | 8B542434
+000E70|          MOV                  EAX            [EDX] | 8B02
+000E72|          CMP               -4[EAX]              0  | 8078FC00
+000E76|          JNE                 1309                  | 0F8500000000
+000E7C|          MOV               -4[EAX]              1  | C640FC01
+000E80|          MOV                  EAX            [EAX] | 8B00
+000E82|          MOV                  EAX          -4[EAX] | 8B40FC
+000E85|          CMP                  EAX               0  | 83F800
+000E88|          JEQ                 2632                  | 0F8400000000
+000E8E|          MOV                  EDX       [570827E4] | 8B15E4270857
+000E94|          MOV                  EBP             EDX  | 89D5
+000E96|          ADD                  ESP              -4  | 83C4FC
+000E99|          CALL              88[EBP]                 | FF5558
+000E9C|          NOP                                       | 
+000E9C| <<< 000E76
+000E9C|          MOV                  EAX          24[ESI] | 8B4618
+000E9F|          MOV                  EDX            [EAX] | 8B10
+000EA1|          LEA                  ECX          16[EDX] | 8D4A10
+000EA4|          CMP                  ECX           4[EAX] | 3B4804
+000EA7|          JLLE                1326                  | 0F8600000000
+000EAD|          MOV                  EBP       [570894C8] | 8B2DC8940857
+000EB3|          ADD                  ESP              -8  | 83C4F8
+000EB6|          PUSH                 ECX                  | 51
+000EB7|          PUSH                   4                  | 6A04
+000EB9|          PUSH                   8                  | 6A08
+000EBB|          CALL             100[EBP]                 | FF5564
+000EBE|          JMP                 1344                  | E900000000
+000EC3|          NOP                                       | 90
+000EC4| <<< 000EA7
+000EC4|          MOV                  EBP            [EAX] | 8B28
+000EC6|          CMP                  EBP             EDX  | 39D5
+000EC8|          JLGE                   0                  | 7300
+000ECA|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+000ED1|          ADD                  EBP               4  | 83C504
+000ED4|          JMP                 3782                  | EBF0
+000ED6|          NOP                                       | 6690
+000ED8| <<< 000EC8
+000ED8|          MOV                 [EAX]            ECX  | 8908
+000EDA|          LEA                  EAX         128[ECX] | 8D8180000000
+000EE0|          PREFETCHN            EAX                  | 0F1800
+000EE3|          MOV                  EAX             EDX  | 89D0
+000EE5|          NOP                                       | 0F1F00
+000EE8| <<< 000EBE
+000EE8|          LEA                  EBP          12[EAX] | 8D680C
+000EEB|          MOV              -12[EBP]     1491398276  | C745F484EEE458
+000EF2|          MOV                  EAX          24[ESI] | 8B4618
+000EF5|          MOV                  EDX            [EAX] | 8B10
+000EF7|          LEA                  ECX          44[EDX] | 8D4A2C
+000EFA|          CMP                  ECX           4[EAX] | 3B4804
+000EFD|          MOV               52[ESP]            ECX  | 894C2434
+000F01|          JLLE                1369                  | 0F8600000000
+000F07|          MOV                  ECX       [570894C8] | 8B0DC8940857
+000F0D|          ADD                  ESP              -8  | 83C4F8
+000F10|          PUSH              60[ESP]                 | FF74243C
+000F14|          PUSH                   4                  | 6A04
+000F16|          PUSH                  12                  | 6A0C
+000F18|          MOV               68[ESP]            ECX  | 894C2444
+000F1C|          MOV               40[ESP]            EBX  | 895C2428
+000F20|          MOV                  EBX          68[ESP] | 8B5C2444
+000F24|          CALL             100[EBX]                 | FF5364
+000F27|          MOV                  EBX          20[ESP] | 8B5C2414
+000F2B|          JMP                 1390                  | E900000000
+000F30|          NOP                                       | 
+000F30| <<< 000F01
+000F30|          MOV                  ECX            [EAX] | 8B08
+000F32|          MOV               48[ESP]            ECX  | 894C2430
+000F36|          MOV                  ECX          48[ESP] | 8B4C2430
+000F3A|          CMP                  ECX             EDX  | 39D1
+000F3C|          JLGE                   0                  | 7300
+000F3E|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+000F44|          ADD                  ECX               4  | 83C104
+000F47|          JMP                 3898                  | EBF1
+000F49|          NOP                                       | 0F1F00
+000F4C| <<< 000F3C
+000F4C|          MOV                  ECX          52[ESP] | 8B4C2434
+000F50|          MOV                 [EAX]            ECX  | 8908
+000F52|          LEA                  EAX         128[ECX] | 8D8180000000
+000F58|          PREFETCHN            EAX                  | 0F1800
+000F5B|          MOV                  EAX             EDX  | 89D0
+000F5D|          NOP                                       | 0F1F00
+000F60| <<< 000F2B
+000F60|          LEA                  EDX          12[EAX] | 8D500C
+000F63|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+000F6A|          MOV               -4[EDX]             16  | C742FC10000000
+000F71|          MOV                  EAX             EBP  | 89E8
+000F73|          ADD                  ESP              -8  | 83C4F8
+000F76|          PUSH                  -4                  | 6AFC
+000F78|          PUSH               31445                  | 68D57A0000
+000F7D|          CALL           [57082124]                 | FF1524210857
+000F83|          CMP                  EBP               0  | 83FD00
+000F86|          JEQ                 2635                  | 0F8400000000
+000F8C|          MOV                  EDX       [570974EC] | 8B15EC740957
+000F92|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+000F98|          MOV               48[ESP]            EAX  | 89442430
+000F9C|          MOV                  EAX             EBP  | 89E8
+000F9E|          ADD                  ESP              -8  | 83C4F8
+000FA1|          MOV               28[ESP]            EBX  | 895C241C
+000FA5|          MOV                  EBX          56[ESP] | 8B5C2438
+000FA9|          CALL             104[EBX]                 | FF5368
+000FAC|          MOV                  EDX          36[ESP] | 8B542424
+000FB0|          MOV                  EAX            [EDX] | 8B02
+000FB2|          TEST                 EAX             EAX  | 85C0
+000FB4|          MOV                  EBX          20[ESP] | 8B5C2414
+000FB8|          JNE                    0                  | 7500
+000FBA|          MOV                  EDX      1493020764  | BA5CB0FD58
+000FBF|          JMP                 1434                  | E900000000
+000FC4|          NOP                                       | 
+000FC4| <<< 000FB8
+000FC4|          MOV                  EDX         -12[EAX] | 8B50F4
+000FC7|          ADD                  ESP              -4  | 83C4FC
+000FCA|          MOV               52[ESP]            EDX  | 89542434
+000FCE|          MOV               24[ESP]            EBX  | 895C2418
+000FD2|          MOV                  EBX          52[ESP] | 8B5C2434
+000FD6|          CALL              56[EBX]                 | FF5338
+000FD9|          MOV                  EDX             EAX  | 89C2
+000FDB|          MOV                  EBX          20[ESP] | 8B5C2414
+000FDF|          NOP                                       | 90
+000FE0| <<< 000FBF
+000FE0|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+000FE6|          MOV               48[ESP]            EAX  | 89442430
+000FEA|          MOV                  EAX             EBP  | 89E8
+000FEC|          ADD                  ESP              -8  | 83C4F8
+000FEF|          MOV               28[ESP]            EBX  | 895C241C
+000FF3|          MOV                  EBX          56[ESP] | 8B5C2438
+000FF7|          CALL             104[EBX]                 | FF5368
+000FFA|          MOV                  EAX          24[ESI] | 8B4618
+000FFD|          MOV                  EDX            [EAX] | 8B10
+000FFF|          LEA                  ECX          24[EDX] | 8D4A18
+001002|          CMP                  ECX           4[EAX] | 3B4804
+001005|          MOV                  EBX          20[ESP] | 8B5C2414
+001009|          MOV               52[ESP]            ECX  | 894C2434
+00100D|          JLLE                1464                  | 0F8600000000
+001013|          MOV                  ECX       [570894C8] | 8B0DC8940857
+001019|          ADD                  ESP              -8  | 83C4F8
+00101C|          PUSH              60[ESP]                 | FF74243C
+001020|          PUSH                   4                  | 6A04
+001022|          PUSH                   8                  | 6A08
+001024|          MOV               68[ESP]            ECX  | 894C2444
+001028|          MOV               40[ESP]            EBX  | 895C2428
+00102C|          MOV                  EBX          68[ESP] | 8B5C2444
+001030|          CALL             100[EBX]                 | FF5364
+001033|          MOV                  EBX          20[ESP] | 8B5C2414
+001037|          JMP                 1485                  | E900000000
+00103C|          NOP                                       | 
+00103C| <<< 00100D
+00103C|          MOV                  ECX            [EAX] | 8B08
+00103E|          MOV               48[ESP]            ECX  | 894C2430
+001042|          MOV                  ECX          48[ESP] | 8B4C2430
+001046|          CMP                  ECX             EDX  | 39D1
+001048|          JLGE                   0                  | 7300
+00104A|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+001050|          ADD                  ECX               4  | 83C104
+001053|          JMP                 4166                  | EBF1
+001055|          NOP                                       | 0F1F00
+001058| <<< 001048
+001058|          MOV                  ECX          52[ESP] | 8B4C2434
+00105C|          MOV                 [EAX]            ECX  | 8908
+00105E|          LEA                  EAX         128[ECX] | 8D8180000000
+001064|          PREFETCHN            EAX                  | 0F1800
+001067|          MOV                  EAX             EDX  | 89D0
+001069|          NOP                                       | 0F1F00
+00106C| <<< 001037
+00106C|          LEA                  EDX          12[EAX] | 8D500C
+00106F|          MOV              -12[EDX]     1460753476  | C742F444541157
+001076|          MOV               48[ESP]            EDX  | 89542430
+00107A|          MOV                  EDX          -4[EBP] | 8B55FC
+00107D|          MOV                  ECX            [EBP] | 8B4D00
+001080|          MOV                  EAX          48[ESP] | 8B442430
+001084|          ADD                  ESP              -8  | 83C4F8
+001087|          PUSH                   0                  | 6A00
+001089|          PUSH                 ECX                  | 51
+00108A|          PUSH                   0                  | 6A00
+00108C|          CALL           [5708DE74]                 | FF1574DE0857
+001092|          MOV                  EAX          48[ESP] | 8B442430
+001096|          ADD                  ESP              -4  | 83C4FC
+001099|          CALL           [57080C78]                 | FF15780C0857
+00109F|          MOV                  EAX       [57092AF8] | 8B05F82A0957
+0010A5|          MOV               52[ESP]            EAX  | 89442434
+0010A9|          MOV                  EAX          24[ESI] | 8B4618
+0010AC|          MOV                  EDX            [EAX] | 8B10
+0010AE|          LEA                  ECX          16[EDX] | 8D4A10
+0010B1|          CMP                  ECX           4[EAX] | 3B4804
+0010B4|          JLLE                1522                  | 0F8600000000
+0010BA|          MOV                  EBP       [570894C8] | 8B2DC8940857
+0010C0|          ADD                  ESP              -8  | 83C4F8
+0010C3|          PUSH                 ECX                  | 51
+0010C4|          PUSH                   4                  | 6A04
+0010C6|          PUSH                   8                  | 6A08
+0010C8|          CALL             100[EBP]                 | FF5564
+0010CB|          MOV               48[ESP]            EBP  | 896C2430
+0010CF|          JMP                 1542                  | E900000000
+0010D4|          NOP                                       | 
+0010D4| <<< 0010B4
+0010D4|          MOV                  EBP            [EAX] | 8B28
+0010D6|          MOV               48[ESP]            EBP  | 896C2430
+0010DA|          MOV                  EBP          48[ESP] | 8B6C2430
+0010DE|          CMP                  EBP             EDX  | 39D5
+0010E0|          JLGE                   0                  | 7300
+0010E2|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+0010E9|          ADD                  EBP               4  | 83C504
+0010EC|          JMP                 4318                  | EBF0
+0010EE|          NOP                                       | 6690
+0010F0| <<< 0010E0
+0010F0|          MOV                 [EAX]            ECX  | 8908
+0010F2|          LEA                  EAX         128[ECX] | 8D8180000000
+0010F8|          PREFETCHN            EAX                  | 0F1800
+0010FB|          MOV                  EAX             EDX  | 89D0
+0010FD|          NOP                                       | 0F1F00
+001100| <<< 0010CF
+001100|          LEA                  EBP          12[EAX] | 8D680C
+001103|          MOV              -12[EBP]     1491398276  | C745F484EEE458
+00110A|          MOV                  EAX          24[ESI] | 8B4618
+00110D|          MOV                  EDX            [EAX] | 8B10
+00110F|          LEA                  ECX          44[EDX] | 8D4A2C
+001112|          CMP                  ECX           4[EAX] | 3B4804
+001115|          MOV               40[ESP]            ECX  | 894C2428
+001119|          JLLE                1567                  | 0F8600000000
+00111F|          MOV                  ECX       [570894C8] | 8B0DC8940857
+001125|          ADD                  ESP              -8  | 83C4F8
+001128|          PUSH              48[ESP]                 | FF742430
+00112C|          PUSH                   4                  | 6A04
+00112E|          PUSH                  12                  | 6A0C
+001130|          MOV               68[ESP]            ECX  | 894C2444
+001134|          MOV               40[ESP]            EBX  | 895C2428
+001138|          MOV                  EBX          68[ESP] | 8B5C2444
+00113C|          CALL             100[EBX]                 | FF5364
+00113F|          MOV                  EBX          20[ESP] | 8B5C2414
+001143|          JMP                 1588                  | E900000000
+001148|          NOP                                       | 
+001148| <<< 001119
+001148|          MOV                  ECX            [EAX] | 8B08
+00114A|          MOV               48[ESP]            ECX  | 894C2430
+00114E|          MOV                  ECX          48[ESP] | 8B4C2430
+001152|          CMP                  ECX             EDX  | 39D1
+001154|          JLGE                   0                  | 7300
+001156|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+00115C|          ADD                  ECX               4  | 83C104
+00115F|          JMP                 4434                  | EBF1
+001161|          NOP                                       | 0F1F00
+001164| <<< 001154
+001164|          MOV                  ECX          40[ESP] | 8B4C2428
+001168|          MOV                 [EAX]            ECX  | 8908
+00116A|          LEA                  EAX         128[ECX] | 8D8180000000
+001170|          PREFETCHN            EAX                  | 0F1800
+001173|          MOV                  EAX             EDX  | 89D0
+001175|          NOP                                       | 0F1F00
+001178| <<< 001143
+001178|          LEA                  EDX          12[EAX] | 8D500C
+00117B|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+001182|          MOV               -4[EDX]             16  | C742FC10000000
+001189|          MOV                  EAX             EBP  | 89E8
+00118B|          ADD                  ESP              -8  | 83C4F8
+00118E|          PUSH                  -4                  | 6AFC
+001190|          PUSH               31445                  | 68D57A0000
+001195|          CALL           [57082124]                 | FF1524210857
+00119B|          CMP                  EBP               0  | 83FD00
+00119E|          JEQ                 2638                  | 0F8400000000
+0011A4|          MOV                  EDX       [570974F0] | 8B15F0740957
+0011AA|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+0011B0|          MOV               48[ESP]            EAX  | 89442430
+0011B4|          MOV                  EAX             EBP  | 89E8
+0011B6|          ADD                  ESP              -8  | 83C4F8
+0011B9|          MOV               28[ESP]            EBX  | 895C241C
+0011BD|          MOV                  EBX          56[ESP] | 8B5C2438
+0011C1|          CALL             104[EBX]                 | FF5368
+0011C4|          MOV                  EAX          -4[EDI] | 8B47FC
+0011C7|          MOV                  EDX              10  | BA0A000000
+0011CC|          ADD                  ESP              -8  | 83C4F8
+0011CF|          CALL           [57090FB4]                 | FF15B40F0957
+0011D5|          MOV                  EDX             EAX  | 89C2
+0011D7|          MOV                  EDI       [57089DDC] | 8B3DDC9D0857
+0011DD|          MOV                  EAX             EBP  | 89E8
+0011DF|          ADD                  ESP              -8  | 83C4F8
+0011E2|          CALL             104[EDI]                 | FF5768
+0011E5|          MOV                  EAX          24[ESI] | 8B4618
+0011E8|          MOV                  EDX            [EAX] | 8B10
+0011EA|          LEA                  ECX          24[EDX] | 8D4A18
+0011ED|          CMP                  ECX           4[EAX] | 3B4804
+0011F0|          MOV                  EBX          20[ESP] | 8B5C2414
+0011F4|          JLLE                1636                  | 0F8600000000
+0011FA|          MOV                  EDI       [570894C8] | 8B3DC8940857
+001200|          ADD                  ESP              -8  | 83C4F8
+001203|          PUSH                 ECX                  | 51
+001204|          PUSH                   4                  | 6A04
+001206|          PUSH                   8                  | 6A08
+001208|          CALL             100[EDI]                 | FF5764
+00120B|          JMP                 1654                  | E900000000
+001210|          NOP                                       | 
+001210| <<< 0011F4
+001210|          MOV                  EDI            [EAX] | 8B38
+001212|          CMP                  EDI             EDX  | 39D7
+001214|          JLGE                   0                  | 7300
+001216|          MOV                 [EDI]     -559038737  | C707EFBEADDE
+00121C|          ADD                  EDI               4  | 83C704
+00121F|          JMP                 4626                  | EBF1
+001221|          NOP                                       | 0F1F00
+001224| <<< 001214
+001224|          MOV                 [EAX]            ECX  | 8908
+001226|          LEA                  EAX         128[ECX] | 8D8180000000
+00122C|          PREFETCHN            EAX                  | 0F1800
+00122F|          MOV                  EAX             EDX  | 89D0
+001231|          NOP                                       | 0F1F00
+001234| <<< 00120B
+001234|          LEA                  EDI          12[EAX] | 8D780C
+001237|          MOV              -12[EDI]     1460753476  | C747F444541157
+00123E|          MOV                  EDX          -4[EBP] | 8B55FC
+001241|          MOV                  ECX            [EBP] | 8B4D00
+001244|          MOV                  EAX             EDI  | 89F8
+001246|          ADD                  ESP              -8  | 83C4F8
+001249|          PUSH                   0                  | 6A00
+00124B|          PUSH                 ECX                  | 51
+00124C|          PUSH                   0                  | 6A00
+00124E|          CALL           [5708DE74]                 | FF1574DE0857
+001254|          MOV                  EAX          52[ESP] | 8B442434
+001258|          MOV                  EBP         -12[EAX] | 8B68F4
+00125B|          MOV                  EAX          52[ESP] | 8B442434
+00125F|          MOV                  EDX             EDI  | 89FA
+001261|          ADD                  ESP              -8  | 83C4F8
+001264|          CALL             180[EBP]                 | FF95B4000000
+00126A|          MOV                  EDX          36[ESP] | 8B542424
+00126E|          MOV                  EAX          -4[EDX] | 8B42FC
+001271|          MOV               52[ESP]            EAX  | 89442434
+001275|          MOV                  EAX       [57092AF8] | 8B05F82A0957
+00127B|          MOV               40[ESP]            EAX  | 89442428
+00127F|          MOV                  EAX          24[ESI] | 8B4618
+001282|          MOV                  EDX            [EAX] | 8B10
+001284|          LEA                  ECX          16[EDX] | 8D4A10
+001287|          CMP                  ECX           4[EAX] | 3B4804
+00128A|          JLLE                1698                  | 0F8600000000
+001290|          MOV                  EDI       [570894C8] | 8B3DC8940857
+001296|          ADD                  ESP              -8  | 83C4F8
+001299|          PUSH                 ECX                  | 51
+00129A|          PUSH                   4                  | 6A04
+00129C|          PUSH                   8                  | 6A08
+00129E|          CALL             100[EDI]                 | FF5764
+0012A1|          MOV               48[ESP]            EDI  | 897C2430
+0012A5|          JMP                 1718                  | E900000000
+0012AA|          NOP                                       | 6690
+0012AC| <<< 00128A
+0012AC|          MOV                  EDI            [EAX] | 8B38
+0012AE|          MOV               48[ESP]            EDI  | 897C2430
+0012B2|          MOV                  EDI          48[ESP] | 8B7C2430
+0012B6|          CMP                  EDI             EDX  | 39D7
+0012B8|          JLGE                   0                  | 7300
+0012BA|          MOV                 [EDI]     -559038737  | C707EFBEADDE
+0012C0|          ADD                  EDI               4  | 83C704
+0012C3|          JMP                 4790                  | EBF1
+0012C5|          NOP                                       | 0F1F00
+0012C8| <<< 0012B8
+0012C8|          MOV                 [EAX]            ECX  | 8908
+0012CA|          LEA                  EAX         128[ECX] | 8D8180000000
+0012D0|          PREFETCHN            EAX                  | 0F1800
+0012D3|          MOV                  EAX             EDX  | 89D0
+0012D5|          NOP                                       | 0F1F00
+0012D8| <<< 0012A5
+0012D8|          LEA                  EDI          12[EAX] | 8D780C
+0012DB|          MOV              -12[EDI]     1491398276  | C747F484EEE458
+0012E2|          MOV                  EAX          24[ESI] | 8B4618
+0012E5|          MOV                  EDX            [EAX] | 8B10
+0012E7|          LEA                  ECX          44[EDX] | 8D4A2C
+0012EA|          CMP                  ECX           4[EAX] | 3B4804
+0012ED|          JLLE                1739                  | 0F8600000000
+0012F3|          MOV                  EBP       [570894C8] | 8B2DC8940857
+0012F9|          ADD                  ESP              -8  | 83C4F8
+0012FC|          PUSH                 ECX                  | 51
+0012FD|          PUSH                   4                  | 6A04
+0012FF|          PUSH                  12                  | 6A0C
+001301|          CALL             100[EBP]                 | FF5564
+001304|          MOV               48[ESP]            EBP  | 896C2430
+001308|          JMP                 1759                  | E900000000
+00130D|          NOP                                       | 0F1F00
+001310| <<< 0012ED
+001310|          MOV                  EBP            [EAX] | 8B28
+001312|          MOV               48[ESP]            EBP  | 896C2430
+001316|          MOV                  EBP          48[ESP] | 8B6C2430
+00131A|          CMP                  EBP             EDX  | 39D5
+00131C|          JLGE                   0                  | 7300
+00131E|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+001325|          ADD                  EBP               4  | 83C504
+001328|          JMP                 4890                  | EBF0
+00132A|          NOP                                       | 6690
+00132C| <<< 00131C
+00132C|          MOV                 [EAX]            ECX  | 8908
+00132E|          LEA                  EAX         128[ECX] | 8D8180000000
+001334|          PREFETCHN            EAX                  | 0F1800
+001337|          MOV                  EAX             EDX  | 89D0
+001339|          NOP                                       | 0F1F00
+00133C| <<< 001308
+00133C|          LEA                  EDX          12[EAX] | 8D500C
+00133F|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+001346|          MOV               -4[EDX]             16  | C742FC10000000
+00134D|          MOV                  EAX             EDI  | 89F8
+00134F|          ADD                  ESP              -8  | 83C4F8
+001352|          PUSH                  -4                  | 6AFC
+001354|          PUSH               31445                  | 68D57A0000
+001359|          CALL           [57082124]                 | FF1524210857
+00135F|          CMP                  EDI               0  | 83FF00
+001362|          JEQ                 2641                  | 0F8400000000
+001368|          MOV                  EDX       [570974F4] | 8B15F4740957
+00136E|          MOV                  EBP       [57089DDC] | 8B2DDC9D0857
+001374|          MOV                  EAX             EDI  | 89F8
+001376|          ADD                  ESP              -8  | 83C4F8
+001379|          CALL             104[EBP]                 | FF5568
+00137C|          MOV                  EDX          52[ESP] | 8B542434
+001380|          MOV                  EAX           8[EDX] | 8B4208
+001383|          MOV                  EAX            [EAX] | 8B00
+001385|          TEST                 EAX             EAX  | 85C0
+001387|          JNE                    0                  | 7500
+001389|          MOV                  EDX      1493020764  | BA5CB0FD58
+00138E|          JMP                 1845                  | E900000000
+001393|          NOP                                       | 90
+001394| <<< 001387
+001394|          MOV                  EDX            [EAX] | 8B10
+001396|          MOV                  EAX          -4[EDX] | 8B42FC
+001399|          MOV               48[ESP]            EAX  | 89442430
+00139D|          MOV                  EAX          24[ESI] | 8B4618
+0013A0|          MOV               44[ESP]            EDX  | 8954242C
+0013A4|          MOV                  EDX            [EAX] | 8B10
+0013A6|          LEA                  ECX          24[EDX] | 8D4A18
+0013A9|          CMP                  ECX           4[EAX] | 3B4804
+0013AC|          JLLE                1812                  | 0F8600000000
+0013B2|          MOV                  EBP       [570894C8] | 8B2DC8940857
+0013B8|          ADD                  ESP              -8  | 83C4F8
+0013BB|          PUSH                 ECX                  | 51
+0013BC|          PUSH                   4                  | 6A04
+0013BE|          PUSH                   8                  | 6A08
+0013C0|          CALL             100[EBP]                 | FF5564
+0013C3|          MOV               52[ESP]            EBP  | 896C2434
+0013C7|          JMP                 1832                  | E900000000
+0013CC|          NOP                                       | 
+0013CC| <<< 0013AC
+0013CC|          MOV                  EBP            [EAX] | 8B28
+0013CE|          MOV               52[ESP]            EBP  | 896C2434
+0013D2|          MOV                  EBP          52[ESP] | 8B6C2434
+0013D6|          CMP                  EBP             EDX  | 39D5
+0013D8|          JLGE                   0                  | 7300
+0013DA|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+0013E1|          ADD                  EBP               4  | 83C504
+0013E4|          JMP                 5078                  | EBF0
+0013E6|          NOP                                       | 6690
+0013E8| <<< 0013D8
+0013E8|          MOV                 [EAX]            ECX  | 8908
+0013EA|          LEA                  EAX         128[ECX] | 8D8180000000
+0013F0|          PREFETCHN            EAX                  | 0F1800
+0013F3|          MOV                  EAX             EDX  | 89D0
+0013F5|          NOP                                       | 0F1F00
+0013F8| <<< 0013C7
+0013F8|          LEA                  EBP          12[EAX] | 8D680C
+0013FB|          MOV              -12[EBP]     1460753476  | C745F444541157
+001402|          MOV                  EAX             EBP  | 89E8
+001404|          MOV                  EDX          44[ESP] | 8B54242C
+001408|          ADD                  ESP              -8  | 83C4F8
+00140B|          PUSH                   0                  | 6A00
+00140D|          PUSH                   0                  | 6A00
+00140F|          PUSH              64[ESP]                 | FF742440
+001413|          CALL           [5708DE4C]                 | FF154CDE0857
+001419|          MOV                  EDX             EBP  | 89EA
+00141B|          NOP                                       | 90
+00141C| <<< 00138E
+00141C|          MOV                  EBP       [57089DDC] | 8B2DDC9D0857
+001422|          MOV                  EAX             EDI  | 89F8
+001424|          ADD                  ESP              -8  | 83C4F8
+001427|          CALL             104[EBP]                 | FF5568
+00142A|          MOV                  EAX          24[ESI] | 8B4618
+00142D|          MOV                  EDX            [EAX] | 8B10
+00142F|          LEA                  ECX          24[EDX] | 8D4A18
+001432|          CMP                  ECX           4[EAX] | 3B4804
+001435|          JLLE                1866                  | 0F8600000000
+00143B|          MOV                  EBP       [570894C8] | 8B2DC8940857
+001441|          ADD                  ESP              -8  | 83C4F8
+001444|          PUSH                 ECX                  | 51
+001445|          PUSH                   4                  | 6A04
+001447|          PUSH                   8                  | 6A08
+001449|          CALL             100[EBP]                 | FF5564
+00144C|          JMP                 1884                  | E900000000
+001451|          NOP                                       | 0F1F00
+001454| <<< 001435
+001454|          MOV                  EBP            [EAX] | 8B28
+001456|          CMP                  EBP             EDX  | 39D5
+001458|          JLGE                   0                  | 7300
+00145A|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+001461|          ADD                  EBP               4  | 83C504
+001464|          JMP                 5206                  | EBF0
+001466|          NOP                                       | 6690
+001468| <<< 001458
+001468|          MOV                 [EAX]            ECX  | 8908
+00146A|          LEA                  EAX         128[ECX] | 8D8180000000
+001470|          PREFETCHN            EAX                  | 0F1800
+001473|          MOV                  EAX             EDX  | 89D0
+001475|          NOP                                       | 0F1F00
+001478| <<< 00144C
+001478|          LEA                  EBP          12[EAX] | 8D680C
+00147B|          MOV              -12[EBP]     1460753476  | C745F444541157
+001482|          MOV                  EDX          -4[EDI] | 8B57FC
+001485|          MOV                  ECX            [EDI] | 8B0F
+001487|          MOV                  EAX             EBP  | 89E8
+001489|          ADD                  ESP              -8  | 83C4F8
+00148C|          PUSH                   0                  | 6A00
+00148E|          PUSH                 ECX                  | 51
+00148F|          PUSH                   0                  | 6A00
+001491|          CALL           [5708DE74]                 | FF1574DE0857
+001497|          MOV                  EAX          40[ESP] | 8B442428
+00149B|          MOV                  EDI         -12[EAX] | 8B78F4
+00149E|          MOV                  EAX          40[ESP] | 8B442428
+0014A2|          MOV                  EDX             EBP  | 89EA
+0014A4|          ADD                  ESP              -8  | 83C4F8
+0014A7|          CALL             180[EDI]                 | FF97B4000000
+0014AD|          MOV                  EAX          36[ESP] | 8B442424
+0014B1|          MOV                  EDI         -12[EAX] | 8B78F4
+0014B4|          MOV                  EAX          36[ESP] | 8B442424
+0014B8|          MOV                  EDX          56[ESP] | 8B542438
+0014BC|          ADD                  ESP              -8  | 83C4F8
+0014BF|          CALL             128[EDI]                 | FF9780000000
+0014C5|          TEST                 EAX             EAX  | 85C0
+0014C7|          JEQ                 2106                  | 0F8400000000
+0014CD|          MOV                  EAX          36[ESP] | 8B442424
+0014D1|          MOV                  EDI         -12[EAX] | 8B78F4
+0014D4|          MOV                  EAX          36[ESP] | 8B442424
+0014D8|          MOV                  EDX          56[ESP] | 8B542438
+0014DC|          ADD                  ESP              -8  | 83C4F8
+0014DF|          PUSH                   1                  | 6A01
+0014E1|          CALL             116[EDI]                 | FF5774
+0014E4|          MOV                  EDI             EAX  | 89C7
+0014E6|          MOV                  EAX          24[ESI] | 8B4618
+0014E9|          MOV                  EDX            [EAX] | 8B10
+0014EB|          LEA                  ECX          16[EDX] | 8D4A10
+0014EE|          CMP                  ECX           4[EAX] | 3B4804
+0014F1|          JLLE                1940                  | 0F8600000000
+0014F7|          MOV                  EBP       [570894C8] | 8B2DC8940857
+0014FD|          ADD                  ESP              -8  | 83C4F8
+001500|          PUSH                 ECX                  | 51
+001501|          PUSH                   4                  | 6A04
+001503|          PUSH                   8                  | 6A08
+001505|          CALL             100[EBP]                 | FF5564
+001508|          JMP                 1958                  | E900000000
+00150D|          NOP                                       | 0F1F00
+001510| <<< 0014F1
+001510|          MOV                  EBP            [EAX] | 8B28
+001512|          CMP                  EBP             EDX  | 39D5
+001514|          JLGE                   0                  | 7300
+001516|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+00151D|          ADD                  EBP               4  | 83C504
+001520|          JMP                 5394                  | EBF0
+001522|          NOP                                       | 6690
+001524| <<< 001514
+001524|          MOV                 [EAX]            ECX  | 8908
+001526|          LEA                  EAX         128[ECX] | 8D8180000000
+00152C|          PREFETCHN            EAX                  | 0F1800
+00152F|          MOV                  EAX             EDX  | 89D0
+001531|          NOP                                       | 0F1F00
+001534| <<< 001508
+001534|          LEA                  EBP          12[EAX] | 8D680C
+001537|          MOV              -12[EBP]     1491398276  | C745F484EEE458
+00153E|          MOV                  EAX          24[ESI] | 8B4618
+001541|          MOV                  EDX            [EAX] | 8B10
+001543|          LEA                  ECX          44[EDX] | 8D4A2C
+001546|          CMP                  ECX           4[EAX] | 3B4804
+001549|          JLLE                1984                  | 0F8600000000
+00154F|          MOV               32[ESP]            EAX  | 89442420
+001553|          MOV                  EAX       [570894C8] | 8B05C8940857
+001559|          MOV               48[ESP]            EAX  | 89442430
+00155D|          MOV                  EAX          32[ESP] | 8B442420
+001561|          ADD                  ESP              -8  | 83C4F8
+001564|          PUSH                 ECX                  | 51
+001565|          PUSH                   4                  | 6A04
+001567|          PUSH                  12                  | 6A0C
+001569|          MOV               40[ESP]            EBX  | 895C2428
+00156D|          MOV                  EBX          68[ESP] | 8B5C2444
+001571|          CALL             100[EBX]                 | FF5364
+001574|          MOV                  EBX          20[ESP] | 8B5C2414
+001578|          JMP                 2009                  | E900000000
+00157D|          NOP                                       | 0F1F00
+001580| <<< 001549
+001580|          MOV               28[ESP]            EDX  | 8954241C
+001584|          MOV                  EDX            [EAX] | 8B10
+001586|          MOV               48[ESP]            EDX  | 89542430
+00158A|          MOV                  EDX          28[ESP] | 8B54241C
+00158E|          CMP               48[ESP]            EDX  | 39542430
+001592|          JLGE                2003                  | 0F8300000000
+001598|          MOV               32[ESP]            EAX  | 89442420
+00159C|          MOV                  EAX          48[ESP] | 8B442430
+0015A0|          MOV                 [EAX]     -559038737  | C700EFBEADDE
+0015A6|          ADD                  EAX               4  | 83C004
+0015A9|          MOV               48[ESP]            EAX  | 89442430
+0015AD|          MOV                  EAX          32[ESP] | 8B442420
+0015B1|          JMP                 5518                  | EBDB
+0015B3|          NOP                                       | 90
+0015B4| <<< 001592
+0015B4|          MOV                 [EAX]            ECX  | 8908
+0015B6|          LEA                  EAX         128[ECX] | 8D8180000000
+0015BC|          PREFETCHN            EAX                  | 0F1800
+0015BF|          MOV                  EAX             EDX  | 89D0
+0015C1|          NOP                                       | 0F1F00
+0015C4| <<< 001578
+0015C4|          LEA                  EDX          12[EAX] | 8D500C
+0015C7|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+0015CE|          MOV               -4[EDX]             16  | C742FC10000000
+0015D5|          MOV                  EAX             EBP  | 89E8
+0015D7|          ADD                  ESP              -8  | 83C4F8
+0015DA|          PUSH                  -4                  | 6AFC
+0015DC|          PUSH               31445                  | 68D57A0000
+0015E1|          CALL           [57082124]                 | FF1524210857
+0015E7|          MOV                  EDX       [570974F8] | 8B15F8740957
+0015ED|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+0015F3|          MOV               48[ESP]            EAX  | 89442430
+0015F7|          MOV                  EAX             EBP  | 89E8
+0015F9|          ADD                  ESP              -8  | 83C4F8
+0015FC|          MOV               28[ESP]            EBX  | 895C241C
+001600|          MOV                  EBX          56[ESP] | 8B5C2438
+001604|          CALL             104[EBX]                 | FF5368
+001607|          TEST                 EDI             EDI  | 85FF
+001609|          MOV                  EBX          20[ESP] | 8B5C2414
+00160D|          JNE                    0                  | 7500
+00160F|          MOV                  EDX      1493020764  | BA5CB0FD58
+001614|          JMP                 2044                  | E900000000
+001619|          NOP                                       | 0F1F00
+00161C| <<< 00160D
+00161C|          MOV                  EAX         -12[EDI] | 8B47F4
+00161F|          MOV               48[ESP]            EAX  | 89442430
+001623|          MOV                  EAX             EDI  | 89F8
+001625|          ADD                  ESP              -4  | 83C4FC
+001628|          MOV                  EDI          52[ESP] | 8B7C2434
+00162C|          CALL              56[EDI]                 | FF5738
+00162F|          MOV                  EDX             EAX  | 89C2
+001631|          NOP                                       | 0F1F00
+001634| <<< 001614
+001634|          MOV                  EDI       [57089DDC] | 8B3DDC9D0857
+00163A|          MOV                  EAX             EBP  | 89E8
+00163C|          ADD                  ESP              -8  | 83C4F8
+00163F|          CALL             104[EDI]                 | FF5768
+001642|          MOV                  EAX          24[ESI] | 8B4618
+001645|          MOV                  EDX            [EAX] | 8B10
+001647|          LEA                  ECX          24[EDX] | 8D4A18
+00164A|          CMP                  ECX           4[EAX] | 3B4804
+00164D|          JLLE                2065                  | 0F8600000000
+001653|          MOV                  EDI       [570894C8] | 8B3DC8940857
+001659|          ADD                  ESP              -8  | 83C4F8
+00165C|          PUSH                 ECX                  | 51
+00165D|          PUSH                   4                  | 6A04
+00165F|          PUSH                   8                  | 6A08
+001661|          CALL             100[EDI]                 | FF5764
+001664|          JMP                 2083                  | E900000000
+001669|          NOP                                       | 0F1F00
+00166C| <<< 00164D
+00166C|          MOV                  EDI            [EAX] | 8B38
+00166E|          CMP                  EDI             EDX  | 39D7
+001670|          JLGE                   0                  | 7300
+001672|          MOV                 [EDI]     -559038737  | C707EFBEADDE
+001678|          ADD                  EDI               4  | 83C704
+00167B|          JMP                 5742                  | EBF1
+00167D|          NOP                                       | 0F1F00
+001680| <<< 001670
+001680|          MOV                 [EAX]            ECX  | 8908
+001682|          LEA                  EAX         128[ECX] | 8D8180000000
+001688|          PREFETCHN            EAX                  | 0F1800
+00168B|          MOV                  EAX             EDX  | 89D0
+00168D|          NOP                                       | 0F1F00
+001690| <<< 001664
+001690|          LEA                  EDI          12[EAX] | 8D780C
+001693|          MOV              -12[EDI]     1460753476  | C747F444541157
+00169A|          MOV                  EDX          -4[EBP] | 8B55FC
+00169D|          MOV                  ECX            [EBP] | 8B4D00
+0016A0|          MOV                  EAX             EDI  | 89F8
+0016A2|          ADD                  ESP              -8  | 83C4F8
+0016A5|          PUSH                   0                  | 6A00
+0016A7|          PUSH                 ECX                  | 51
+0016A8|          PUSH                   0                  | 6A00
+0016AA|          CALL           [5708DE74]                 | FF1574DE0857
+0016B0|          MOV                  EAX             EDI  | 89F8
+0016B2|          ADD                  ESP              -4  | 83C4FC
+0016B5|          CALL           [57080C78]                 | FF15780C0857
+0016BB|          MOV                  EAX       [57092AF8] | 8B05F82A0957
+0016C1|          MOV                  EDX       [570974FC] | 8B15FC740957
+0016C7|          MOV                  EDI         -12[EAX] | 8B78F4
+0016CA|          ADD                  ESP              -8  | 83C4F8
+0016CD|          CALL             180[EDI]                 | FF97B4000000
+0016D3|          NOP                                       | 90
+0016D4| <<< 0014C7
+0016D4|          MOV                  EAX          56[ESP] | 8B442438
+0016D8|          ADD                  ESP              -4  | 83C4FC
+0016DB|          CALL           [57080C3C]                 | FF153C0C0857
+0016E1|          MOV                  EAX          24[ESI] | 8B4618
+0016E4|          MOV                  EDX            [EAX] | 8B10
+0016E6|          LEA                  ECX          32[EDX] | 8D4A20
+0016E9|          CMP                  ECX           4[EAX] | 3B4804
+0016EC|          JLLE                2126                  | 0F8600000000
+0016F2|          MOV                  EDI       [570894C8] | 8B3DC8940857
+0016F8|          ADD                  ESP              -8  | 83C4F8
+0016FB|          PUSH                 ECX                  | 51
+0016FC|          PUSH                   4                  | 6A04
+0016FE|          PUSH                   8                  | 6A08
+001700|          CALL             100[EDI]                 | FF5764
+001703|          JMP                 2144                  | E900000000
+001708|          NOP                                       | 
+001708| <<< 0016EC
+001708|          MOV                  EDI            [EAX] | 8B38
+00170A|          CMP                  EDI             EDX  | 39D7
+00170C|          JLGE                   0                  | 7300
+00170E|          MOV                 [EDI]     -559038737  | C707EFBEADDE
+001714|          ADD                  EDI               4  | 83C704
+001717|          JMP                 5898                  | EBF1
+001719|          NOP                                       | 0F1F00
+00171C| <<< 00170C
+00171C|          MOV                 [EAX]            ECX  | 8908
+00171E|          LEA                  EAX         128[ECX] | 8D8180000000
+001724|          PREFETCHN            EAX                  | 0F1800
+001727|          MOV                  EAX             EDX  | 89D0
+001729|          NOP                                       | 0F1F00
+00172C| <<< 001703
+00172C|          LEA                  EDI          12[EAX] | 8D780C
+00172F|          MOV              -12[EDI]     1491679772  | C747F41C3AE958
+001736|          MOV                  EAX       [57088F1C] | 8B051C8F0857
+00173C|          MOV                  EBP             EAX  | 89C5
+00173E|          MOV                  EAX             EDI  | 89F8
+001740|          ADD                  ESP              -4  | 83C4FC
+001743|          CALL              72[EBP]                 | FF5548
+001746|          MOV                  EAX          24[ESI] | 8B4618
+001749|          MOV                  EDX            [EAX] | 8B10
+00174B|          LEA                  ECX          16[EDX] | 8D4A10
+00174E|          CMP                  ECX           4[EAX] | 3B4804
+001751|          JLLE                2169                  | 0F8600000000
+001757|          MOV                  EBP       [570894C8] | 8B2DC8940857
+00175D|          ADD                  ESP              -8  | 83C4F8
+001760|          PUSH                 ECX                  | 51
+001761|          PUSH                   4                  | 6A04
+001763|          PUSH                   8                  | 6A08
+001765|          CALL             100[EBP]                 | FF5564
+001768|          JMP                 2187                  | E900000000
+00176D|          NOP                                       | 0F1F00
+001770| <<< 001751
+001770|          MOV                  EBP            [EAX] | 8B28
+001772|          CMP                  EBP             EDX  | 39D5
+001774|          JLGE                   0                  | 7300
+001776|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+00177D|          ADD                  EBP               4  | 83C504
+001780|          JMP                 6002                  | EBF0
+001782|          NOP                                       | 6690
+001784| <<< 001774
+001784|          MOV                 [EAX]            ECX  | 8908
+001786|          LEA                  EAX         128[ECX] | 8D8180000000
+00178C|          PREFETCHN            EAX                  | 0F1800
+00178F|          MOV                  EAX             EDX  | 89D0
+001791|          NOP                                       | 0F1F00
+001794| <<< 001768
+001794|          LEA                  EBP          12[EAX] | 8D680C
+001797|          MOV              -12[EBP]     1491398276  | C745F484EEE458
+00179E|          MOV                  EAX          24[ESI] | 8B4618
+0017A1|          MOV                  EDX            [EAX] | 8B10
+0017A3|          LEA                  ECX          44[EDX] | 8D4A2C
+0017A6|          CMP                  ECX           4[EAX] | 3B4804
+0017A9|          MOV               36[ESP]            ECX  | 894C2424
+0017AD|          JLLE                2212                  | 0F8600000000
+0017B3|          MOV                  ECX       [570894C8] | 8B0DC8940857
+0017B9|          ADD                  ESP              -8  | 83C4F8
+0017BC|          PUSH              44[ESP]                 | FF74242C
+0017C0|          PUSH                   4                  | 6A04
+0017C2|          PUSH                  12                  | 6A0C
+0017C4|          MOV               68[ESP]            ECX  | 894C2444
+0017C8|          MOV               40[ESP]            EBX  | 895C2428
+0017CC|          MOV                  EBX          68[ESP] | 8B5C2444
+0017D0|          CALL             100[EBX]                 | FF5364
+0017D3|          MOV                  EBX          20[ESP] | 8B5C2414
+0017D7|          JMP                 2233                  | E900000000
+0017DC|          NOP                                       | 
+0017DC| <<< 0017AD
+0017DC|          MOV                  ECX            [EAX] | 8B08
+0017DE|          MOV               48[ESP]            ECX  | 894C2430
+0017E2|          MOV                  ECX          48[ESP] | 8B4C2430
+0017E6|          CMP                  ECX             EDX  | 39D1
+0017E8|          JLGE                   0                  | 7300
+0017EA|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+0017F0|          ADD                  ECX               4  | 83C104
+0017F3|          JMP                 6118                  | EBF1
+0017F5|          NOP                                       | 0F1F00
+0017F8| <<< 0017E8
+0017F8|          MOV                  ECX          36[ESP] | 8B4C2424
+0017FC|          MOV                 [EAX]            ECX  | 8908
+0017FE|          LEA                  EAX         128[ECX] | 8D8180000000
+001804|          PREFETCHN            EAX                  | 0F1800
+001807|          MOV                  EAX             EDX  | 89D0
+001809|          NOP                                       | 0F1F00
+00180C| <<< 0017D7
+00180C|          LEA                  EDX          12[EAX] | 8D500C
+00180F|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+001816|          MOV               -4[EDX]             16  | C742FC10000000
+00181D|          MOV                  EAX             EBP  | 89E8
+00181F|          ADD                  ESP              -8  | 83C4F8
+001822|          PUSH                  -4                  | 6AFC
+001824|          PUSH               31445                  | 68D57A0000
+001829|          CALL           [57082124]                 | FF1524210857
+00182F|          MOV                  EDX       [57097500] | 8B1500750957
+001835|          MOV                  EAX       [57089DDC] | 8B05DC9D0857
+00183B|          MOV               48[ESP]            EAX  | 89442430
+00183F|          MOV                  EAX             EBP  | 89E8
+001841|          ADD                  ESP              -8  | 83C4F8
+001844|          MOV               28[ESP]            EBX  | 895C241C
+001848|          MOV                  EBX          56[ESP] | 8B5C2438
+00184C|          CALL             104[EBX]                 | FF5368
+00184F|          MOV                  EAX           4[EDI] | 8B4704
+001852|          MOV                  EDX              10  | BA0A000000
+001857|          ADD                  ESP              -8  | 83C4F8
+00185A|          CALL           [57090FB4]                 | FF15B40F0957
+001860|          MOV                  EDX             EAX  | 89C2
+001862|          MOV                  EBX       [57089DDC] | 8B1DDC9D0857
+001868|          MOV                  EAX             EBP  | 89E8
+00186A|          ADD                  ESP              -8  | 83C4F8
+00186D|          CALL             104[EBX]                 | FF5368
+001870|          MOV                  EAX          24[ESI] | 8B4618
+001873|          MOV                  EDX            [EAX] | 8B10
+001875|          LEA                  ECX          24[EDX] | 8D4A18
+001878|          CMP                  ECX           4[EAX] | 3B4804
+00187B|          MOV               48[ESP]            EBX  | 895C2430
+00187F|          MOV                  EBX          20[ESP] | 8B5C2414
+001883|          MOV               36[ESP]            ECX  | 894C2424
+001887|          JLLE                2283                  | 0F8600000000
+00188D|          MOV                  ECX       [570894C8] | 8B0DC8940857
+001893|          ADD                  ESP              -8  | 83C4F8
+001896|          PUSH              44[ESP]                 | FF74242C
+00189A|          PUSH                   4                  | 6A04
+00189C|          PUSH                   8                  | 6A08
+00189E|          MOV               68[ESP]            ECX  | 894C2444
+0018A2|          MOV               40[ESP]            EBX  | 895C2428
+0018A6|          MOV                  EBX          68[ESP] | 8B5C2444
+0018AA|          CALL             100[EBX]                 | FF5364
+0018AD|          MOV                  EBX          20[ESP] | 8B5C2414
+0018B1|          JMP                 2304                  | E900000000
+0018B6|          NOP                                       | 6690
+0018B8| <<< 001887
+0018B8|          MOV                  ECX            [EAX] | 8B08
+0018BA|          MOV               48[ESP]            ECX  | 894C2430
+0018BE|          MOV                  ECX          48[ESP] | 8B4C2430
+0018C2|          CMP                  ECX             EDX  | 39D1
+0018C4|          JLGE                   0                  | 7300
+0018C6|          MOV                 [ECX]     -559038737  | C701EFBEADDE
+0018CC|          ADD                  ECX               4  | 83C104
+0018CF|          JMP                 6338                  | EBF1
+0018D1|          NOP                                       | 0F1F00
+0018D4| <<< 0018C4
+0018D4|          MOV                  ECX          36[ESP] | 8B4C2424
+0018D8|          MOV                 [EAX]            ECX  | 8908
+0018DA|          LEA                  EAX         128[ECX] | 8D8180000000
+0018E0|          PREFETCHN            EAX                  | 0F1800
+0018E3|          MOV                  EAX             EDX  | 89D0
+0018E5|          NOP                                       | 0F1F00
+0018E8| <<< 0018B1
+0018E8|          LEA                  EDX          12[EAX] | 8D500C
+0018EB|          MOV              -12[EDX]     1460753476  | C742F444541157
+0018F2|          MOV               48[ESP]            EDX  | 89542430
+0018F6|          MOV                  EDX          -4[EBP] | 8B55FC
+0018F9|          MOV                  ECX            [EBP] | 8B4D00
+0018FC|          MOV                  EAX          48[ESP] | 8B442430
+001900|          ADD                  ESP              -8  | 83C4F8
+001903|          PUSH                   0                  | 6A00
+001905|          PUSH                 ECX                  | 51
+001906|          PUSH                   0                  | 6A00
+001908|          CALL           [5708DE74]                 | FF1574DE0857
+00190E|          MOV                  EAX          48[ESP] | 8B442430
+001912|          ADD                  ESP              -4  | 83C4FC
+001915|          CALL           [57080C78]                 | FF15780C0857
+00191B|          MOV                  EAX          -4[EDI] | 8B47FC
+00191E|          MOV               36[ESP]            EAX  | 89442424
+001922|          MOV                  EAX          24[ESI] | 8B4618
+001925|          MOV                  EDX            [EAX] | 8B10
+001927|          LEA                  ECX          16[EDX] | 8D4A10
+00192A|          CMP                  ECX           4[EAX] | 3B4804
+00192D|          JLLE                2340                  | 0F8600000000
+001933|          MOV                  EBP       [570894C8] | 8B2DC8940857
+001939|          ADD                  ESP              -8  | 83C4F8
+00193C|          PUSH                 ECX                  | 51
+00193D|          PUSH                   4                  | 6A04
+00193F|          PUSH                   8                  | 6A08
+001941|          CALL             100[EBP]                 | FF5564
+001944|          JMP                 2358                  | E900000000
+001949|          NOP                                       | 0F1F00
+00194C| <<< 00192D
+00194C|          MOV                  EBP            [EAX] | 8B28
+00194E|          CMP                  EBP             EDX  | 39D5
+001950|          JLGE                   0                  | 7300
+001952|          MOV                 [EBP]     -559038737  | C74500EFBEADDE
+001959|          ADD                  EBP               4  | 83C504
+00195C|          JMP                 6478                  | EBF0
+00195E|          NOP                                       | 6690
+001960| <<< 001950
+001960|          MOV                 [EAX]            ECX  | 8908
+001962|          LEA                  EAX         128[ECX] | 8D8180000000
+001968|          PREFETCHN            EAX                  | 0F1800
+00196B|          MOV                  EAX             EDX  | 89D0
+00196D|          NOP                                       | 0F1F00
+001970| <<< 001944
+001970|          LEA                  EBP          12[EAX] | 8D680C
+001973|          MOV              -12[EBP]     1491398276  | C745F484EEE458
+00197A|          MOV                  EAX          24[ESI] | 8B4618
+00197D|          MOV                  EDX            [EAX] | 8B10
+00197F|          LEA                  ECX          44[EDX] | 8D4A2C
+001982|          CMP                  ECX           4[EAX] | 3B4804
+001985|          JLLE                2379                  | 0F8600000000
+00198B|          MOV                  EDI       [570894C8] | 8B3DC8940857
+001991|          ADD                  ESP              -8  | 83C4F8
+001994|          PUSH                 ECX                  | 51
+001995|          PUSH                   4                  | 6A04
+001997|          PUSH                  12                  | 6A0C
+001999|          CALL             100[EDI]                 | FF5764
+00199C|          MOV               48[ESP]            EDI  | 897C2430
+0019A0|          JMP                 2399                  | E900000000
+0019A5|          NOP                                       | 0F1F00
+0019A8| <<< 001985
+0019A8|          MOV                  EDI            [EAX] | 8B38
+0019AA|          MOV               48[ESP]            EDI  | 897C2430
+0019AE|          MOV                  EDI          48[ESP] | 8B7C2430
+0019B2|          CMP                  EDI             EDX  | 39D7
+0019B4|          JLGE                   0                  | 7300
+0019B6|          MOV                 [EDI]     -559038737  | C707EFBEADDE
+0019BC|          ADD                  EDI               4  | 83C704
+0019BF|          JMP                 6578                  | EBF1
+0019C1|          NOP                                       | 0F1F00
+0019C4| <<< 0019B4
+0019C4|          MOV                 [EAX]            ECX  | 8908
+0019C6|          LEA                  EAX         128[ECX] | 8D8180000000
+0019CC|          PREFETCHN            EAX                  | 0F1800
+0019CF|          MOV                  EAX             EDX  | 89D0
+0019D1|          NOP                                       | 0F1F00
+0019D4| <<< 0019A0
+0019D4|          LEA                  EDX          12[EAX] | 8D500C
+0019D7|          MOV              -12[EDX]     1460754144  | C742F4E0561157
+0019DE|          MOV               -4[EDX]             16  | C742FC10000000
+0019E5|          MOV                  EAX             EBP  | 89E8
+0019E7|          ADD                  ESP              -8  | 83C4F8
+0019EA|          PUSH                  -4                  | 6AFC
+0019EC|          PUSH               31445                  | 68D57A0000
+0019F1|          CALL           [57082124]                 | FF1524210857
+0019F7|          MOV                  EDX       [57097504] | 8B1504750957
+0019FD|          MOV                  EDI       [57089DDC] | 8B3DDC9D0857
+001A03|          MOV                  EAX             EBP  | 89E8
+001A05|          ADD                  ESP              -8  | 83C4F8
+001A08|          CALL             104[EDI]                 | FF5768
+001A0B|          MOV                  EDX          36[ESP] | 8B542424
+001A0F|          MOV                  EAX           8[EDX] | 8B4208
+001A12|          MOV                  EAX            [EAX] | 8B00
+001A14|          TEST                 EAX             EAX  | 85C0
+001A16|          JNE                    0                  | 7500
+001A18|          MOV                  EDX      1493020764  | BA5CB0FD58
+001A1D|          JMP                 2481                  | E900000000
+001A22|          NOP                                       | 6690
+001A24| <<< 001A16
+001A24|          MOV                  EDX            [EAX] | 8B10
+001A26|          MOV                  EAX          -4[EDX] | 8B42FC
+001A29|          MOV               48[ESP]            EAX  | 89442430
+001A2D|          MOV                  EAX          24[ESI] | 8B4618
+001A30|          MOV               52[ESP]            EDX  | 89542434
+001A34|          MOV                  EDX            [EAX] | 8B10
+001A36|          LEA                  ECX          24[EDX] | 8D4A18
+001A39|          CMP                  ECX           4[EAX] | 3B4804
+001A3C|          JLLE                2448                  | 0F8600000000
+001A42|          MOV                  EDI       [570894C8] | 8B3DC8940857
+001A48|          ADD                  ESP              -8  | 83C4F8
+001A4B|          PUSH                 ECX                  | 51
+001A4C|          PUSH                   4                  | 6A04
+001A4E|          PUSH                   8                  | 6A08
+001A50|          CALL             100[EDI]                 | FF5764
+001A53|          MOV               36[ESP]            EDI  | 897C2424
+001A57|          JMP                 2468                  | E900000000
+001A5C|          NOP                                       | 
+001A5C| <<< 001A3C
+001A5C|          MOV                  EDI            [EAX] | 8B38
+001A5E|          MOV               36[ESP]            EDI  | 897C2424
+001A62|          MOV                  EDI          36[ESP] | 8B7C2424
+001A66|          CMP                  EDI             EDX  | 39D7
+001A68|          JLGE                   0                  | 7300
+001A6A|          MOV                 [EDI]     -559038737  | C707EFBEADDE
+001A70|          ADD                  EDI               4  | 83C704
+001A73|          JMP                 6758                  | EBF1
+001A75|          NOP                                       | 0F1F00
+001A78| <<< 001A68
+001A78|          MOV                 [EAX]            ECX  | 8908
+001A7A|          LEA                  EAX         128[ECX] | 8D8180000000
+001A80|          PREFETCHN            EAX                  | 0F1800
+001A83|          MOV                  EAX             EDX  | 89D0
+001A85|          NOP                                       | 0F1F00
+001A88| <<< 001A57
+001A88|          LEA                  EDI          12[EAX] | 8D780C
+001A8B|          MOV              -12[EDI]     1460753476  | C747F444541157
+001A92|          MOV                  EAX             EDI  | 89F8
+001A94|          MOV                  EDX          52[ESP] | 8B542434
+001A98|          ADD                  ESP              -8  | 83C4F8
+001A9B|          PUSH                   0                  | 6A00
+001A9D|          PUSH                   0                  | 6A00
+001A9F|          PUSH              64[ESP]                 | FF742440
+001AA3|          CALL           [5708DE4C]                 | FF154CDE0857
+001AA9|          MOV                  EDX             EDI  | 89FA
+001AAB|          NOP                                       | 90
+001AAC| <<< 001A1D
+001AAC|          MOV                  EDI       [57089DDC] | 8B3DDC9D0857
+001AB2|          MOV                  EAX             EBP  | 89E8
+001AB4|          ADD                  ESP              -8  | 83C4F8
+001AB7|          CALL             104[EDI]                 | FF5768
+001ABA|          MOV                  EAX          24[ESI] | 8B4618
+001ABD|          MOV                  EDX            [EAX] | 8B10
+001ABF|          LEA                  ECX          24[EDX] | 8D4A18
+001AC2|          CMP                  ECX           4[EAX] | 3B4804
+001AC5|          JLLE                2502                  | 0F8600000000
+001ACB|          MOV                  EDI       [570894C8] | 8B3DC8940857
+001AD1|          ADD                  ESP              -8  | 83C4F8
+001AD4|          PUSH                 ECX                  | 51
+001AD5|          PUSH                   4                  | 6A04
+001AD7|          PUSH                   8                  | 6A08
+001AD9|          CALL             100[EDI]                 | FF5764
+001ADC|          JMP                 2520                  | E900000000
+001AE1|          NOP                                       | 0F1F00
+001AE4| <<< 001AC5
+001AE4|          MOV                  EDI            [EAX] | 8B38
+001AE6|          CMP                  EDI             EDX  | 39D7
+001AE8|          JLGE                   0                  | 7300
+001AEA|          MOV                 [EDI]     -559038737  | C707EFBEADDE
+001AF0|          ADD                  EDI               4  | 83C704
+001AF3|          JMP                 6886                  | EBF1
+001AF5|          NOP                                       | 0F1F00
+001AF8| <<< 001AE8
+001AF8|          MOV                 [EAX]            ECX  | 8908
+001AFA|          LEA                  EAX         128[ECX] | 8D8180000000
+001B00|          PREFETCHN            EAX                  | 0F1800
+001B03|          MOV                  EAX             EDX  | 89D0
+001B05|          NOP                                       | 0F1F00
+001B08| <<< 001ADC
+001B08|          LEA                  EDI          12[EAX] | 8D780C
+001B0B|          MOV              -12[EDI]     1460753476  | C747F444541157
+001B12|          MOV                  EDX          -4[EBP] | 8B55FC
+001B15|          MOV                  ECX            [EBP] | 8B4D00
+001B18|          MOV                  EAX             EDI  | 89F8
+001B1A|          ADD                  ESP              -8  | 83C4F8
+001B1D|          PUSH                   0                  | 6A00
+001B1F|          PUSH                 ECX                  | 51
+001B20|          PUSH                   0                  | 6A00
+001B22|          CALL           [5708DE74]                 | FF1574DE0857
+001B28|          MOV                  EAX             EDI  | 89F8
+001B2A|          ADD                  ESP              -4  | 83C4FC
+001B2D|          CALL           [57080C78]                 | FF15780C0857
+001B33|          MOV                  ECX               1  | B901000000
+001B38|          MOV               48[ESP]              0  | C744243000000000
+001B40|          CMP              312[ESI]              0  | 83BE3801000000
+001B47|          JGT                 2644                  | 0F8F00000000
+001B4D|          CMP               48[ESP]            100  | 837C243064
+001B52|          JGE                 2560                  | 0F8D00000000
+001B58|          XOR                  EBP             EBP  | 31ED
+001B5A|          JMP                  312                  | E9D9E5FFFF
+001B5F|          NOP                                       | 90
+001B60| <<< 00022F
+001B60|          XOR                  ECX             ECX  | 31C9
+001B62|          JMP                  565                  | E9CEE6FFFF
+001B67|          NOP                                       | 90
+001B68| <<< 00014B
+001B68|          ADD               48[ESP]              1  | 8344243001
+001B6D|          JMP                 6976                  | EBD1
+001B6F|          NOP                                       | 90
+001B70| <<< 001B52
+001B70|          MOV                  EBX       [570823F8] | 8B1DF8230857
+001B76|          MOV               80[ESP]            EBP  | 896C2450
+001B7A|          MOV               76[ESP]            EDI  | 897C244C
+001B7E|          MOV               72[ESP]            EBX  | 895C2448
+001B82|          MOV               68[ESP]            ESI  | 89742444
+001B86|          CALL             308[EBX]                 | FF9334010000
+001B8C|          MOV                  ESI          68[ESP] | 8B742444
+001B90|          MOV                  EBX          72[ESP] | 8B5C2448
+001B94|          MOV                  EDI          76[ESP] | 8B7C244C
+001B98|          MOV                  EBP          80[ESP] | 8B6C2450
+001B9C|          CMP              312[ESI]              0  | 83BE3801000000
+001BA3|          JNE                 2648                  | 0F8500000000
+001BA9|          MOV                  EBX            [ESP] | 8B1C24
+001BAC|          MOV                  EDI           4[ESP] | 8B7C2404
+001BB0|          MOV                  EBP           8[ESP] | 8B6C2408
+001BB4|          ADD                  ESP              92  | 83C45C
+001BB7|          POP              236[ESI]                 | 8F86EC000000
+001BBD|          RET                    4                  | C20400
+001BC0|          NOP                                       | 
+001BC0| <<< 000006
+001BC0|          INT                   67                  | CD43
+001BC2|          JMP                   12                  | E945E4FFFF
+001BC7|          NOP                                       | 90
+001BC8| <<< 000033
+001BC8|          CALL           [570824E4]                 | FF15E4240857
+001BCE|          JMP                   57                  | E966E4FFFF
+001BD3|          NOP                                       | 90
+001BD4| <<< 000096
+001BD4|          CALL           [570824EC]                 | FF15EC240857
+001BDA|          JMP                  156                  | E9BDE4FFFF
+001BDF|          NOP                                       | 90
+001BE0| <<< 0000B4
+001BE0|          INT                   64                  | CD40
+001BE2|          NOP                                       | 6690
+001BE4| <<< 0000F0
+001BE4|          CALL           [570824EC]                 | FF15EC240857
+001BEA|          JMP                  246                  | E907E5FFFF
+001BEF|          NOP                                       | 90
+001BF0| <<< 00010A
+001BF0|          INT                   64                  | CD40
+001BF2|          NOP                                       | 6690
+001BF4| <<< 00013F
+001BF4|          CALL           [570824EC]                 | FF15EC240857
+001BFA|          JMP                  325                  | E946E5FFFF
+001BFF|          NOP                                       | 90
+001C00| <<< 0004E1
+001C00|          INT                   64                  | CD40
+001C02|          NOP                                       | 6690
+001C04| <<< 000547
+001C04|          MOV              244[ESI]            EAX  | 8986F4000000
+001C0A|          INT                   65                  | CD41
+001C0C|          NOP                                       | 
+001C0C| <<< 000553
+001C0C|          MOV              244[ESI]            EDX  | 8996F4000000
+001C12|          INT                   65                  | CD41
+001C14|          NOP                                       | 
+001C14| <<< 000BCA
+001C14|          MOV              244[ESI]            EDX  | 8996F4000000
+001C1A|          INT                   65                  | CD41
+001C1C|          NOP                                       | 
+001C1C| <<< 000BD6
+001C1C|          MOV              244[ESI]            EAX  | 8986F4000000
+001C22|          INT                   65                  | CD41
+001C24|          NOP                                       | 
+001C24| <<< 000DC4
+001C24|          INT                   64                  | CD40
+001C26|          NOP                                       | 6690
+001C28| <<< 000E88
+001C28|          INT                   64                  | CD40
+001C2A|          NOP                                       | 6690
+001C2C| <<< 000F86
+001C2C|          INT                   64                  | CD40
+001C2E|          NOP                                       | 6690
+001C30| <<< 00119E
+001C30|          INT                   64                  | CD40
+001C32|          NOP                                       | 6690
+001C34| <<< 001362
+001C34|          INT                   64                  | CD40
+001C36|          NOP                                       | 6690
+001C38| <<< 001B47
+001C38|          CALL           [570824EC]                 | FF15EC240857
+001C3E|          JMP                 6989                  | E90AFFFFFF
+001C43|          NOP                                       | 90
+001C44| <<< 001BA3
+001C44|          CALL           [570824E8]                 | FF15E8240857
+001C4A|          JMP                 7081                  | E95AFFFFFF
+codeLength : 7247
+*********   END OF:  Final machine code   FOR < SystemAppCL, LBenchmark; >.main ([Ljava/lang/String;)V
+000000|          XOR                  EDX             EDX  | 31D2
+000002|          LEA                  EDX   [0+EDX+EAX<<1] | 8D1442
+000005|          LEA                  EDX   [0+EDX+EAX<<2] | 8D1482
+000008|          MOV                  EDX       [5707B084] | 891584B00757
+00000E|          ADD                  EDX               3  | 83C203
+000011|          MOV                  EDX       [5707B084] | 891584B00757
+000017|          ADD                  EAX               2  | 83C002
+00001A|          MOV                  EDX       [5707B084] | 8B1584B00757
+000020|          MOV                  ECX             EDX  | 89D1
+000022|          SAR                  ECX              31  | C1F91F
+000025|          AND                  ECX               1  | 83E101
+000028|          ADD                  EDX             ECX  | 01CA
+00002A|          SAR                  EDX               1  | D1FA
+00002C|          MOV                  EDX       [5707B084] | 891584B00757
+000032|          RET                    8                  | C20800
+codeLength : 53
+*********   END OF:  Final machine code   FOR < SystemAppCL, LBenchmark; >.calculate (II)I
+000000|          CMP                  ESP         232[ESI] | 3BA6E8000000
+000006|          JLE                  196                  | 0F8E00000000
+00000C|          PUSH             236[ESI]                 | FFB6EC000000
+000012|          MOV              236[ESI]            ESP  | 89A6EC000000
+000018|          PUSH               22900                  | 6874590000
+00001D|          MOV              -36[ESP]            EBX  | 895C24DC
+000021|          MOV              -32[ESP]            EDI  | 897C24E0
+000025|          MOV              -28[ESP]            EBP  | 896C24E4
+000029|          ADD                  ESP             -36  | 83C4DC
+00002C|          CMP              312[ESI]              0  | 83BE3801000000
+000033|          JNE                  200                  | 0F8500000000
+000039|          XOR                  EAX             EAX  | 31C0
+00003B|          XOR                  EDX             EDX  | 31D2
+00003D|          ADD                  ESP              -8  | 83C4F8
+000040|          CALL           [57093F3C]                 | FF153C3F0957
+000046|          XOR                  EAX             EAX  | 31C0
+000048|          MOV                  EDX               3  | BA03000000
+00004D|          ADD                  ESP              -8  | 83C4F8
+000050|          CALL           [57093F3C]                 | FF153C3F0957
+000056|          XOR                  EAX             EAX  | 31C0
+000058|          MOV                  EDX               4  | BA04000000
+00005D|          ADD                  ESP              -8  | 83C4F8
+000060|          CALL           [57093F3C]                 | FF153C3F0957
+000066|          XOR                  EAX             EAX  | 31C0
+000068|          MOV                  EDX               5  | BA05000000
+00006D|          ADD                  ESP              -8  | 83C4F8
+000070|          CALL           [57093F3C]                 | FF153C3F0957
+000076|          XOR                  EAX             EAX  | 31C0
+000078|          MOV                  EDX               7  | BA07000000
+00007D|          ADD                  ESP              -8  | 83C4F8
+000080|          CALL           [57093F3C]                 | FF153C3F0957
+000086|          XOR                  EAX             EAX  | 31C0
+000088|          MOV                  EDX               8  | BA08000000
+00008D|          ADD                  ESP              -8  | 83C4F8
+000090|          CALL           [57093F3C]                 | FF153C3F0957
+000096|          XOR                  EAX             EAX  | 31C0
+000098|          MOV                  EDX               9  | BA09000000
+00009D|          ADD                  ESP              -8  | 83C4F8
+0000A0|          CALL           [57093F3C]                 | FF153C3F0957
+0000A6|          XOR                  EAX             EAX  | 31C0
+0000A8|          MOV                  EDX              10  | BA0A000000
+0000AD|          ADD                  ESP              -8  | 83C4F8
+0000B0|          CALL           [57093F3C]                 | FF153C3F0957
+0000B6|          XOR                  EAX             EAX  | 31C0
+0000B8|          MOV                  EDX              11  | BA0B000000
+0000BD|          ADD                  ESP              -8  | 83C4F8
+0000C0|          CALL           [57093F3C]                 | FF153C3F0957
+0000C6|          XOR                  EAX             EAX  | 31C0
+0000C8|          MOV                  EDX              12  | BA0C000000
+0000CD|          ADD                  ESP              -8  | 83C4F8
+0000D0|          CALL           [57093F3C]                 | FF153C3F0957
+0000D6|          XOR                  EAX             EAX  | 31C0
+0000D8|          MOV                  EDX              13  | BA0D000000
+0000DD|          ADD                  ESP              -8  | 83C4F8
+0000E0|          CALL           [57093F3C]                 | FF153C3F0957
+0000E6|          XOR                  EAX             EAX  | 31C0
+0000E8|          MOV                  EDX              14  | BA0E000000
+0000ED|          ADD                  ESP              -8  | 83C4F8
+0000F0|          CALL           [57093F3C]                 | FF153C3F0957
+0000F6|          XOR                  EAX             EAX  | 31C0
+0000F8|          MOV                  EDX              15  | BA0F000000
+0000FD|          ADD                  ESP              -8  | 83C4F8
+000100|          CALL           [57093F3C]                 | FF153C3F0957
+000106|          XOR                  EAX             EAX  | 31C0
+000108|          MOV                  EDX              16  | BA10000000
+00010D|          ADD                  ESP              -8  | 83C4F8
+000110|          CALL           [57093F3C]                 | FF153C3F0957
+000116|          MOV                  EBX               8  | BB08000000
+00011B|          XOR                  EAX             EAX  | 31C0
+00011D|          ADD                  ESP              -4  | 83C4FC
+000120|          CALL           [57093F40]                 | FF15403F0957
+000126|          XOR                  ECX             ECX  | 31C9
+000128|          MOV                  EDI        21330385  | BFD1794501
+00012D|          CMP              312[ESI]              0  | 83BE3801000000
+000134|          JGT                  204                  | 0F8F00000000
+00013A|          CMP                  EDI       100000000  | 81FF00E1F505
+000140|          JGE                  167                  | 0F8D00000000
+000146|          MOV                  EAX             EDI  | 89F8
+000148|          CDQ                                       | 99
+000149|          MOV                  EBP               3  | BD03000000
+00014E|          IDIV                 EAX             EBP  | F7FD
+000150|          TEST                 EDX             EDX  | 85D2
+000152|          JNE                  111                  | 0F8500000000
+000158|          LEA                  EAX       [0+EBX<<2] | 8D049D00000000
+00015F|          LEA                  EAX   [0+EAX+EBX<<1] | 8D0458
+000162|          MOV                  EAX       [5707B084] | 890584B00757
+000168|          ADD                  EAX               3  | 83C003
+00016B|          MOV                  EAX       [5707B084] | 890584B00757
+000171|          ADD                  EBX               2  | 83C302
+000174|          MOV                  EAX       [5707B084] | 8B0584B00757
+00017A|          MOV                  EDX             EAX  | 89C2
+00017C|          SAR                  EDX              31  | C1FA1F
+00017F|          AND                  EDX               1  | 83E201
+000182|          ADD                  EAX             EDX  | 01D0
+000184|          SAR                  EAX               1  | D1F8
+000186|          MOV                  EAX       [5707B084] | 890584B00757
+00018C|          NOP                                       | 
+00018C| <<< 000152
+00018C|          MOV                  EAX             EDI  | 89F8
+00018E|          CDQ                                       | 99
+00018F|          MOV                  EBP               3  | BD03000000
+000194|          IDIV                 EAX             EBP  | F7FD
+000196|          CMP                  EDX               1  | 83FA01
+000199|          JNE                  136                  | 0F8500000000
+00019F|          LEA                  EAX       [0+EBX<<2] | 8D049D00000000
+0001A6|          LEA                  EAX   [0+EAX+EBX<<1] | 8D0458
+0001A9|          MOV                  EAX       [5707B084] | 890584B00757
+0001AF|          ADD                  EAX               3  | 83C003
+0001B2|          MOV                  EAX       [5707B084] | 890584B00757
+0001B8|          LEA                  EAX           2[EBX] | 8D4302
+0001BB|          NEG                  EBX                  | F7DB
+0001BD|          ADD                  EBX             EAX  | 01C3
+0001BF|          MOV                  EAX       [5707B084] | 8B0584B00757
+0001C5|          MOV                  EDX             EAX  | 89C2
+0001C7|          SAR                  EDX              31  | C1FA1F
+0001CA|          AND                  EDX               1  | 83E201
+0001CD|          ADD                  EAX             EDX  | 01D0
+0001CF|          SAR                  EAX               1  | D1F8
+0001D1|          MOV                  EAX       [5707B084] | 890584B00757
+0001D7|          NOP                                       | 90
+0001D8| <<< 000199
+0001D8|          MOV                  EAX             EDI  | 89F8
+0001DA|          CDQ                                       | 99
+0001DB|          MOV                  EBP               3  | BD03000000
+0001E0|          IDIV                 EAX             EBP  | F7FD
+0001E2|          CMP                  EDX               2  | 83FA02
+0001E5|          JNE                  159                  | 0F8500000000
+0001EB|          LEA                  EAX       [0+EBX<<2] | 8D049D00000000
+0001F2|          LEA                  EAX   [0+EAX+EBX<<1] | 8D0458
+0001F5|          MOV                  EAX       [5707B084] | 890584B00757
+0001FB|          ADD                  EAX               3  | 83C003
+0001FE|          MOV                  EAX       [5707B084] | 890584B00757
+000204|          LEA                  EBX   [2+EBX+EBX<<0] | 8D5C1B02
+000208|          MOV                  EAX       [5707B084] | 8B0584B00757
+00020E|          MOV                  EDX             EAX  | 89C2
+000210|          SAR                  EDX              31  | C1FA1F
+000213|          AND                  EDX               1  | 83E201
+000216|          ADD                  EAX             EDX  | 01D0
+000218|          SAR                  EAX               1  | D1F8
+00021A|          MOV                  EAX       [5707B084] | 890584B00757
+000220|          NOP                                       | 
+000220| <<< 0001E5
+000220|          ADD                  EDI               1  | 83C701
+000223|          JMP                  301                  | E905FFFFFF
+000228|          XOR                  EDI             EDI  | 31FF
+00022A|          JMP                  301                  | E9FEFEFFFF
+00022F|          NOP                                       | 90
+000230| <<< 000140
+000230|          ADD                  ECX               1  | 83C101
+000233|          CMP                  ECX             100  | 83F964
+000236|          JLT                  -16                  | 7CF0
+000238|          MOV                  EBX       [570823F8] | 8B1DF8230857
+00023E|          MOV               28[ESP]            EBP  | 896C241C
+000242|          MOV               24[ESP]            EDI  | 897C2418
+000246|          MOV               20[ESP]            EBX  | 895C2414
+00024A|          MOV               16[ESP]            ESI  | 89742410
+00024E|          CALL             308[EBX]                 | FF9334010000
+000254|          MOV                  ESI          16[ESP] | 8B742410
+000258|          MOV                  EBX          20[ESP] | 8B5C2414
+00025C|          MOV                  EDI          24[ESP] | 8B7C2418
+000260|          MOV                  EBP          28[ESP] | 8B6C241C
+000264|          CMP              312[ESI]              0  | 83BE3801000000
+00026B|          JNE                  208                  | 0F8500000000
+000271|          MOV                  EBX            [ESP] | 8B1C24
+000274|          MOV                  EDI           4[ESP] | 8B7C2404
+000278|          MOV                  EBP           8[ESP] | 8B6C2408
+00027C|          ADD                  ESP              40  | 83C428
+00027F|          POP              236[ESI]                 | 8F86EC000000
+000285|          RET                    4                  | C20400
+000288|          NOP                                       | 
+000288| <<< 000006
+000288|          INT                   67                  | CD43
+00028A|          JMP                   12                  | E97DFDFFFF
+00028F|          NOP                                       | 90
+000290| <<< 000033
+000290|          CALL           [570824E4]                 | FF15E4240857
+000296|          JMP                   57                  | E99EFDFFFF
+00029B|          NOP                                       | 90
+00029C| <<< 000134
+00029C|          CALL           [570824EC]                 | FF15EC240857
+0002A2|          JMP                  314                  | E993FEFFFF
+0002A7|          NOP                                       | 90
+0002A8| <<< 00026B
+0002A8|          CALL           [570824E8]                 | FF15E8240857
+0002AE|          JMP                  625                  | EBC1
+codeLength : 688
+*********   END OF:  Final machine code   FOR < SystemAppCL, LBenchmark; >.main ([Ljava/lang/String;)V
